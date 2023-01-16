@@ -1,4 +1,16 @@
 .nav {
-  width: 250px;
-  background-color: skyblue;
+  box-sizing: border-box;
+  width: 240px;
+  padding: 12px;
+  .navTitle {
+    height: 30px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+  }
+  .sectionLine {
+    background: rgba(0, 0, 0, 0.1);
+    height: 1px;
+    border: none;
+  }
 }

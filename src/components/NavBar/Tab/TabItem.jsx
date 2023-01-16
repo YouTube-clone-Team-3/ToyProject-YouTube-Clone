@@ -11,7 +11,7 @@ const TabItem = ({ svgPath, title, svgYoutube }) => {
       ) : (
         <svg dangerouslySetInnerHTML={{ __html: svgYoutube }}></svg>
       )}
-      <span>{title}</span>
+      <span className={styles.tabTitle}>{title}</span>
     </div >
   )
 }
