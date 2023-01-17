@@ -12,9 +12,9 @@ export const CalDate = (date) => {
     answer = `${Math.floor(dateOffset / 60)}분`;
   } else if (dateOffset < 3600 * 24) {
     answer = `${Math.floor(dateOffset / 60 / 60)}시간`;
-  } else if (dateOffset < 86400 * 7) {
+  } else if (dateOffset < 86400 * 7 * 2) {
     answer = `${Math.floor(dateOffset / 60 / 60 / 24)}일`;
-  } else if (dateOffset < 2592000 * 2) {
+  } else if (dateOffset < 2592000) {
     answer = `${Math.floor(dateOffset / 60 / 60 / 24 / 7)}주`;
   } else if (dateOffset < 31536000) {
     answer = `${Math.floor(dateOffset / 60 / 60 / 24 / 7 / 4)}개월`;
