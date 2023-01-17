@@ -1,0 +1,56 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "J-ApOy7Icy4XT7RN09QkEiQXQHk",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "4nau8nuWPY0K1XA7xvMWJuqMunY",
+      "id": "UCb57aRZr3KsykS_wNsD5Ptw",
+      "snippet": {
+        "title": "PRIMAL EARTH ",
+        "description": "Our mother planet \"Earth\" and the vibrancy of life on it. Feel the breath of \"Earth\" as you tour the great nature around the world.  Beautiful and spectacular scenery and animals are still waiting for you!\n",
+        "customUrl": "@primalearth8951",
+        "publishedAt": "2019-11-20T10:19:22.499623Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/EjqONiq-nKhXEhz_4FGQWeKAHHXHTWVjIxRYou8_PziBFNW7Fq5-NN-dMIHbG3_MFNbjYs76pg=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/EjqONiq-nKhXEhz_4FGQWeKAHHXHTWVjIxRYou8_PziBFNW7Fq5-NN-dMIHbG3_MFNbjYs76pg=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/EjqONiq-nKhXEhz_4FGQWeKAHHXHTWVjIxRYou8_PziBFNW7Fq5-NN-dMIHbG3_MFNbjYs76pg=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "PRIMAL EARTH ",
+          "description": "Our mother planet \"Earth\" and the vibrancy of life on it. Feel the breath of \"Earth\" as you tour the great nature around the world.  Beautiful and spectacular scenery and animals are still waiting for you!\n"
+        },
+        "country": "JP"
+      },
+      "contentDetails": {
+        "relatedPlaylists": {
+          "likes": "",
+          "uploads": "UUb57aRZr3KsykS_wNsD5Ptw"
+        }
+      },
+      "statistics": {
+        "viewCount": "29352705",
+        "subscriberCount": "77400",
+        "hiddenSubscriberCount": false,
+        "videoCount": "106"
+      }
+    }
+  ]
+}
