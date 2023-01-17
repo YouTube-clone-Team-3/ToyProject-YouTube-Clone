@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, Route, Routes, RouterProvider } from 'react-router-dom'
 import App from './App'
 import './index.css'
 import PlayPage from './pages/PlayPage/PlayPage'
@@ -12,11 +12,11 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: '/:value',
+        path: '/search',
         element: <SearchPage />
       },
       {
-        path: '/:id',
+        path: '/detail',
         element: <PlayPage />
       }
     ]
