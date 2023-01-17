@@ -1,5 +1,5 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
+import axios from 'axios';
 
 export default function SearchPage () {
   const [search, setSearch] = useState([]);
@@ -8,18 +8,18 @@ export default function SearchPage () {
     part: 'snippet',
     q: 'kakao',
     maxResults: 2,
+    key: import.meta.env.VITE_API_KEY,
   }
 
   useEffect(() => {
     async function getData() {
-      // const data = await getSearch(params);
+      const data = await axios.get('https://www.googleapis.com/youtube/v3/search', { params })
       setSearch(data);
     }
     getData();
   }, []);
 
   console.log(search);
-  console.log(123);
   return (
     <div>
       <p>search</p>
