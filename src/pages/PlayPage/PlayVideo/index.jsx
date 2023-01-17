@@ -4,6 +4,7 @@ import VideoInfo from './VideoInfo'
 import VideoInfoDetail from './VideoInfoDetail'
 
 const index = () => {
+
   return (
     <div>
       <Playing />

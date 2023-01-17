@@ -1,0 +1,40 @@
+.videoCard {
+  a {
+    display: flex;
+    height: 94px;
+    color: #333;
+    text-decoration: none;
+    margin-top: 8px;
+    img {
+      width: 168px;
+      height: 94px;
+      border-radius: 10px;
+      margin-right: 8px;
+    }
+    .description {
+      max-width: 200px;
+      h3 {
+        display: -webkit-box;
+        width: 200px;
+        margin: 2px 0 6px 0;
+        max-height: 50%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        -webkit-line-clamp: 2; /* 라인수 */
+        -webkit-box-orient: vertical;
+        word-wrap: break-word;
+        line-height: 130%;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      p,
+      span {
+        font-size: 12px;
+        color: #606060;
+      }
+      p {
+        margin-bottom: 2px;
+      }
+    }
+  }
+}

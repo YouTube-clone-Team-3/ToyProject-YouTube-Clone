@@ -1,10 +1,15 @@
-import React from 'react'
+import React from "react";
+import RelatedVideos from "./RelatedVideo";
+import Comment from "./Comment";
+import styles from "./PlayPage.module.scss";
 import PlayVideo from './PlayVideo'
 
 export default function PlayPage() {
   return (
-    <div>
+    <section className={styles.playPage}>
       <PlayVideo />
-    </div>
+      <Comment />
+      <RelatedVideos />
+    </section>
   )
 }

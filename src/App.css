@@ -1,0 +1,28 @@
+.App {
+  display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 55px auto;
+    grid-template-areas:
+        "header header"
+        "aside main";
+}
+
+.App header {
+  grid-area: header;
+}
+
+.App aside {
+  grid-area: aside;
+}
+
+.App .big {
+  width: 244px;
+}
+
+.App .small {
+  width: 80px;
+}
+
+.App main {
+  grid-area: main;
+}
