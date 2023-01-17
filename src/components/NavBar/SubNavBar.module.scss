@@ -1,9 +1,9 @@
-.nav {
+.subNav {
   height: 100vh;
   position: fixed;
   box-sizing: border-box;
   border-right: 1px solid #333;
-  width: 245px;
+  width: 80px;
   padding: 12px;
   overflow-y: auto;
   left: 0;
@@ -22,15 +22,26 @@
       height: 30%;
     }
   }
-  .navTitle {
-    height: 30px;
-    padding: 0 10px;
-    display: flex;
-    align-items: center;
-  }
-  .sectionLine {
-    background: rgba(0, 0, 0, 0.1);
-    height: 1px;
-    border: none;
+
+  .iconContent {
+    text-align: center;
+    margin-bottom: 10px;
+    :hover {
+      background-color: #8c8c8c;
+      border-radius: 10px;
+      height: 30%;
+    }
+    .iconImg {
+      padding: 0 10px;
+      align-items: center;
+      cursor: pointer;
+    }
+    .svgIcon {
+      width: 24px;
+      height: 24px;
+    }
+    .iconText {
+      text-align: center;
+    }
   }
 }

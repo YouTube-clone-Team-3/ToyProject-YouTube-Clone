@@ -6,6 +6,7 @@ import HeaderInputForm from "./HeaderInputForm";
 const Header = ({navDisplay}) => {
   const [display, setDisplay] = useState(true);
   navDisplay(display);
+  
   return (
     <header>
       <div className={styles.container}>
