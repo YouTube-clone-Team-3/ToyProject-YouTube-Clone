@@ -1,0 +1,69 @@
+.comments {
+  display: flex;
+  margin-bottom: 16px;
+  img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+  .commentContainer {
+    width: 840px;
+    .authorInfo {
+      display: flex;
+      height: 20px;
+      align-items: center;
+      margin-bottom: 2px;
+      p {
+        margin: 0 6px 2px 0;
+        color: #0f0f0f;
+        font-size: 13px;
+        font-weight: 600;
+      }
+      span {
+        color: #606060;
+        font-size: 12px;
+      }
+    }
+    .description {
+      display: -webkit-box;
+      height: auto;
+      margin-bottom: 4px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      -webkit-line-clamp: 3; /* 라인수 */
+      -webkit-box-orient: vertical;
+      word-wrap: break-word;
+      line-height: 150%;
+    }
+    .likeContainer {
+      display: flex;
+      align-items: center;
+      margin-bottom: 4px;
+      svg {
+        margin-right: 4px;
+        width: 24px;
+        height: 24px;
+        &:hover {
+          border-radius: 50%;
+          background-color: rgba(0, 0, 0, 0.1);
+          border-color: transparent;
+        }
+      }
+      span {
+        color: #606060;
+        font-size: 12px;
+        margin-right: 8px;
+        &:last-child {
+          margin-left: 12px;
+          padding: 8px;
+          &:hover {
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.1);
+            border-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}
