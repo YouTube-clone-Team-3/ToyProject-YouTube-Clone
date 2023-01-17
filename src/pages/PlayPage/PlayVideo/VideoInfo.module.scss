@@ -1,0 +1,37 @@
+.videoInfoBox {
+  width: 1240px;
+  height: 155px;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  .tag {
+    padding: 8px 0 0;
+    color: #0099ff;
+    font-weight: 700;
+  }
+  .videoTitle {
+    padding: 16px 0;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .menuButtons {
+    position: absolute;
+    display: flex;
+    height: 65px;
+    right: 0;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+    span {
+      padding-left: 10px;
+    }
+    .flexButton {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+
+
+
+

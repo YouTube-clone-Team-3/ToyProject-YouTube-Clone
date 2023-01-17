@@ -16,7 +16,7 @@ const router = createBrowserRouter([
         element: <SearchPage />
       },
       {
-        path: '/:id',
+        path: '/detail/:id',
         element: <PlayPage />
       }
     ]

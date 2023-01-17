@@ -1,7 +1,10 @@
 import React from 'react'
+import PlayVideo from './PlayVideo'
 
-export default function PlayPage () {
+export default function PlayPage() {
   return (
-    <div>PlayPage</div>
+    <div>
+      <PlayVideo />
+    </div>
   )
 }
