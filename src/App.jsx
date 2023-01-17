@@ -10,9 +10,7 @@ function App() {
   const [display, setDisplay] = useState();
 
   function navDisplay(display) {
-    useEffect(() => {
-      setDisplay(display);
-      });
+    setDisplay(display);
   }
 
   return (
