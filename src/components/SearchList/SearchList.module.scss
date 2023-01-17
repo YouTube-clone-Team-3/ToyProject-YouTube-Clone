@@ -1,0 +1,20 @@
+.vidoeContent {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  text-align: flex-start;
+  .imgContent {
+    margin-right: 16px;
+    max-width: 360px;
+    min-width: 240px;
+    flex: 1;
+  }
+  .textContent {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    text-decoration: none;
+    flex: 1;
+  }
+}
+
