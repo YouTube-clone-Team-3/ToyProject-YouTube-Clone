@@ -1,7 +1,26 @@
 .nav {
+  height: 100vh;
+  position: fixed;
   box-sizing: border-box;
-  width: 240px;
+  width: 245px;
   padding: 12px;
+  overflow-y: auto;
+  left: 0;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  &:hover {
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      width: 8px;
+      display: initial;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #8c8c8c;
+      border-radius: 10px;
+      height: 30%;
+    }
+  }
   .navTitle {
     height: 30px;
     padding: 0 10px;
