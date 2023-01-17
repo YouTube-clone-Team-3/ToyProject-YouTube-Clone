@@ -1,14 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Header.module.scss";
 import { Link } from "react-router-dom";
 import HeaderInputForm from "./HeaderInputForm";
 
-const Header = () => {
+const Header = ({navDisplay}) => {
+  const [display, setDisplay] = useState(true);
+  navDisplay(display);
   return (
     <header>
       <div className={styles.container}>
         <div className={styles.start}>
-          <button>
+          <button onClick={() => {
+            setDisplay(!display);
+          }}>
             <svg viewBox="0 0 24 24" className={styles.menu}>
               <path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z"></path>
             </svg>
