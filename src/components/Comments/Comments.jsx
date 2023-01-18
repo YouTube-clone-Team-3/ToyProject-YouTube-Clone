@@ -1,12 +1,11 @@
 import React from "react";
 import styles from "./Comments.module.scss";
-import { CalDate } from "../../utils/CalDate";
+import { calcDate } from "../../utils/CalDate";
 
 const Comments = ({ item }) => {
   const comment = item.snippet.topLevelComment.snippet;
-  console.log(comment);
 
-  const date = CalDate(comment.publishedAt);
+  const date = calcDate(comment.publishedAt);
 
   const likes = comment.likeCount === 0 ? "" : comment.likeCount;
   return (
