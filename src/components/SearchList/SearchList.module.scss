@@ -1,8 +1,12 @@
 .videoContent {
   position: relative;
   display: flex;
+  margin-top: 16px;
   .imgContent {
     margin-right: 16px;
+    .thumbnail {
+      border-radius: 12px;
+    }
   }
   .textContent {
     cursor: pointer;
@@ -12,8 +16,18 @@
       font-size: 1.8em;
       font-weight: bold;
     }
-    .channelTitle {
+    .channelInfo {
       padding: 12px 0;
+      display: flex;
+      align-items: center;
+      .channelThumbnail {
+        width: 24px;
+        border-radius: 50%;
+        margin-right: 8px;
+      }
+      .channelTitle {
+        
+      }
     }
   }
 }

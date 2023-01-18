@@ -1,4 +1,6 @@
 .comments {
+  grid-area: comment;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   max-width: 800px;

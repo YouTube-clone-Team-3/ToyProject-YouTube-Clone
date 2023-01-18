@@ -1,8 +1,9 @@
 .videoInfoBox {
-  width: 1240px;
+  min-width: 480px;
   height: 155px;
   position: relative;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
   .tag {
     padding: 8px 0 0;
     color: #0099ff;
@@ -10,10 +11,11 @@
   }
   .videoTitle {
     padding: 16px 0;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
   }
   .menuButtons {
+    padding-right: 20px;
     position: absolute;
     display: flex;
     height: 65px;
