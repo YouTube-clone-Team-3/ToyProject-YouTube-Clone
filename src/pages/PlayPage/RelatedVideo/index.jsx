@@ -5,11 +5,11 @@ import datas from "../../../data/realatedVideo.json";
 
 const RelatedVideos = () => {
   return (
-    <aside>
+    <div className={styles.relatedVideos}>
       {datas.items.map((video) => (
         <EachRelatedVideo key={video.id.videoId} item={video} />
       ))}
-    </aside>
+    </div>
   );
 };
 

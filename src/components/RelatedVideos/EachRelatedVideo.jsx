@@ -13,7 +13,7 @@ const EachRelatedVideo = ({ item }) => {
   return (
     <div className={styles.videoCard}>
       <Link to="/">
-        {console.log(video)}
+        {/* {console.log(video)} */}
         <img src={video.thumbnails.medium.url} alt={video.title} />
         <div className={styles.description}>
           <h3>{video.title}</h3>

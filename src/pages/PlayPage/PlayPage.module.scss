@@ -1,6 +1,13 @@
 .playPage {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  grid-template-areas:
+      "video relatedVideo"
+      "videoInfo relatedVideo"
+      "comment relatedVideo";
   position: relative;
+  .videoInfo {
+    grid-area: videoInfo;
+  }
 }

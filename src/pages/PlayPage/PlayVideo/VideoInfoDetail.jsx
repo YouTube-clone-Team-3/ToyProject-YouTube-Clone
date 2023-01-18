@@ -7,10 +7,6 @@ import calcNum from '../../../utils/CalNum'
 const VideoInfoDetail = () => {
   const videoInfo = video.items[0]
   const channelInfo = channel.items[0]
-
-  const newLine = (text) => {
-
-  }
   return (
     <div className={styles.detailBox}>
       <div className={styles.channelInfo}>
@@ -21,7 +17,9 @@ const VideoInfoDetail = () => {
         </div>
       </div>
       <button className={styles.subBtn}>구독</button>
-      <div className={styles.videoDes} dangerouslySetInnerHTML={{ __html: videoInfo.snippet.description }}></div>
+      <div className={styles.videoDes}>
+        {videoInfo.snippet.description}
+      </div>
     </div>
   )
 }
