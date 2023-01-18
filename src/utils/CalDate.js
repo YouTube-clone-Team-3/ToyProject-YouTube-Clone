@@ -1,4 +1,4 @@
-export const CalDate = (date) => {
+export const calcDate = (date) => {
   let answer = "";
   const targetDate = new Date(date).getTime();
   const nowDate = new Date().getTime();
