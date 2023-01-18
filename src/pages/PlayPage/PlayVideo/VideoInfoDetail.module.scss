@@ -2,7 +2,7 @@
   min-width: 480px;
   position: relative;
   .channelInfo {
-    padding: 20px;
+    margin: 20px;
     display: flex;
     align-items: center;
     height: 55px;
@@ -10,7 +10,7 @@
       border-radius: 50%;
       width: 50px;
       height: 50px;
-      padding-right: 15px;
+      margin-right: 15px;
     }
     .channelDes {
       display: flex;
