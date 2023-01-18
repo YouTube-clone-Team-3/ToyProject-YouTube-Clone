@@ -18,10 +18,12 @@
 
 .App .big {
   width: 244px;
+  margin: 0;
 }
 
 .App .small {
   width: 80px;
+  margin: 0;
 }
 
 .App main {

@@ -21,10 +21,8 @@ export default function SearchList({data}) {
     getData();
   }, []);
 
-  console.log(channel);
-
   let videoThumbnail = data?.snippet.thumbnails.medium.url;
-  // let channelThumbnail = channel?.snippet.thumbnails.default.url;
+  let channelThumbnail = channel[0]?.snippet.thumbnails.default.url;
 
   return (
     <div className={styles.videoContent}>
@@ -35,8 +33,10 @@ export default function SearchList({data}) {
         <h3>{data.snippet.title}</h3>
         {/* 조회수랑 기간은 예시로 적어 놓았습니다~~ */}
         <span>조회수 20회 <span className={styles.dot_separator}> • </span> 3개월 전</span>
-        {/* <img src={channelThumbnail} alt='channel thumbnail' className={styles.channelThumbnail}></img> */}
-        <p className={styles.channelTitle}>{data.snippet.channelTitle}</p>
+        <div className={styles.channelInfo}>
+          <img src={channelThumbnail} alt='channel thumbnail' className={styles.channelThumbnail}></img>
+          <span className={styles.channelTitle}>{data.snippet.channelTitle}</span>
+        </div>
         <p>{data.snippet.description}</p>
       </div>
     </div>

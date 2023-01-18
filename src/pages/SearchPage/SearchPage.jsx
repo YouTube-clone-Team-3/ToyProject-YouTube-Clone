@@ -9,7 +9,7 @@ export default function SearchPage () {
   const params = {
     part: 'snippet',
     q: 'hello',
-    maxResults: 1,
+    maxResults: 2,
     key: import.meta.env.VITE_API_KEY,
   }
 
