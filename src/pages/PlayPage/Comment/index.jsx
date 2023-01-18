@@ -3,7 +3,7 @@ import Comments from "../../../components/Comments/Comments";
 import styles from "./Comment.module.scss";
 import axios from "axios";
 
-const Comment = () => {
+const Comment = ({ id }) => {
   const [comments, setComments] = useState("");
 
   useEffect(() => {
