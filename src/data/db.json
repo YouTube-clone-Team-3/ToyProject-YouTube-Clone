@@ -80,7 +80,7 @@
       "resultsPerPage": 1
     }
   },
-  "channel" : {
+  "channel": {
     "kind": "youtube#channelListResponse",
     "etag": "J-ApOy7Icy4XT7RN09QkEiQXQHk",
     "pageInfo": {
@@ -1370,5 +1370,1329 @@
         }
       }
     ]
-  }
+  },
+  "relatedVideoSearch": [
+    {
+      "data": {
+        "kind": "youtube#videoListResponse",
+        "etag": "fA_NbpMzj_RHfxQ4v-4O6uxHb5g",
+        "items": [
+          {
+            "kind": "youtube#video",
+            "etag": "Ygz3eEKCalqE4PAmCKUMpRAdxEU",
+            "id": "QSNa8U1yGrM",
+            "snippet": {
+              "publishedAt": "2021-05-07T13:00:09Z",
+              "channelId": "UC8D_NXFBh8A9KSwo7x-wFdQ",
+              "title": "EARTH in 8K ULTRA HD - Tour Through the Planet Earth - Best Places and Animals Relaxing Music 8K TV",
+              "description": "Despite its name, Earth may be the only planet in our solar system that has oceans. It is the fifth-largest planet in the solar system and perhaps the only one that harbors life.\n\nThe Earth's seas and oceans, which cover 70% of its surface, are home to a large amount of life. With an average depth of 4 km, they account for 97% of the water on the planet. In addition, they feature some impressive landforms: the most extensive mountain range, the Mid-Oceanic Ridge, is deep under the sea. Four times as long as the Andes, the Rocky Mountains, and the Himalayas arranged in a row, it stretches 65,000 km across the Arctic and the Atlantic.\n\nA study carried out jointly by the Universities of Münster, Cambridge, and the Zurich Technique showed that the age of the planet is between 4,400 million and 4,510 million years. So far, five mass extinctions have been recorded on the planet. The first occurred 440 million years ago and the last 65 million years ago. Michael Rampino, an Earth science expert at New York University, argues that it takes about 30 million years for the Solar System to cross the plane of the Milky Way. The presence of the system could be one of the reasons why comets' orbits are destabilized, launching them towards the planet. To this, he adds a possibility that is little studied today: dark matter.\n\n8.7 million species, a single planet. The ecosystems that we depend on, as humans, to survive are made up of around 8.7 million plant and animal species. At least this is confirmed by a study by the University of Hawaii (United States) carried out in 2011, which is said to be the most accurate to date. Of these, we only know 1.3 million. Unfortunately, WWF warns with its Living Planet report that, since the 70s of the last century, only the world population of vertebrates has been reduced by 60% due to global warming, the destruction of ecosystems, and the crisis of biodiversity caused by human action. It is in our power to care for and protect (and even discover) all those species that make our planet an (almost) inexhaustible source of life.\n\nFollow me:\n►YouTube: https://www.youtube.com/channel/UC8D_NXFBh8A9KSwo7x-wFdQ/\n\n►Facebook: https://www.facebook.com/bruno.saraviavega\n►Instagram: https://www.instagram.com/brunosaravia\n\nCanon - Sony - Nikon - Adobe Premiere Pro CC - Photoshop - Lightroom CC\nYoutube Business - Youtube Profit - Bank Credit - Loans - Educational - Education - Insurance\n\nEARTH in 8K ULTRA HD - Tour Through the Planet Earth - Best Places and Animals Relaxing Music 8K TV (FUHD) Demo 8K ULTRA HD\n\n#8K #PLANET #EARTH",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/QSNa8U1yGrM/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/QSNa8U1yGrM/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/QSNa8U1yGrM/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/QSNa8U1yGrM/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/QSNa8U1yGrM/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "8K VIDEOS ULTRA HD",
+              "tags": [
+                "8k video",
+                "8k video ultra hd",
+                "8k tv samsung",
+                "8k tv ps5",
+                "8k tv review",
+                "4k ultra hd",
+                "planet earth",
+                "planet earth 2",
+                "planet earth turns slowly",
+                "tour around the world",
+                "tour around the states",
+                "nature sounds relaxing music",
+                "travel around the world",
+                "planet",
+                "earth",
+                "8k earth",
+                "8k earth video",
+                "8k planet earth",
+                "8k earth clouds",
+                "4k earth",
+                "4k earth from space",
+                "4k earth video",
+                "4k earth nature",
+                "4k tv",
+                "animals collection",
+                "4k animals",
+                "8k animals",
+                "earth from space live",
+                "earth from space",
+                "tv"
+              ],
+              "categoryId": "1",
+              "liveBroadcastContent": "none",
+              "defaultLanguage": "en",
+              "localized": {
+                "title": "EARTH in 8K ULTRA HD - Tour Through the Planet Earth - Best Places and Animals Relaxing Music 8K TV",
+                "description": "Despite its name, Earth may be the only planet in our solar system that has oceans. It is the fifth-largest planet in the solar system and perhaps the only one that harbors life.\n\nThe Earth's seas and oceans, which cover 70% of its surface, are home to a large amount of life. With an average depth of 4 km, they account for 97% of the water on the planet. In addition, they feature some impressive landforms: the most extensive mountain range, the Mid-Oceanic Ridge, is deep under the sea. Four times as long as the Andes, the Rocky Mountains, and the Himalayas arranged in a row, it stretches 65,000 km across the Arctic and the Atlantic.\n\nA study carried out jointly by the Universities of Münster, Cambridge, and the Zurich Technique showed that the age of the planet is between 4,400 million and 4,510 million years. So far, five mass extinctions have been recorded on the planet. The first occurred 440 million years ago and the last 65 million years ago. Michael Rampino, an Earth science expert at New York University, argues that it takes about 30 million years for the Solar System to cross the plane of the Milky Way. The presence of the system could be one of the reasons why comets' orbits are destabilized, launching them towards the planet. To this, he adds a possibility that is little studied today: dark matter.\n\n8.7 million species, a single planet. The ecosystems that we depend on, as humans, to survive are made up of around 8.7 million plant and animal species. At least this is confirmed by a study by the University of Hawaii (United States) carried out in 2011, which is said to be the most accurate to date. Of these, we only know 1.3 million. Unfortunately, WWF warns with its Living Planet report that, since the 70s of the last century, only the world population of vertebrates has been reduced by 60% due to global warming, the destruction of ecosystems, and the crisis of biodiversity caused by human action. It is in our power to care for and protect (and even discover) all those species that make our planet an (almost) inexhaustible source of life.\n\nFollow me:\n►YouTube: https://www.youtube.com/channel/UC8D_NXFBh8A9KSwo7x-wFdQ/\n\n►Facebook: https://www.facebook.com/bruno.saraviavega\n►Instagram: https://www.instagram.com/brunosaravia\n\nCanon - Sony - Nikon - Adobe Premiere Pro CC - Photoshop - Lightroom CC\nYoutube Business - Youtube Profit - Bank Credit - Loans - Educational - Education - Insurance\n\nEARTH in 8K ULTRA HD - Tour Through the Planet Earth - Best Places and Animals Relaxing Music 8K TV (FUHD) Demo 8K ULTRA HD\n\n#8K #PLANET #EARTH"
+              },
+              "defaultAudioLanguage": "en"
+            },
+            "contentDetails": {
+              "duration": "PT30M19S",
+              "dimension": "2d",
+              "definition": "hd",
+              "caption": "true",
+              "licensedContent": true,
+              "contentRating": {},
+              "projection": "rectangular"
+            },
+            "statistics": {
+              "viewCount": "15813174",
+              "likeCount": "98247",
+              "favoriteCount": "0",
+              "commentCount": "1623"
+            },
+            "player": {
+              "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/QSNa8U1yGrM\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+            }
+          }
+        ],
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 1
+        }
+      },
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "cache-control": "private",
+        "content-encoding": "gzip",
+        "content-length": "2435",
+        "content-type": "application/json; charset=UTF-8",
+        "date": "Wed, 18 Jan 2023 05:11:21 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "vary": "Origin, X-Origin, Referer"
+      },
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": ["xhr", "http"],
+        "transformRequest": [null],
+        "transformResponse": [null],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*"
+        },
+        "params": {
+          "part": ["snippet", "contentDetails", "player", "statistics"],
+          "id": "QSNa8U1yGrM",
+          "key": "AIzaSyD08Wd5NaXlc9Gs6pP_83Hdxiuj5RM_lKA"
+        },
+        "paramsSerializer": {
+          "indexes": null
+        },
+        "method": "get",
+        "url": "https://www.googleapis.com/youtube/v3/videos"
+      },
+      "request": {}
+    },
+    {
+      "data": {
+        "kind": "youtube#videoListResponse",
+        "etag": "DwgDA9_T5oAH6McxBOghqsFk-k8",
+        "items": [
+          {
+            "kind": "youtube#video",
+            "etag": "fGf_IgB2RYNR7LtBkUGpPNC2MK0",
+            "id": "hlWiI4xVXKY",
+            "snippet": {
+              "publishedAt": "2018-10-07T15:22:12Z",
+              "channelId": "UCjzHeG1KWoonmf9d5KBvSiw",
+              "title": "Beautiful Relaxing Music • Peaceful Piano Music & Guitar Music | Sunny Mornings by @PederBHellandMusic",
+              "description": "Beautiful relaxing music by Peder B. Helland. Enjoy peaceful piano music and guitar music (\"Sunny Mornings\" ) with birds singing in the background. Stream or download music from Soothing Relaxation: https://soothingrelaxation.lnk.to/listenYL\n\n💿 Track information:\nTitle: Sunny Mornings \nComposer: @PederBHellandMusic \nIndex: ★151\nAlbum: Sunny Mornings\nBuy or stream this album: https://soothingrelaxation.lnk.to/sunny-mornings\nBuy this track: https://soothingrelaxation.com/products/sunny-mornings-beautiful-relaxing-music-151\nBuy this video as an MP3 file: https://soothingrelaxation.com/products/hlWiI4xVXKY\nLicense this track: https://soothingrelaxation.com/products/sunny-mornings-license\nSheet music: https://soothingrelaxation.com/products/sunny-mornings\n\nFollow Soothing Relaxation on...\nOur website: https://soothingrelaxation.lnk.to/websiteYL\nFacebook: https://soothingrelaxation.lnk.to/FacebookYL\nInstagram: https://soothingrelaxation.lnk.to/InstagramYL\nSpotify: https://soothingrelaxation.lnk.to/listenYL/spotify\nApple Music: https://soothingrelaxation.lnk.to/listenYL/applemusic\nYouTube Music: https://soothingrelaxation.lnk.to/listenYL/youtubemusic\nAmazon Music: https://soothingrelaxation.lnk.to/listenYL/amazonmusic\nDeezer: https://soothingrelaxation.lnk.to/listenYL/deezer\n\nFollow Peder B. Helland on...\nWebsite: https://pederbhelland.lnk.to/websiteYL\nFacebook: https://pederbhelland.lnk.to/facebookYL\nInstagram: https://pederbhelland.lnk.to/instagramYL\n\nListen to more relaxing music: https://www.youtube.com/playlist?list=PLQ_PIlf6OzqL3BE0rB6clb9IzLLkkSKUF\n\nGet a free music download and stay updated with our newsletter: https://soothingrelaxation.lnk.to/newsletterYL\n\n📜 Message from the composer and creator of Soothing Relaxation:\n\"I am a composer from Norway and I started this channel with a simple vision: to create a place that you can visit whenever you want to sit down and relax. I compose music that can be labeled as for example: sleep music, calm music, yoga music, study music, peaceful music, beautiful music and relaxing music. I love to compose music and I put a lot of work into it. \n\nThank you very much for listening and for leaving feedback. Every single day I am completely astonished by all your warm support and it really inspires me to work even harder on my music. If you enjoy my work, I would be very happy if you decided to subscribe and join our community. Have a wonderful day or evening!\"\n\n- Peder B. Helland, composer for Soothing Relaxation\n\n© Copyright:\nMusic composed by Peder B. Helland. \nFootage/photos licensed from:\n• Pond5: azgek1, pavlas24, aflomotion \n\n☀️ Relevant hashtags:\n#relaxingmusic, #relax, #soothingrelaxation, #music, #sleep",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/hlWiI4xVXKY/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/hlWiI4xVXKY/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/hlWiI4xVXKY/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/hlWiI4xVXKY/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/hlWiI4xVXKY/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "Soothing Relaxation",
+              "tags": [
+                "calm",
+                "calm music",
+                "calming",
+                "calming music",
+                "cello",
+                "dormir",
+                "détendre",
+                "guitar",
+                "insomnia",
+                "meditar",
+                "meditation",
+                "meditation music",
+                "peaceful",
+                "peaceful music",
+                "peder b. helland",
+                "peter b. helland",
+                "piano",
+                "piano music",
+                "relajarse",
+                "relax",
+                "relaxante",
+                "relaxation",
+                "relaxing",
+                "relaxing music",
+                "sleep",
+                "sleep music",
+                "sleeping",
+                "sleeping music",
+                "smoothing relaxation",
+                "soothing",
+                "soothing music",
+                "soothing relaxation",
+                "study music"
+              ],
+              "categoryId": "10",
+              "liveBroadcastContent": "none",
+              "defaultLanguage": "en",
+              "localized": {
+                "title": "Beautiful Relaxing Music • Peaceful Piano Music & Guitar Music | Sunny Mornings by @PederBHellandMusic",
+                "description": "Beautiful relaxing music by Peder B. Helland. Enjoy peaceful piano music and guitar music (\"Sunny Mornings\" ) with birds singing in the background. Stream or download music from Soothing Relaxation: https://soothingrelaxation.lnk.to/listenYL\n\n💿 Track information:\nTitle: Sunny Mornings \nComposer: @PederBHellandMusic \nIndex: ★151\nAlbum: Sunny Mornings\nBuy or stream this album: https://soothingrelaxation.lnk.to/sunny-mornings\nBuy this track: https://soothingrelaxation.com/products/sunny-mornings-beautiful-relaxing-music-151\nBuy this video as an MP3 file: https://soothingrelaxation.com/products/hlWiI4xVXKY\nLicense this track: https://soothingrelaxation.com/products/sunny-mornings-license\nSheet music: https://soothingrelaxation.com/products/sunny-mornings\n\nFollow Soothing Relaxation on...\nOur website: https://soothingrelaxation.lnk.to/websiteYL\nFacebook: https://soothingrelaxation.lnk.to/FacebookYL\nInstagram: https://soothingrelaxation.lnk.to/InstagramYL\nSpotify: https://soothingrelaxation.lnk.to/listenYL/spotify\nApple Music: https://soothingrelaxation.lnk.to/listenYL/applemusic\nYouTube Music: https://soothingrelaxation.lnk.to/listenYL/youtubemusic\nAmazon Music: https://soothingrelaxation.lnk.to/listenYL/amazonmusic\nDeezer: https://soothingrelaxation.lnk.to/listenYL/deezer\n\nFollow Peder B. Helland on...\nWebsite: https://pederbhelland.lnk.to/websiteYL\nFacebook: https://pederbhelland.lnk.to/facebookYL\nInstagram: https://pederbhelland.lnk.to/instagramYL\n\nListen to more relaxing music: https://www.youtube.com/playlist?list=PLQ_PIlf6OzqL3BE0rB6clb9IzLLkkSKUF\n\nGet a free music download and stay updated with our newsletter: https://soothingrelaxation.lnk.to/newsletterYL\n\n📜 Message from the composer and creator of Soothing Relaxation:\n\"I am a composer from Norway and I started this channel with a simple vision: to create a place that you can visit whenever you want to sit down and relax. I compose music that can be labeled as for example: sleep music, calm music, yoga music, study music, peaceful music, beautiful music and relaxing music. I love to compose music and I put a lot of work into it. \n\nThank you very much for listening and for leaving feedback. Every single day I am completely astonished by all your warm support and it really inspires me to work even harder on my music. If you enjoy my work, I would be very happy if you decided to subscribe and join our community. Have a wonderful day or evening!\"\n\n- Peder B. Helland, composer for Soothing Relaxation\n\n© Copyright:\nMusic composed by Peder B. Helland. \nFootage/photos licensed from:\n• Pond5: azgek1, pavlas24, aflomotion \n\n☀️ Relevant hashtags:\n#relaxingmusic, #relax, #soothingrelaxation, #music, #sleep"
+              },
+              "defaultAudioLanguage": "en-US"
+            },
+            "contentDetails": {
+              "duration": "PT3H3M39S",
+              "dimension": "2d",
+              "definition": "hd",
+              "caption": "false",
+              "licensedContent": true,
+              "contentRating": {},
+              "projection": "rectangular"
+            },
+            "statistics": {
+              "viewCount": "214302645",
+              "likeCount": "1516580",
+              "favoriteCount": "0",
+              "commentCount": "48934"
+            },
+            "player": {
+              "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/hlWiI4xVXKY\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+            }
+          }
+        ],
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 1
+        }
+      },
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "cache-control": "private",
+        "content-encoding": "gzip",
+        "content-length": "2150",
+        "content-type": "application/json; charset=UTF-8",
+        "date": "Wed, 18 Jan 2023 05:11:21 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "vary": "Origin, X-Origin, Referer"
+      },
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": ["xhr", "http"],
+        "transformRequest": [null],
+        "transformResponse": [null],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*"
+        },
+        "params": {
+          "part": ["snippet", "contentDetails", "player", "statistics"],
+          "id": "hlWiI4xVXKY",
+          "key": "AIzaSyD08Wd5NaXlc9Gs6pP_83Hdxiuj5RM_lKA"
+        },
+        "paramsSerializer": {
+          "indexes": null
+        },
+        "method": "get",
+        "url": "https://www.googleapis.com/youtube/v3/videos"
+      },
+      "request": {}
+    },
+    {
+      "data": {
+        "kind": "youtube#videoListResponse",
+        "etag": "MxH6nNVn0J8mKAYzlqEpu78azKc",
+        "items": [
+          {
+            "kind": "youtube#video",
+            "etag": "8NGjh1gr9zAdGk0_TZsxR3stT34",
+            "id": "Tjsdoxovb2U",
+            "snippet": {
+              "publishedAt": "2023-01-14T10:55:00Z",
+              "channelId": "UCuaYvu45lq5fwmnv_zF8sng",
+              "title": "Norway - Scenic Relaxation Film 4k",
+              "description": "#nature #4kfilm #4knature #norway \nWatch this 4k video tour of Norway and experience the beautiful landscape and stunning culture first-hand. From the capital Oslo to the rugged mountain ranges of the Fjeldhjellet, this video will take you on a journey through one of the world's most beautiful countries.\n\nStep into the Norwegian wilderness and experience the natural beauty of this stunning country for yourself with this 4k video tour! With stunning landscapes and a culture steeped in history, Norway is a must-see destination for anyone visiting Europe. Experience this beautiful country in 4k quality with this video!\n\nOur other Films:\nIndonesia 4K - https://www.youtube.com/watch?v=nAfrCO28fVc\nThailand 4K - https://www.youtube.com/watch?v=sA2c9naaLTg\nSri Lanka 4K - https://www.youtube.com/watch?v=vdA8lrAoL9A\nUtah 4k - https://www.youtube.com/watch?v=s6Ak0Q41FcY\nItaly 4k - https://www.youtube.com/watch?v=ko5EIZM0gb8\n\nTimeline:\n00:00 Intro\n00:47 Lovatnet lake\n01:28 Trolltunga\n01:57 Langfoss waterfall\n02:25 Haukland Beach \n03:27 Alesund \n03:50 Hardanger Bridge \n05:00 Sognefjord\n06:07 Atlantic Ocean Road \n07:43 Lofoten island \n09:45  Henningsvaer\n10:53 Kragero \n12:48 Vøringsfossen waterfall \n13:43 Briksdalsbreen Glacier\n15:00 Hamningberg\n16:22 Trollstigen\n18:03 Seven Sisters Waterfall \n18:33 Pulpit rock\n20:10 Lovatnet lake\n20:57 Saltstraumen bridge \n21:44 Zakariasdamm\n22:15 Lindesnes Lighthouse\n23:39 Tromso\n25:29 North Cape\n01:00:43 Thanks for waching, save nature, save the planet\n\nMore inspiration: \nYouTube  https://www.youtube.com/@Earth_to_inspire\nInstagram https://www.instagram.com/earth_to_inspire/\nTikTok https://www.tiktok.com/@earth_to_inspire?lang=en.\n\n#norway4k #dronevideo #droneview #relaxing #calmmusic #savetheworld #savethenature #savetheplanet",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/Tjsdoxovb2U/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/Tjsdoxovb2U/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/Tjsdoxovb2U/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/Tjsdoxovb2U/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/Tjsdoxovb2U/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "Earth to inspire",
+              "tags": [
+                "norway",
+                "norway travel",
+                "norway travel guide",
+                "norway 4k",
+                "norway relaxation",
+                "relaxation film",
+                "nature video",
+                "Norway 4k",
+                "4k",
+                "4k video",
+                "nature",
+                "relaxing music",
+                "Norway AMAZING",
+                "Beautiful Nature",
+                "norway nature",
+                "Europe beautiful",
+                "4K",
+                "where to visit in Norway",
+                "top places in Norway",
+                "relax 4k",
+                "ultra hd",
+                "peaceful",
+                "nature relaxation",
+                "drone film 4k",
+                "aerial film",
+                "the mountains",
+                "cinematic video 4k nature",
+                "cinematic drone videos",
+                "drones",
+                "save nature",
+                "save the planet",
+                "4k nature",
+                "visit norway"
+              ],
+              "categoryId": "19",
+              "liveBroadcastContent": "none",
+              "localized": {
+                "title": "Norway - Scenic Relaxation Film 4k",
+                "description": "#nature #4kfilm #4knature #norway \nWatch this 4k video tour of Norway and experience the beautiful landscape and stunning culture first-hand. From the capital Oslo to the rugged mountain ranges of the Fjeldhjellet, this video will take you on a journey through one of the world's most beautiful countries.\n\nStep into the Norwegian wilderness and experience the natural beauty of this stunning country for yourself with this 4k video tour! With stunning landscapes and a culture steeped in history, Norway is a must-see destination for anyone visiting Europe. Experience this beautiful country in 4k quality with this video!\n\nOur other Films:\nIndonesia 4K - https://www.youtube.com/watch?v=nAfrCO28fVc\nThailand 4K - https://www.youtube.com/watch?v=sA2c9naaLTg\nSri Lanka 4K - https://www.youtube.com/watch?v=vdA8lrAoL9A\nUtah 4k - https://www.youtube.com/watch?v=s6Ak0Q41FcY\nItaly 4k - https://www.youtube.com/watch?v=ko5EIZM0gb8\n\nTimeline:\n00:00 Intro\n00:47 Lovatnet lake\n01:28 Trolltunga\n01:57 Langfoss waterfall\n02:25 Haukland Beach \n03:27 Alesund \n03:50 Hardanger Bridge \n05:00 Sognefjord\n06:07 Atlantic Ocean Road \n07:43 Lofoten island \n09:45  Henningsvaer\n10:53 Kragero \n12:48 Vøringsfossen waterfall \n13:43 Briksdalsbreen Glacier\n15:00 Hamningberg\n16:22 Trollstigen\n18:03 Seven Sisters Waterfall \n18:33 Pulpit rock\n20:10 Lovatnet lake\n20:57 Saltstraumen bridge \n21:44 Zakariasdamm\n22:15 Lindesnes Lighthouse\n23:39 Tromso\n25:29 North Cape\n01:00:43 Thanks for waching, save nature, save the planet\n\nMore inspiration: \nYouTube  https://www.youtube.com/@Earth_to_inspire\nInstagram https://www.instagram.com/earth_to_inspire/\nTikTok https://www.tiktok.com/@earth_to_inspire?lang=en.\n\n#norway4k #dronevideo #droneview #relaxing #calmmusic #savetheworld #savethenature #savetheplanet"
+              }
+            },
+            "contentDetails": {
+              "duration": "PT1H58S",
+              "dimension": "2d",
+              "definition": "hd",
+              "caption": "false",
+              "licensedContent": false,
+              "contentRating": {},
+              "projection": "rectangular"
+            },
+            "statistics": {
+              "viewCount": "13560",
+              "likeCount": "144",
+              "favoriteCount": "0",
+              "commentCount": "9"
+            },
+            "player": {
+              "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/Tjsdoxovb2U\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+            }
+          }
+        ],
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 1
+        }
+      },
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "cache-control": "private",
+        "content-encoding": "gzip",
+        "content-length": "1994",
+        "content-type": "application/json; charset=UTF-8",
+        "date": "Wed, 18 Jan 2023 05:11:21 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "vary": "Origin, X-Origin, Referer"
+      },
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": ["xhr", "http"],
+        "transformRequest": [null],
+        "transformResponse": [null],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*"
+        },
+        "params": {
+          "part": ["snippet", "contentDetails", "player", "statistics"],
+          "id": "Tjsdoxovb2U",
+          "key": "AIzaSyD08Wd5NaXlc9Gs6pP_83Hdxiuj5RM_lKA"
+        },
+        "paramsSerializer": {
+          "indexes": null
+        },
+        "method": "get",
+        "url": "https://www.googleapis.com/youtube/v3/videos"
+      },
+      "request": {}
+    },
+    {
+      "data": {
+        "kind": "youtube#videoListResponse",
+        "etag": "0LO0R8ApUV1bFLrW5V2Gtxb71NQ",
+        "items": [
+          {
+            "kind": "youtube#video",
+            "etag": "2F67KS2m-ZdNPJSt8_Q4N66Yxl4",
+            "id": "RgCENw09Dpk",
+            "snippet": {
+              "publishedAt": "2022-09-23T13:00:17Z",
+              "channelId": "UC8D_NXFBh8A9KSwo7x-wFdQ",
+              "title": "TOP 50 • Most Beautiful CITIES in the World 8K ULTRA HD",
+              "description": "TOP 50 of the Most Beautiful CITIES in the World 8K for your best 8k device. Travel around the planet earth 8K to see the best cities in the world.\nAre you making some plans to visit beautiful places in the planet earth? The world is full of beautiful and amazing places to visit like cities skylines where you can enjoy mother nature and amazing cities skylines around the world. We have compiled this list to help you plan your trip to see the most beautiful places on the planet.\nBeautiful cities are popular for their beauty, architecture of the buildings, people that live there, and most importantly the most popular food in the world. People who love traveling are always searching for a new city to go to.\nFor this reason, you need to know the particular information about these cities to safely visit and explore all the possible places around the planet earth 8K with the best cities.\n50 Most Beautiful Cities in the World:\n\n00:00 Intro 8K ULTRA HD\n00:10 50 Most Beautiful Cities in the World\n00:15 Paris, France\n00:48 New York, United States\n01:29 London, United Kingdom\n02:01 Venice, Italy\n02:48 Barcelona, Spain\n03:48 Amsterdam, Netherlands\n04:33 Rome, Italy\n05:14 Singapore\n05:47 Lisbon, Portugal\n06:43 Prague, Czech Republic\n08:12 Istanbul, Turkey\n09:02 Tokyo, Japan\n09:51 Vienna, Austria\n11:21 Buenos Aires, Argentina\n12:36 San Diego, United States\n14:00 Hong Kong\n15:16 Chicago, United States\n16:54 Bruges, Belgium\n18:09 Madrid, Spain\n19:25 Dubai, United Arab Emirates\n20:42 Edinburgh, United Kingdom\n22:08 Zurich, Switzerland\n23:26 Cuzco, Peru\n24:43 St. Petersburg, Russiaç\n25:59 Berlin, Germany\n27:15 Hanoi, Vietnam\n28:25 Queenstown, New Zeland\n28:37 Dubrovnik, Croatia\n30:58 Bangkok, Thailand\n32:24 Dublin, Ireland\n33:34 Bergen, Norway\n34:59 Beijing, China\n35:46 Athens, Greece\n37:08 Phuket, Thailand\n38:30 Edinburgh, Scotland\n40:08 Mexico City, Mexico\n41:18 Moscow, Russia\n42:29 Munich, Germany\n43:55 Cairo, Egypt\n44:48 Chicago, United States\n46:38 Zurich, Switzerland\n47:45 Copenhagen, Denmark\n48:56 Reykjavik, Iceland\n50:12 Kyoto, Japan\n51:18 Florence, Italy\n52:44 Porto, Portugal\n54:10 Jakarta, Indonesia\n55:09 Best Cities to live in the Planet\n55:14 Outro 8K ULTRA HD\n\nFollow me:\n►YouTube: https://www.youtube.com/channel/UC8D_NXFBh8A9KSwo7x-wFdQ/\n►Facebook: https://www.facebook.com/bruno.saraviavega\n►Instagram: https://www.instagram.com/brunosaraviaphotography\n\nCanon - Sony - Nikon - Adobe Premiere Pro CC - Photoshop - Lightroom CC\nYoutube Business - Youtube Profit - Bank Credit - Loans - Educational - Education - Insurance\n\nAmazing & Beautiful Cities Around the Planet Earth 8K HDR 60FPS (FUHD) Demo TV 8K ULTRA HD\n\n#8K #CITIES  #SKYLINE #BEAUTIFUL #RELAXING #WORLD #CITIESSKYLINES #TRAVEL #TOUR",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/RgCENw09Dpk/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/RgCENw09Dpk/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/RgCENw09Dpk/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/RgCENw09Dpk/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/RgCENw09Dpk/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "8K VIDEOS ULTRA HD",
+              "tags": [
+                "most beautiful places in the world",
+                "most beautiful cities in the world",
+                "most beautiful cities in usa",
+                "most beautiful cities in europe",
+                "most beautiful city in india",
+                "most beautiful cities in italy",
+                "most beautiful cities in america",
+                "8k",
+                "8k video ultra hd",
+                "8k video songs",
+                "8k music",
+                "piano music",
+                "piano music relaxing",
+                "4k video",
+                "best cities to live in america",
+                "best cities in the world",
+                "best cities to visit in usa",
+                "8k tv samsung",
+                "8k tv review",
+                "8k tv ps5",
+                "qled",
+                "oled",
+                "cities skylines",
+                "tv"
+              ],
+              "categoryId": "1",
+              "liveBroadcastContent": "none",
+              "defaultLanguage": "en",
+              "localized": {
+                "title": "TOP 50 • Most Beautiful CITIES in the World 8K ULTRA HD",
+                "description": "TOP 50 of the Most Beautiful CITIES in the World 8K for your best 8k device. Travel around the planet earth 8K to see the best cities in the world.\nAre you making some plans to visit beautiful places in the planet earth? The world is full of beautiful and amazing places to visit like cities skylines where you can enjoy mother nature and amazing cities skylines around the world. We have compiled this list to help you plan your trip to see the most beautiful places on the planet.\nBeautiful cities are popular for their beauty, architecture of the buildings, people that live there, and most importantly the most popular food in the world. People who love traveling are always searching for a new city to go to.\nFor this reason, you need to know the particular information about these cities to safely visit and explore all the possible places around the planet earth 8K with the best cities.\n50 Most Beautiful Cities in the World:\n\n00:00 Intro 8K ULTRA HD\n00:10 50 Most Beautiful Cities in the World\n00:15 Paris, France\n00:48 New York, United States\n01:29 London, United Kingdom\n02:01 Venice, Italy\n02:48 Barcelona, Spain\n03:48 Amsterdam, Netherlands\n04:33 Rome, Italy\n05:14 Singapore\n05:47 Lisbon, Portugal\n06:43 Prague, Czech Republic\n08:12 Istanbul, Turkey\n09:02 Tokyo, Japan\n09:51 Vienna, Austria\n11:21 Buenos Aires, Argentina\n12:36 San Diego, United States\n14:00 Hong Kong\n15:16 Chicago, United States\n16:54 Bruges, Belgium\n18:09 Madrid, Spain\n19:25 Dubai, United Arab Emirates\n20:42 Edinburgh, United Kingdom\n22:08 Zurich, Switzerland\n23:26 Cuzco, Peru\n24:43 St. Petersburg, Russiaç\n25:59 Berlin, Germany\n27:15 Hanoi, Vietnam\n28:25 Queenstown, New Zeland\n28:37 Dubrovnik, Croatia\n30:58 Bangkok, Thailand\n32:24 Dublin, Ireland\n33:34 Bergen, Norway\n34:59 Beijing, China\n35:46 Athens, Greece\n37:08 Phuket, Thailand\n38:30 Edinburgh, Scotland\n40:08 Mexico City, Mexico\n41:18 Moscow, Russia\n42:29 Munich, Germany\n43:55 Cairo, Egypt\n44:48 Chicago, United States\n46:38 Zurich, Switzerland\n47:45 Copenhagen, Denmark\n48:56 Reykjavik, Iceland\n50:12 Kyoto, Japan\n51:18 Florence, Italy\n52:44 Porto, Portugal\n54:10 Jakarta, Indonesia\n55:09 Best Cities to live in the Planet\n55:14 Outro 8K ULTRA HD\n\nFollow me:\n►YouTube: https://www.youtube.com/channel/UC8D_NXFBh8A9KSwo7x-wFdQ/\n►Facebook: https://www.facebook.com/bruno.saraviavega\n►Instagram: https://www.instagram.com/brunosaraviaphotography\n\nCanon - Sony - Nikon - Adobe Premiere Pro CC - Photoshop - Lightroom CC\nYoutube Business - Youtube Profit - Bank Credit - Loans - Educational - Education - Insurance\n\nAmazing & Beautiful Cities Around the Planet Earth 8K HDR 60FPS (FUHD) Demo TV 8K ULTRA HD\n\n#8K #CITIES  #SKYLINE #BEAUTIFUL #RELAXING #WORLD #CITIESSKYLINES #TRAVEL #TOUR"
+              },
+              "defaultAudioLanguage": "en"
+            },
+            "contentDetails": {
+              "duration": "PT55M25S",
+              "dimension": "2d",
+              "definition": "hd",
+              "caption": "false",
+              "licensedContent": true,
+              "contentRating": {},
+              "projection": "rectangular"
+            },
+            "statistics": {
+              "viewCount": "1944298",
+              "likeCount": "10956",
+              "favoriteCount": "0",
+              "commentCount": "219"
+            },
+            "player": {
+              "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/RgCENw09Dpk\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+            }
+          }
+        ],
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 1
+        }
+      },
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "cache-control": "private",
+        "content-encoding": "gzip",
+        "content-length": "2491",
+        "content-type": "application/json; charset=UTF-8",
+        "date": "Wed, 18 Jan 2023 05:11:21 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "vary": "Origin, X-Origin, Referer"
+      },
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": ["xhr", "http"],
+        "transformRequest": [null],
+        "transformResponse": [null],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*"
+        },
+        "params": {
+          "part": ["snippet", "contentDetails", "player", "statistics"],
+          "id": "RgCENw09Dpk",
+          "key": "AIzaSyD08Wd5NaXlc9Gs6pP_83Hdxiuj5RM_lKA"
+        },
+        "paramsSerializer": {
+          "indexes": null
+        },
+        "method": "get",
+        "url": "https://www.googleapis.com/youtube/v3/videos"
+      },
+      "request": {}
+    },
+    {
+      "data": {
+        "kind": "youtube#videoListResponse",
+        "etag": "gGjpu2Sa_2BuYxhrTH9ienfnzLU",
+        "items": [
+          {
+            "kind": "youtube#video",
+            "etag": "XSL6tHPmxD1QQBY7Ol7o5EwETbM",
+            "id": "vQoR7gJTirk",
+            "snippet": {
+              "publishedAt": "2021-06-25T13:00:34Z",
+              "channelId": "UC8D_NXFBh8A9KSwo7x-wFdQ",
+              "title": "The Colors of the Ocean 8K ULTRA HD - The Best 8K Sea Animals for Relaxation & Calming Music",
+              "description": "THE COLORS OF THE OCEAN is a beautiful and RELAXING 8K Film about Sea Life and Marine Animals. In this video, we can watch marine animals from all over the world, with beautiful colors and shapes for relaxing sleep, or relaxation time.\nIt is estimated that 70 and 80 percent of all life on earth is below the ocean's surface and the oceans contain 99 percent of the planet's living space. Less than 11% of that space has been explored by humans. About 85 percent of the area and 90 percent of the volume constitute the dark and cold environment that we call the deep sea. The average depth of the ocean is 3,761 meters. The average height of the terrain is 850 meters.\nSo there are at least 236,878 marine species, but most likely there are at least 750,000 marine species, and possibly up to 25 million marine species. That's amazing!\nThe lowest known point on our Earth, called Challenger Deep, is 11,034 meters deep, in the Mariana Trench in the western Pacific. To get an idea of ​​how deep that is, if I could take Mount Everest and place it at the bottom of that place, there would still be more than a mile of the ocean above. The Dead Sea is the lowest land point on Earth with an elevation of 396 meters below sea level.\n\nSome Facts about the ocean and Sea Life:\n\n- Ocean water looks blue and not transparent. Sunlight is made up of all colors. When it reaches the sea, this white light passes through the water, absorbing the red and orange tones and allowing the green and bluish tones to pass through.\n- The Pacific Ocean is the largest ocean in the world. It occupies a third of its surface and extends approximately 15,000 km from the Bering Sea bordering the Arctic in the north to the south with Antarctica.\n- The oceanic clam, a marine mollusk from the North Atlantic, is the oldest animal in history with an estimated age of 507 years. It is about 8 cm long.\n- The largest mountainous area in the world is under the sea and is known as the mid-ocean ridges that run through the middle of the Atlantic Ocean to the Indian and Pacific.\n\nfollow me:\n►YouTube: https://www.youtube.com/channel/UC8D_NXFBh8A9KSwo7x-wFdQ/\n►Facebook: https://www.facebook.com/bruno.saraviavega\n►Instagram: https://www.instagram.com/brunosaraviaphotography\n\nCanon - Sony - Nikon - Adobe Premiere Pro CC - Photoshop - Lightroom CC\nYoutube Business - Youtube Profit - Bank Credit - Loans - Educational - Education - Insurance\n\nThe Colors of the Ocean 8K ULTRA HD - The Best 8K Sea Animals for Relaxation & Calming Music (FUHD) Demo 8K ULTRA HD\n\n#8K #ANIMALS #AQUARIUM",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/vQoR7gJTirk/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/vQoR7gJTirk/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/vQoR7gJTirk/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/vQoR7gJTirk/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/vQoR7gJTirk/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "8K VIDEOS ULTRA HD",
+              "tags": [
+                "relax music (relaxation music)",
+                "aquarium relax music",
+                "sleep music",
+                "musica clasica relax",
+                "sleeping",
+                "relaxing",
+                "relax music",
+                "aquarium relax",
+                "relaxing music",
+                "background music",
+                "aquarium",
+                "underwater",
+                "screensaver",
+                "aquarium video",
+                "4k resolution",
+                "fish tank (film)",
+                "4k video",
+                "coral reef",
+                "fish tank",
+                "stress relief",
+                "relaxing aquarium",
+                "8k ultra hd",
+                "8k video ultra hd",
+                "8k aquarium",
+                "8k tv samsung",
+                "8k tv review",
+                "4k tv test",
+                "8k ocean video",
+                "8k animals",
+                "wildlife 8k",
+                "4k aquarium video ultra hd"
+              ],
+              "categoryId": "1",
+              "liveBroadcastContent": "none",
+              "defaultLanguage": "en",
+              "localized": {
+                "title": "The Colors of the Ocean 8K ULTRA HD - The Best 8K Sea Animals for Relaxation & Calming Music",
+                "description": "THE COLORS OF THE OCEAN is a beautiful and RELAXING 8K Film about Sea Life and Marine Animals. In this video, we can watch marine animals from all over the world, with beautiful colors and shapes for relaxing sleep, or relaxation time.\nIt is estimated that 70 and 80 percent of all life on earth is below the ocean's surface and the oceans contain 99 percent of the planet's living space. Less than 11% of that space has been explored by humans. About 85 percent of the area and 90 percent of the volume constitute the dark and cold environment that we call the deep sea. The average depth of the ocean is 3,761 meters. The average height of the terrain is 850 meters.\nSo there are at least 236,878 marine species, but most likely there are at least 750,000 marine species, and possibly up to 25 million marine species. That's amazing!\nThe lowest known point on our Earth, called Challenger Deep, is 11,034 meters deep, in the Mariana Trench in the western Pacific. To get an idea of ​​how deep that is, if I could take Mount Everest and place it at the bottom of that place, there would still be more than a mile of the ocean above. The Dead Sea is the lowest land point on Earth with an elevation of 396 meters below sea level.\n\nSome Facts about the ocean and Sea Life:\n\n- Ocean water looks blue and not transparent. Sunlight is made up of all colors. When it reaches the sea, this white light passes through the water, absorbing the red and orange tones and allowing the green and bluish tones to pass through.\n- The Pacific Ocean is the largest ocean in the world. It occupies a third of its surface and extends approximately 15,000 km from the Bering Sea bordering the Arctic in the north to the south with Antarctica.\n- The oceanic clam, a marine mollusk from the North Atlantic, is the oldest animal in history with an estimated age of 507 years. It is about 8 cm long.\n- The largest mountainous area in the world is under the sea and is known as the mid-ocean ridges that run through the middle of the Atlantic Ocean to the Indian and Pacific.\n\nfollow me:\n►YouTube: https://www.youtube.com/channel/UC8D_NXFBh8A9KSwo7x-wFdQ/\n►Facebook: https://www.facebook.com/bruno.saraviavega\n►Instagram: https://www.instagram.com/brunosaraviaphotography\n\nCanon - Sony - Nikon - Adobe Premiere Pro CC - Photoshop - Lightroom CC\nYoutube Business - Youtube Profit - Bank Credit - Loans - Educational - Education - Insurance\n\nThe Colors of the Ocean 8K ULTRA HD - The Best 8K Sea Animals for Relaxation & Calming Music (FUHD) Demo 8K ULTRA HD\n\n#8K #ANIMALS #AQUARIUM"
+              },
+              "defaultAudioLanguage": "en"
+            },
+            "contentDetails": {
+              "duration": "PT34M31S",
+              "dimension": "2d",
+              "definition": "hd",
+              "caption": "false",
+              "licensedContent": true,
+              "contentRating": {},
+              "projection": "rectangular"
+            },
+            "statistics": {
+              "viewCount": "10796376",
+              "likeCount": "50521",
+              "favoriteCount": "0",
+              "commentCount": "981"
+            },
+            "player": {
+              "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/vQoR7gJTirk\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+            }
+          }
+        ],
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 1
+        }
+      },
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "cache-control": "private",
+        "content-encoding": "gzip",
+        "content-length": "2416",
+        "content-type": "application/json; charset=UTF-8",
+        "date": "Wed, 18 Jan 2023 05:11:21 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "vary": "Origin, X-Origin, Referer"
+      },
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": ["xhr", "http"],
+        "transformRequest": [null],
+        "transformResponse": [null],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*"
+        },
+        "params": {
+          "part": ["snippet", "contentDetails", "player", "statistics"],
+          "id": "vQoR7gJTirk",
+          "key": "AIzaSyD08Wd5NaXlc9Gs6pP_83Hdxiuj5RM_lKA"
+        },
+        "paramsSerializer": {
+          "indexes": null
+        },
+        "method": "get",
+        "url": "https://www.googleapis.com/youtube/v3/videos"
+      },
+      "request": {}
+    },
+    {
+      "data": {
+        "kind": "youtube#videoListResponse",
+        "etag": "BpeO8E_zqqUMwbPqafuluYwskrI",
+        "items": [
+          {
+            "kind": "youtube#video",
+            "etag": "mW45uTdk5AfVazoC61Bi8K51l40",
+            "id": "YFhwEJosUsU",
+            "snippet": {
+              "publishedAt": "2022-09-02T13:00:15Z",
+              "channelId": "UC8D_NXFBh8A9KSwo7x-wFdQ",
+              "title": "TOP 50 • Most Beautiful Places in the World 8K ULTRA HD",
+              "description": "TOP 50 - In this video you will find a TOP 50 of the Most Beautiful Places in the World 8K. You will take a tour around the world to see the best places on the planet earth 8K.\nIn this video you will see the amazing Halong Bay in Vietnam that for many, the seascape of Ha Long Bay is one of the most beautiful beaches in the world. Cruises sail emerald green waters among thousands of rugged islands and islets with islands and most amazing landscapes.\nPamukkale Is The Most Visited Individual Site in All of Turkey! Not Istanbul's Hagia Sophia. Not the ancient ruins of Ephesus.\nKrabi is famous for its scenic view and breathtaking beaches and Islands. Its coral reef vistas are also one of the world’s most beautiful, which makes the City a great spot for coral and fish video.\nFiordland is one of the most dramatic and beautiful parts of New Zealand. Absorb the breathtaking treasures of this region by water, air or hiking.\nMu Cang Chai is home to some of Asia’s most magnificent cultivated lands. Rice terraces coil in parts around the hills to spectacular effect, luring photographers, hikers, and amazing motorbikers.\nThis citadel in the clouds was abandoned only 100 years later but Spanish invaders never found Machu Picchu. It was left to nature before explorer Hiram Bingham caught wind of it on an expedition in 1911 and decided to investigate. A hidden city protected by the mountains, and still wonderfully inaccessible other than by foot or train, Machu Picchu is now a New Seven Wonders of the World.\nThe Great Wall of China is one of the greatest sights in the world, the longest wall in the world, an awe-inspiring feat of ancient defensive architecture.\nLocated on the northern side of Greece, Meteora is included in the World Heritage List. Dotted with towering rocks, it boasts a breathtaking landscape, creating otherworldly beautiful scenery.\nBe sure to visit Keukenhof, where you will experience the gorgeous views of blooming Dutch tulips and other flowers for which Holland is famous. Keukenhof is the most famous and largest flower park in the world and lies not far from Amsterdam.\nThe island is actually a group of islands consisting of Thira, Thirassia, Aspronissi, Palea and Nea Kameni in the southernmost part of the Cyclades.\nOne highlight of the trails inside the Torres del Paine National Park The viewpoint over the Grey lake and glaciar in chile.\nNorway's Lofoten Islands are referred to as the Lofoten Wall because they are vertical rows of granite shooting out of the Arctic Sea.\nThe Amalfi Coast is a 34-mile-long region in Campania, Italy. \nCappadocia is a beautiful region in central Turkey famous for its fairytale scenery.\nAntarctica is the coldest, windiest and driest continent. It contains 90 percent of all of the ice on Earth 8K.\n\nList of the Most Beautiful Places in the Planet Earth 8K:\n00:00 Intro 8K ULTRA HD\n00:10 Halong Bay, Vietnam\n00:46 Pamukkale, Turkey\n01:25 Plitvice Lakes National Park, Croatia\n02:12 Krabi, Thailand\n03:12 Fiordland, New Zeland\n03:58 Mu Cang Chai, Vietnam\n04:57 Machu Picchu, Peru\n05:29 The Great Wall of China\n06:19 Meteora, Thessaly, Greece\n07:18 Keukenhof Gardens, Netherlands\n08:16 Santorini Island, Greece\n09:09 Torres del Paine, Chile\n09:56 Lofoten Islands, Norway\n11:38 Amalfi Coast, Italy\n12:48 Cappadocia, Turkey\n14:02 Fiji\n15:38 Fjords, Norway\n17:09 Antarctica\n19:10 Bagan, Myanmar\n20:29 Dubai, United Arab Emirates\n21:54 Maldives\n23:47 Monument Valley, USA\n25:18 Iguazu Falls, Brasil - Argentina\n26:26 Swiss Alps, Switzerland\n27:49 Angkor Wat, Cambodia\n29:03 Fernando de Noronha, Brazil\n30:22 Lisbon, Portugal\n31:58 Paris, France\n33:25 Cape Town, South Africa\n34:22 Himalayas, Nepal\n35:22 Venice, Italy\n36:55 Zhangye Danxia, China\n37:52 Sossusvlei, Namibia\n38:57 Forbiden City, China\n38:50 Petra, Jordan\n40:36 Zlatni Rat, Croatia\n42:00 Barcelona, Spain\n43:12 Giza, Egypt\n44:23 Atacama Desert, Chile\n45:30 Okavango Delta, Botswana\n46:45 Whitsunday, Australia\n47:28 Cinque Terre, Italy\n48:54 Neuschwanstein Castle, Germany\n50:01 Tuscany, Italy\n51:45 Sahara Desert, Africa\n53:25 Bamboo Forest, Japan\n54:32 Lake Bled, Slovenia\n55:54 Li River, China\n57:43 Zakynthos, Greece\n\nFollow me:\n►YouTube: https://www.youtube.com/channel/UC8D_NXFBh8A9KSwo7x-wFdQ/\n►Facebook: https://www.facebook.com/bruno.saraviavega\n►Instagram: https://www.instagram.com/brunosaraviaphotography\n\nCanon - Sony - Nikon - Adobe Premiere Pro CC - Photoshop - Lightroom CC\n\nTOP 50 Most Beautiful Places in the World 8K ULTRA HD 8K HDR 60FPS (FUHD) Demo TV 8K ULTRA HD\n\n#8K #MOST #BEAUTIFUL #PLACES #PLANET #EARTH #WORLD #TOP50",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/YFhwEJosUsU/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/YFhwEJosUsU/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/YFhwEJosUsU/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/YFhwEJosUsU/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/YFhwEJosUsU/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "8K VIDEOS ULTRA HD",
+              "tags": [
+                "most beautiful places in the world",
+                "most beautiful music",
+                "top 50 songs",
+                "top 100",
+                "top 10",
+                "top 20",
+                "top 50 most beautiful places in the world",
+                "top 50 most beautiful cities in the world",
+                "top 50 most beautiful countries in the world",
+                "8k ultra hd",
+                "4k video",
+                "8k",
+                "8k earth",
+                "8k planet earth",
+                "8k tv",
+                "8k hdr",
+                "8k hdr dolby vision",
+                "most beautiful places on earth",
+                "beautiful places in the world",
+                "nature sounds relaxing music",
+                "relaxing music",
+                "oled",
+                "qled",
+                "8k tv samsung",
+                "4k tv",
+                "tv test",
+                "dubai",
+                "4k"
+              ],
+              "categoryId": "1",
+              "liveBroadcastContent": "none",
+              "defaultLanguage": "en",
+              "localized": {
+                "title": "TOP 50 • Most Beautiful Places in the World 8K ULTRA HD",
+                "description": "TOP 50 - In this video you will find a TOP 50 of the Most Beautiful Places in the World 8K. You will take a tour around the world to see the best places on the planet earth 8K.\nIn this video you will see the amazing Halong Bay in Vietnam that for many, the seascape of Ha Long Bay is one of the most beautiful beaches in the world. Cruises sail emerald green waters among thousands of rugged islands and islets with islands and most amazing landscapes.\nPamukkale Is The Most Visited Individual Site in All of Turkey! Not Istanbul's Hagia Sophia. Not the ancient ruins of Ephesus.\nKrabi is famous for its scenic view and breathtaking beaches and Islands. Its coral reef vistas are also one of the world’s most beautiful, which makes the City a great spot for coral and fish video.\nFiordland is one of the most dramatic and beautiful parts of New Zealand. Absorb the breathtaking treasures of this region by water, air or hiking.\nMu Cang Chai is home to some of Asia’s most magnificent cultivated lands. Rice terraces coil in parts around the hills to spectacular effect, luring photographers, hikers, and amazing motorbikers.\nThis citadel in the clouds was abandoned only 100 years later but Spanish invaders never found Machu Picchu. It was left to nature before explorer Hiram Bingham caught wind of it on an expedition in 1911 and decided to investigate. A hidden city protected by the mountains, and still wonderfully inaccessible other than by foot or train, Machu Picchu is now a New Seven Wonders of the World.\nThe Great Wall of China is one of the greatest sights in the world, the longest wall in the world, an awe-inspiring feat of ancient defensive architecture.\nLocated on the northern side of Greece, Meteora is included in the World Heritage List. Dotted with towering rocks, it boasts a breathtaking landscape, creating otherworldly beautiful scenery.\nBe sure to visit Keukenhof, where you will experience the gorgeous views of blooming Dutch tulips and other flowers for which Holland is famous. Keukenhof is the most famous and largest flower park in the world and lies not far from Amsterdam.\nThe island is actually a group of islands consisting of Thira, Thirassia, Aspronissi, Palea and Nea Kameni in the southernmost part of the Cyclades.\nOne highlight of the trails inside the Torres del Paine National Park The viewpoint over the Grey lake and glaciar in chile.\nNorway's Lofoten Islands are referred to as the Lofoten Wall because they are vertical rows of granite shooting out of the Arctic Sea.\nThe Amalfi Coast is a 34-mile-long region in Campania, Italy. \nCappadocia is a beautiful region in central Turkey famous for its fairytale scenery.\nAntarctica is the coldest, windiest and driest continent. It contains 90 percent of all of the ice on Earth 8K.\n\nList of the Most Beautiful Places in the Planet Earth 8K:\n00:00 Intro 8K ULTRA HD\n00:10 Halong Bay, Vietnam\n00:46 Pamukkale, Turkey\n01:25 Plitvice Lakes National Park, Croatia\n02:12 Krabi, Thailand\n03:12 Fiordland, New Zeland\n03:58 Mu Cang Chai, Vietnam\n04:57 Machu Picchu, Peru\n05:29 The Great Wall of China\n06:19 Meteora, Thessaly, Greece\n07:18 Keukenhof Gardens, Netherlands\n08:16 Santorini Island, Greece\n09:09 Torres del Paine, Chile\n09:56 Lofoten Islands, Norway\n11:38 Amalfi Coast, Italy\n12:48 Cappadocia, Turkey\n14:02 Fiji\n15:38 Fjords, Norway\n17:09 Antarctica\n19:10 Bagan, Myanmar\n20:29 Dubai, United Arab Emirates\n21:54 Maldives\n23:47 Monument Valley, USA\n25:18 Iguazu Falls, Brasil - Argentina\n26:26 Swiss Alps, Switzerland\n27:49 Angkor Wat, Cambodia\n29:03 Fernando de Noronha, Brazil\n30:22 Lisbon, Portugal\n31:58 Paris, France\n33:25 Cape Town, South Africa\n34:22 Himalayas, Nepal\n35:22 Venice, Italy\n36:55 Zhangye Danxia, China\n37:52 Sossusvlei, Namibia\n38:57 Forbiden City, China\n38:50 Petra, Jordan\n40:36 Zlatni Rat, Croatia\n42:00 Barcelona, Spain\n43:12 Giza, Egypt\n44:23 Atacama Desert, Chile\n45:30 Okavango Delta, Botswana\n46:45 Whitsunday, Australia\n47:28 Cinque Terre, Italy\n48:54 Neuschwanstein Castle, Germany\n50:01 Tuscany, Italy\n51:45 Sahara Desert, Africa\n53:25 Bamboo Forest, Japan\n54:32 Lake Bled, Slovenia\n55:54 Li River, China\n57:43 Zakynthos, Greece\n\nFollow me:\n►YouTube: https://www.youtube.com/channel/UC8D_NXFBh8A9KSwo7x-wFdQ/\n►Facebook: https://www.facebook.com/bruno.saraviavega\n►Instagram: https://www.instagram.com/brunosaraviaphotography\n\nCanon - Sony - Nikon - Adobe Premiere Pro CC - Photoshop - Lightroom CC\n\nTOP 50 Most Beautiful Places in the World 8K ULTRA HD 8K HDR 60FPS (FUHD) Demo TV 8K ULTRA HD\n\n#8K #MOST #BEAUTIFUL #PLACES #PLANET #EARTH #WORLD #TOP50"
+              },
+              "defaultAudioLanguage": "en"
+            },
+            "contentDetails": {
+              "duration": "PT59M28S",
+              "dimension": "2d",
+              "definition": "hd",
+              "caption": "true",
+              "licensedContent": true,
+              "contentRating": {},
+              "projection": "rectangular"
+            },
+            "statistics": {
+              "viewCount": "5609300",
+              "likeCount": "20608",
+              "favoriteCount": "0",
+              "commentCount": "243"
+            },
+            "player": {
+              "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/YFhwEJosUsU\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+            }
+          }
+        ],
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 1
+        }
+      },
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "cache-control": "private",
+        "content-encoding": "gzip",
+        "content-length": "3480",
+        "content-type": "application/json; charset=UTF-8",
+        "date": "Wed, 18 Jan 2023 05:11:21 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "vary": "Origin, X-Origin, Referer"
+      },
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": ["xhr", "http"],
+        "transformRequest": [null],
+        "transformResponse": [null],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*"
+        },
+        "params": {
+          "part": ["snippet", "contentDetails", "player", "statistics"],
+          "id": "YFhwEJosUsU",
+          "key": "AIzaSyD08Wd5NaXlc9Gs6pP_83Hdxiuj5RM_lKA"
+        },
+        "paramsSerializer": {
+          "indexes": null
+        },
+        "method": "get",
+        "url": "https://www.googleapis.com/youtube/v3/videos"
+      },
+      "request": {}
+    },
+    {
+      "data": {
+        "kind": "youtube#videoListResponse",
+        "etag": "W19-kZWJv7bS3C_3MW1r29mB5xw",
+        "items": [
+          {
+            "kind": "youtube#video",
+            "etag": "yi1Csd1tQjscI4nkwKwDZNoEIjQ",
+            "id": "nq4tT68UoCg",
+            "snippet": {
+              "publishedAt": "2022-01-05T17:54:39Z",
+              "channelId": "UCkFeoNSqYTa7trn75WM9tsg",
+              "title": "✨  Space Ambient Music • Deep Relaxation Space Journey [ 4K UHD ]",
+              "description": "Space Ambient Music [  Space Exploration  ]. It is an excellent ambient Cosmic soundscape Background for Space exploring, stargazing, learning astronomy, Dreaming, Soul Healing, Stress Relief and complete relaxation. Also you can try to use it while creating arts, writing, studying etc. Use it for Universe Exploring, Astronomy, Astral Projection, for creating continues cosmic mood for dreaming and reading fantastic, exploring outer space, gaming and coding\n\n🎵  Music:   Space Exploration \n       Album:  Starfield\n      https://spoti.fi/39EL8F0\n      https://apple.co/3mXohYu \n💎  Animation: by Blue Wave Studio\nⓒ Copyrights: Blue Wave Studio\n\n#spacemusic\n#spaceambient\n#ambient",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/nq4tT68UoCg/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/nq4tT68UoCg/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/nq4tT68UoCg/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/nq4tT68UoCg/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/nq4tT68UoCg/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "Relaxation Ambient Music",
+              "categoryId": "10",
+              "liveBroadcastContent": "none",
+              "defaultLanguage": "en",
+              "localized": {
+                "title": "✨  Space Ambient Music • Deep Relaxation Space Journey [ 4K UHD ]",
+                "description": "Space Ambient Music [  Space Exploration  ]. It is an excellent ambient Cosmic soundscape Background for Space exploring, stargazing, learning astronomy, Dreaming, Soul Healing, Stress Relief and complete relaxation. Also you can try to use it while creating arts, writing, studying etc. Use it for Universe Exploring, Astronomy, Astral Projection, for creating continues cosmic mood for dreaming and reading fantastic, exploring outer space, gaming and coding\n\n🎵  Music:   Space Exploration \n       Album:  Starfield\n      https://spoti.fi/39EL8F0\n      https://apple.co/3mXohYu \n💎  Animation: by Blue Wave Studio\nⓒ Copyrights: Blue Wave Studio\n\n#spacemusic\n#spaceambient\n#ambient"
+              },
+              "defaultAudioLanguage": "en"
+            },
+            "contentDetails": {
+              "duration": "PT3H34M22S",
+              "dimension": "2d",
+              "definition": "hd",
+              "caption": "false",
+              "licensedContent": true,
+              "contentRating": {},
+              "projection": "rectangular"
+            },
+            "statistics": {
+              "viewCount": "1874936",
+              "likeCount": "23300",
+              "favoriteCount": "0",
+              "commentCount": "549"
+            },
+            "player": {
+              "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/nq4tT68UoCg\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+            }
+          }
+        ],
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 1
+        }
+      },
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "cache-control": "private",
+        "content-encoding": "gzip",
+        "content-length": "1271",
+        "content-type": "application/json; charset=UTF-8",
+        "date": "Wed, 18 Jan 2023 05:11:21 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "vary": "Origin, X-Origin, Referer"
+      },
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": ["xhr", "http"],
+        "transformRequest": [null],
+        "transformResponse": [null],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*"
+        },
+        "params": {
+          "part": ["snippet", "contentDetails", "player", "statistics"],
+          "id": "nq4tT68UoCg",
+          "key": "AIzaSyD08Wd5NaXlc9Gs6pP_83Hdxiuj5RM_lKA"
+        },
+        "paramsSerializer": {
+          "indexes": null
+        },
+        "method": "get",
+        "url": "https://www.googleapis.com/youtube/v3/videos"
+      },
+      "request": {}
+    },
+    {
+      "data": {
+        "kind": "youtube#videoListResponse",
+        "etag": "jXlxWI2x2DdAW5juzIftZizW4vU",
+        "items": [
+          {
+            "kind": "youtube#video",
+            "etag": "saOa0VtlQYqDD-XJXvjKb6MFy6g",
+            "id": "hpfVMPCR3xA",
+            "snippet": {
+              "publishedAt": "2021-08-08T05:28:13Z",
+              "channelId": "UCS4jPUCax8d3f-uke--YXXQ",
+              "title": "FLYING OVER CANADA (4K UHD) - Relaxing Music With Stunning Beautiful Nature (4K Video Ultra HD)",
+              "description": "Welcome to Earth Relaxation !\nCanada is a country in North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres (3.85 million square miles), making it the world's second-largest country by total area. Its southern and western border with the United States, stretching 8,891 kilometres (5,525 mi), is the world's longest bi-national land border. Canada's capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver. A highly developed country, Canada has the seventeenth-highest nominal per-capita income globally and the sixteenth-highest ranking in the Human Development Index. Its advanced economy is the tenth-largest in the world, relying chiefly upon its abundant natural resources and well-developed international trade networks.\nMusic has so many benefits, and one of them is that it calms your nerves down. It's always a good idea to listen to some background music while you're doing something. So here are some relaxing piano pieces with 4k nature videos that will help you relax, feel relaxed, and get ready for bed.\nIn this video, I'm going to show you my favorite nature video that will help you relax and improve your mood. It's a 4k video with relaxing music and calming nature sounds. There are no talking in this video so you can enjoy the natural sound of the forest, the sound of a river, and some birds chirping.\nWatch the 4k ultra high definition video in this video in somewhere at nail salon, public transport or restaurant. Relaxing music is playing in the background. Try out this 4k ultra high definition video let me know what you think in the comments below!.\n▽ Follow Earth Relaxation\n➤ Youtube → https://www.youtube.com/channel/UCS4jPUCax8d3f-uke--YXXQ\n#earthrelaxation​ #relaxingmusic​ #4kcanada\n----------------------------------------------------------------------\nMusic provided by EMVN\nSubmit your music: http://emvn.co/submitDemo\n📌 Contacts: copyright.thstudio@gmail.com, network@emvn.co\nTrack list:\n0:0:0   | 1 . Relax\n0:4:54  | 2 . Calm\n0:9:46  | 3 . Beach\n0:14:30 | 4 . Water\n\nFollow Artists:\nhttps://emvn.fanlink.to/melosy\n----------------------------------------------------------------------\n►All rights belong to their respective owners.\n✔ This video was given a special license directly from the artists and the right holders.",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/hpfVMPCR3xA/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/hpfVMPCR3xA/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/hpfVMPCR3xA/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/hpfVMPCR3xA/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/hpfVMPCR3xA/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "Earth Relaxation",
+              "tags": [
+                "scenic relaxation",
+                "4k",
+                "4k video",
+                "4k video 60fps",
+                "video 4k",
+                "4k videos",
+                "relax 4k",
+                "zen",
+                "ultra hd",
+                "relaxing music",
+                "bgm",
+                "background music",
+                "soothing relaxation",
+                "piano relax",
+                "piano relaxing",
+                "nature sounds",
+                "relax music",
+                "spa music",
+                "meditation music",
+                "music for meditation",
+                "music for sleeping",
+                "healing music",
+                "relaxation music",
+                "stunning nature",
+                "relax",
+                "sleep music",
+                "dream music",
+                "stress relief",
+                "calm",
+                "drone film",
+                "aerial film",
+                "simple happiness",
+                "instrumental music",
+                "canada",
+                "canada 4k"
+              ],
+              "categoryId": "10",
+              "liveBroadcastContent": "none",
+              "localized": {
+                "title": "FLYING OVER CANADA (4K UHD) - Relaxing Music With Stunning Beautiful Nature (4K Video Ultra HD)",
+                "description": "Welcome to Earth Relaxation !\nCanada is a country in North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres (3.85 million square miles), making it the world's second-largest country by total area. Its southern and western border with the United States, stretching 8,891 kilometres (5,525 mi), is the world's longest bi-national land border. Canada's capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver. A highly developed country, Canada has the seventeenth-highest nominal per-capita income globally and the sixteenth-highest ranking in the Human Development Index. Its advanced economy is the tenth-largest in the world, relying chiefly upon its abundant natural resources and well-developed international trade networks.\nMusic has so many benefits, and one of them is that it calms your nerves down. It's always a good idea to listen to some background music while you're doing something. So here are some relaxing piano pieces with 4k nature videos that will help you relax, feel relaxed, and get ready for bed.\nIn this video, I'm going to show you my favorite nature video that will help you relax and improve your mood. It's a 4k video with relaxing music and calming nature sounds. There are no talking in this video so you can enjoy the natural sound of the forest, the sound of a river, and some birds chirping.\nWatch the 4k ultra high definition video in this video in somewhere at nail salon, public transport or restaurant. Relaxing music is playing in the background. Try out this 4k ultra high definition video let me know what you think in the comments below!.\n▽ Follow Earth Relaxation\n➤ Youtube → https://www.youtube.com/channel/UCS4jPUCax8d3f-uke--YXXQ\n#earthrelaxation​ #relaxingmusic​ #4kcanada\n----------------------------------------------------------------------\nMusic provided by EMVN\nSubmit your music: http://emvn.co/submitDemo\n📌 Contacts: copyright.thstudio@gmail.com, network@emvn.co\nTrack list:\n0:0:0   | 1 . Relax\n0:4:54  | 2 . Calm\n0:9:46  | 3 . Beach\n0:14:30 | 4 . Water\n\nFollow Artists:\nhttps://emvn.fanlink.to/melosy\n----------------------------------------------------------------------\n►All rights belong to their respective owners.\n✔ This video was given a special license directly from the artists and the right holders."
+              },
+              "defaultAudioLanguage": "en"
+            },
+            "contentDetails": {
+              "duration": "PT11H55M",
+              "dimension": "2d",
+              "definition": "hd",
+              "caption": "false",
+              "licensedContent": true,
+              "contentRating": {},
+              "projection": "rectangular"
+            },
+            "statistics": {
+              "viewCount": "2469341",
+              "likeCount": "9732",
+              "favoriteCount": "0",
+              "commentCount": "272"
+            },
+            "player": {
+              "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/hpfVMPCR3xA\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+            }
+          }
+        ],
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 1
+        }
+      },
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "cache-control": "private",
+        "content-encoding": "gzip",
+        "content-length": "2340",
+        "content-type": "application/json; charset=UTF-8",
+        "date": "Wed, 18 Jan 2023 05:11:21 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "vary": "Origin, X-Origin, Referer"
+      },
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": ["xhr", "http"],
+        "transformRequest": [null],
+        "transformResponse": [null],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*"
+        },
+        "params": {
+          "part": ["snippet", "contentDetails", "player", "statistics"],
+          "id": "hpfVMPCR3xA",
+          "key": "AIzaSyD08Wd5NaXlc9Gs6pP_83Hdxiuj5RM_lKA"
+        },
+        "paramsSerializer": {
+          "indexes": null
+        },
+        "method": "get",
+        "url": "https://www.googleapis.com/youtube/v3/videos"
+      },
+      "request": {}
+    },
+    {
+      "data": {
+        "kind": "youtube#videoListResponse",
+        "etag": "328CcyeZl9Oo4tJ329OKRxgKHWI",
+        "items": [
+          {
+            "kind": "youtube#video",
+            "etag": "oTYO1RgHPmQJcmrId6Bs_yysNkQ",
+            "id": "2OEL4P1Rz04",
+            "snippet": {
+              "publishedAt": "2019-09-04T13:08:32Z",
+              "channelId": "UCjzHeG1KWoonmf9d5KBvSiw",
+              "title": "Beautiful Relaxing Music for Stress Relief • Meditation Music, Sleep Music, Ambient Study Music",
+              "description": "Beautiful relaxing music for stress relief, composed by Peder B. Helland. This instrumental music (\"The Hidden Valley\") works well as sleep music, ambient study music, meditation music or relaxation music.  Stream or download music from Soothing Relaxation: https://soothingrelaxation.lnk.to/listenYL\n\n💿 Track information:\nTitle: The Hidden Valley \nComposer: Peder B. Helland\nIndex: ★183\nAlbum: Flying\nBuy or stream this album: https://soothingrelaxation.com/products/flying-album\nBuy this track: https://soothingrelaxation.com/products/the-hidden-valley\nLicense this track: https://soothingrelaxation.com/products/the-hidden-valley-license\n\nFollow Soothing Relaxation on...\nSoothing Relaxation: https://soothingrelaxation.lnk.to/websiteYL\nFacebook: https://soothingrelaxation.lnk.to/FacebookYL\nInstagram: https://soothingrelaxation.lnk.to/InstagramYL\nSpotify: https://soothingrelaxation.lnk.to/listenYL/spotify\nApple Music: https://soothingrelaxation.lnk.to/listenYL/applemusic\nYouTube Music: https://soothingrelaxation.lnk.to/listenYL/youtubemusic\nAmazon Music: https://soothingrelaxation.lnk.to/listenYL/amazonmusic\nDeezer: https://soothingrelaxation.lnk.to/listenYL/deezer\n\nFollow Peder B. Helland on...\nWebsite: https://pederbhelland.lnk.to/websiteYL\nFacebook: https://pederbhelland.lnk.to/facebookYL\nInstagram: https://pederbhelland.lnk.to/instagramYL\n\nListen to our playlists on other music services: https://www.soothingplaylists.com/\nListen to more relaxing music: https://www.youtube.com/playlist?list=PLQ_PIlf6OzqL3BE0rB6clb9IzLLkkSKUF\nGet a free music download and stay updated with our newsletter: https://soothingrelaxation.lnk.to/newsletterYL\n\n📜 Message from the composer and creator of Soothing Relaxation:\n\"I am a composer from Norway and I started this channel with a simple vision: to create a place that you can visit whenever you want to sit down and relax. I compose music that often can be described as sleep music, calm music, yoga music, study music, peaceful music, beautiful music and relaxing music. I love to compose music and I put a lot of work into it. \n\nThank you very much for listening and for leaving feedback. Every single day I am completely astonished by all your warm support and it really inspires me to work even harder on my music. If you enjoy my work, I would be very happy if you decided to subscribe and join our community. Have a wonderful day or evening!\"\n\n- Peder B. Helland, composer for Soothing Relaxation\n\n© Copyright:\nMusic composed/arranged by Peder B. Helland. \nFootage/photos licensed from:\n• iStockPhoto: Treedeo, Yiming Li, Filmovar, MediaProduction, luza studios, ZoneCreative, SimonSkafar, captamotion, lavoview, f9photos, bo1982, sergeysxp, SimonSkafar, nattanan726, rmnunes, Forrestbro, crbellette, Mumemories, phaitoons, Yiming Li, komisar, ibigfish, gorodenkoff, FatCamera, SimonSkafar, JohnFScott, phaitoons, captamotion, Schroptschop, luza studios, Onfokus, DeoTree, Mumemories, superoke, NanoStockk\n• Pond5: azgek1, pavlas24, aflomotion \n• Videoblocks: jakerbreaker, cookelma, VladyslavStarozhylov, taden, guillaumelynn, Vadim_Key\n\n☀️ Relevant hashtags:\n#relaxingmusic, #relax, #soothingrelaxation, #music, #sleep",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/2OEL4P1Rz04/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/2OEL4P1Rz04/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/2OEL4P1Rz04/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/2OEL4P1Rz04/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                },
+                "maxres": {
+                  "url": "https://i.ytimg.com/vi/2OEL4P1Rz04/maxresdefault.jpg",
+                  "width": 1280,
+                  "height": 720
+                }
+              },
+              "channelTitle": "Soothing Relaxation",
+              "tags": [
+                "calm",
+                "calm music",
+                "calming",
+                "calming music",
+                "cello",
+                "dormir",
+                "détendre",
+                "guitar",
+                "insomnia",
+                "meditar",
+                "meditation",
+                "meditation music",
+                "peaceful",
+                "peaceful music",
+                "peder b. helland",
+                "peter b. helland",
+                "piano",
+                "piano music",
+                "relajarse",
+                "relax",
+                "relaxante",
+                "relaxation",
+                "relaxing",
+                "relaxing music",
+                "sleep",
+                "sleep music",
+                "sleeping",
+                "sleeping music",
+                "smoothing relaxation",
+                "soothing",
+                "soothing music",
+                "soothing relaxation",
+                "study music"
+              ],
+              "categoryId": "10",
+              "liveBroadcastContent": "none",
+              "defaultLanguage": "en",
+              "localized": {
+                "title": "Beautiful Relaxing Music for Stress Relief • Meditation Music, Sleep Music, Ambient Study Music",
+                "description": "Beautiful relaxing music for stress relief, composed by Peder B. Helland. This instrumental music (\"The Hidden Valley\") works well as sleep music, ambient study music, meditation music or relaxation music.  Stream or download music from Soothing Relaxation: https://soothingrelaxation.lnk.to/listenYL\n\n💿 Track information:\nTitle: The Hidden Valley \nComposer: Peder B. Helland\nIndex: ★183\nAlbum: Flying\nBuy or stream this album: https://soothingrelaxation.com/products/flying-album\nBuy this track: https://soothingrelaxation.com/products/the-hidden-valley\nLicense this track: https://soothingrelaxation.com/products/the-hidden-valley-license\n\nFollow Soothing Relaxation on...\nSoothing Relaxation: https://soothingrelaxation.lnk.to/websiteYL\nFacebook: https://soothingrelaxation.lnk.to/FacebookYL\nInstagram: https://soothingrelaxation.lnk.to/InstagramYL\nSpotify: https://soothingrelaxation.lnk.to/listenYL/spotify\nApple Music: https://soothingrelaxation.lnk.to/listenYL/applemusic\nYouTube Music: https://soothingrelaxation.lnk.to/listenYL/youtubemusic\nAmazon Music: https://soothingrelaxation.lnk.to/listenYL/amazonmusic\nDeezer: https://soothingrelaxation.lnk.to/listenYL/deezer\n\nFollow Peder B. Helland on...\nWebsite: https://pederbhelland.lnk.to/websiteYL\nFacebook: https://pederbhelland.lnk.to/facebookYL\nInstagram: https://pederbhelland.lnk.to/instagramYL\n\nListen to our playlists on other music services: https://www.soothingplaylists.com/\nListen to more relaxing music: https://www.youtube.com/playlist?list=PLQ_PIlf6OzqL3BE0rB6clb9IzLLkkSKUF\nGet a free music download and stay updated with our newsletter: https://soothingrelaxation.lnk.to/newsletterYL\n\n📜 Message from the composer and creator of Soothing Relaxation:\n\"I am a composer from Norway and I started this channel with a simple vision: to create a place that you can visit whenever you want to sit down and relax. I compose music that often can be described as sleep music, calm music, yoga music, study music, peaceful music, beautiful music and relaxing music. I love to compose music and I put a lot of work into it. \n\nThank you very much for listening and for leaving feedback. Every single day I am completely astonished by all your warm support and it really inspires me to work even harder on my music. If you enjoy my work, I would be very happy if you decided to subscribe and join our community. Have a wonderful day or evening!\"\n\n- Peder B. Helland, composer for Soothing Relaxation\n\n© Copyright:\nMusic composed/arranged by Peder B. Helland. \nFootage/photos licensed from:\n• iStockPhoto: Treedeo, Yiming Li, Filmovar, MediaProduction, luza studios, ZoneCreative, SimonSkafar, captamotion, lavoview, f9photos, bo1982, sergeysxp, SimonSkafar, nattanan726, rmnunes, Forrestbro, crbellette, Mumemories, phaitoons, Yiming Li, komisar, ibigfish, gorodenkoff, FatCamera, SimonSkafar, JohnFScott, phaitoons, captamotion, Schroptschop, luza studios, Onfokus, DeoTree, Mumemories, superoke, NanoStockk\n• Pond5: azgek1, pavlas24, aflomotion \n• Videoblocks: jakerbreaker, cookelma, VladyslavStarozhylov, taden, guillaumelynn, Vadim_Key\n\n☀️ Relevant hashtags:\n#relaxingmusic, #relax, #soothingrelaxation, #music, #sleep"
+              },
+              "defaultAudioLanguage": "en-US"
+            },
+            "contentDetails": {
+              "duration": "PT3H1M8S",
+              "dimension": "2d",
+              "definition": "hd",
+              "caption": "false",
+              "licensedContent": true,
+              "contentRating": {},
+              "projection": "rectangular"
+            },
+            "statistics": {
+              "viewCount": "43034058",
+              "likeCount": "291322",
+              "favoriteCount": "0",
+              "commentCount": "13032"
+            },
+            "player": {
+              "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/2OEL4P1Rz04\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+            }
+          }
+        ],
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 1
+        }
+      },
+      "status": 200,
+      "statusText": "",
+      "headers": {
+        "cache-control": "private",
+        "content-encoding": "gzip",
+        "content-length": "2457",
+        "content-type": "application/json; charset=UTF-8",
+        "date": "Wed, 18 Jan 2023 05:11:21 GMT",
+        "server": "scaffolding on HTTPServer2",
+        "vary": "Origin, X-Origin, Referer"
+      },
+      "config": {
+        "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+        },
+        "adapter": ["xhr", "http"],
+        "transformRequest": [null],
+        "transformResponse": [null],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {},
+        "headers": {
+          "Accept": "application/json, text/plain, */*"
+        },
+        "params": {
+          "part": ["snippet", "contentDetails", "player", "statistics"],
+          "id": "2OEL4P1Rz04",
+          "key": "AIzaSyD08Wd5NaXlc9Gs6pP_83Hdxiuj5RM_lKA"
+        },
+        "paramsSerializer": {
+          "indexes": null
+        },
+        "method": "get",
+        "url": "https://www.googleapis.com/youtube/v3/videos"
+      },
+      "request": {}
+    }
+  ]
 }
