@@ -2,13 +2,16 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import SearchList from '../../components/SearchList/SearchList';
 import styles from './SearchPage.module.scss';
+import { useLocation } from 'react-router-dom';
 
 export default function SearchPage () {
   const [search, setSearch] = useState([]);
+  const location = useLocation();
 
+  let word = location.pathname.substring(8);
   const params = {
     part: 'snippet',
-    q: 'hello',
+    q: word,
     maxResults: 2,
     key: import.meta.env.VITE_API_KEY,
   }
@@ -26,7 +29,9 @@ export default function SearchPage () {
       {
         search ? (
           search.map((item) => {
-            return <SearchList data={item} key={item.id.videoId} />
+            if(item.id.kind === 'youtube#video') {
+              return <SearchList data={item} key={item.id.videoId} />
+            }
           })
         ) : <p>검색결과가 존재하지 않습니다.</p>
       }
