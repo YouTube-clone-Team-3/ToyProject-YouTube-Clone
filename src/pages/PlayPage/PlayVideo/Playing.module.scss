@@ -1,5 +1,14 @@
 .playing {
-  width: 1280px;
-  height: 720px;
-  background-color: gray;
+  grid-area: video;
+  margin: 20px;
+  position: relative;
+  min-width: 480px;
+  min-height: 360px;
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
