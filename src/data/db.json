@@ -1,0 +1,1374 @@
+{
+  "video": {
+    "kind": "youtube#videoListResponse",
+    "etag": "j3_sWA3i4-pynd4Gfa1pwaSNYkc",
+    "items": [
+      {
+        "kind": "youtube#video",
+        "etag": "X_QzO1iO9C9mTZLq-MGyFdypI20",
+        "id": "G1hKzCkywM8",
+        "snippet": {
+          "publishedAt": "2021-05-22T06:00:05Z",
+          "channelId": "UCb57aRZr3KsykS_wNsD5Ptw",
+          "title": "6 Hour 4K Beautiful places Aerial Views",
+          "description": "Please enjoy 6Hour aerial journey of beautiful places on the Earth.\nThis tour will take you around the world's great nature. \nFrom Islands,Forests, Mountains, Rivers and Waterfalls please enjoy no loop movie of scenic views.\n\nIf you like our video, please subscribe to our channel\nhttp://www.youtube.com/channel/UCb57aRZr3KsykS_wNsD5Ptw?sub_confirmation=1\n\nBeautiful Nature of the Earth\nhttps://www.youtube.com/playlist?list=PL91Hm3FcmpU-CK1lZrfJR_6F8LukIPpxQ\n\nPrimal Earth Sounds\nhttps://www.youtube.com/playlist?list=PL91Hm3FcmpU_vKfeTgE4Rf8zj4mxSme-y",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/G1hKzCkywM8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/G1hKzCkywM8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/G1hKzCkywM8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/G1hKzCkywM8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/G1hKzCkywM8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "PRIMAL EARTH ",
+          "tags": [
+            "Primal Earth Sounds",
+            "4k",
+            "4k nature",
+            "relaxation music"
+          ],
+          "categoryId": "19",
+          "liveBroadcastContent": "none",
+          "defaultLanguage": "en",
+          "localized": {
+            "title": "6 Hour 4K Beautiful places Aerial Views",
+            "description": "Please enjoy 6Hour aerial journey of beautiful places on the Earth.\nThis tour will take you around the world's great nature. \nFrom Islands,Forests, Mountains, Rivers and Waterfalls please enjoy no loop movie of scenic views.\n\nIf you like our video, please subscribe to our channel\nhttp://www.youtube.com/channel/UCb57aRZr3KsykS_wNsD5Ptw?sub_confirmation=1\n\nBeautiful Nature of the Earth\nhttps://www.youtube.com/playlist?list=PL91Hm3FcmpU-CK1lZrfJR_6F8LukIPpxQ\n\nPrimal Earth Sounds\nhttps://www.youtube.com/playlist?list=PL91Hm3FcmpU_vKfeTgE4Rf8zj4mxSme-y"
+          },
+          "defaultAudioLanguage": "en"
+        },
+        "contentDetails": {
+          "duration": "PT6H10M13S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "statistics": {
+          "viewCount": "2040184",
+          "likeCount": "11869",
+          "favoriteCount": "0",
+          "commentCount": "298"
+        },
+        "player": {
+          "embedHtml": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/G1hKzCkywM8\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"
+        }
+      }
+    ],
+    "pageInfo": {
+      "totalResults": 1,
+      "resultsPerPage": 1
+    }
+  },
+  "channel" : {
+    "kind": "youtube#channelListResponse",
+    "etag": "J-ApOy7Icy4XT7RN09QkEiQXQHk",
+    "pageInfo": {
+      "totalResults": 1,
+      "resultsPerPage": 5
+    },
+    "items": [
+      {
+        "kind": "youtube#channel",
+        "etag": "4nau8nuWPY0K1XA7xvMWJuqMunY",
+        "id": "UCb57aRZr3KsykS_wNsD5Ptw",
+        "snippet": {
+          "title": "PRIMAL EARTH ",
+          "description": "Our mother planet \"Earth\" and the vibrancy of life on it. Feel the breath of \"Earth\" as you tour the great nature around the world.  Beautiful and spectacular scenery and animals are still waiting for you!\n",
+          "customUrl": "@primalearth8951",
+          "publishedAt": "2019-11-20T10:19:22.499623Z",
+          "thumbnails": {
+            "default": {
+              "url": "https://yt3.ggpht.com/EjqONiq-nKhXEhz_4FGQWeKAHHXHTWVjIxRYou8_PziBFNW7Fq5-NN-dMIHbG3_MFNbjYs76pg=s88-c-k-c0x00ffffff-no-rj",
+              "width": 88,
+              "height": 88
+            },
+            "medium": {
+              "url": "https://yt3.ggpht.com/EjqONiq-nKhXEhz_4FGQWeKAHHXHTWVjIxRYou8_PziBFNW7Fq5-NN-dMIHbG3_MFNbjYs76pg=s240-c-k-c0x00ffffff-no-rj",
+              "width": 240,
+              "height": 240
+            },
+            "high": {
+              "url": "https://yt3.ggpht.com/EjqONiq-nKhXEhz_4FGQWeKAHHXHTWVjIxRYou8_PziBFNW7Fq5-NN-dMIHbG3_MFNbjYs76pg=s800-c-k-c0x00ffffff-no-rj",
+              "width": 800,
+              "height": 800
+            }
+          },
+          "defaultLanguage": "en",
+          "localized": {
+            "title": "PRIMAL EARTH ",
+            "description": "Our mother planet \"Earth\" and the vibrancy of life on it. Feel the breath of \"Earth\" as you tour the great nature around the world.  Beautiful and spectacular scenery and animals are still waiting for you!\n"
+          },
+          "country": "JP"
+        },
+        "contentDetails": {
+          "relatedPlaylists": {
+            "likes": "",
+            "uploads": "UUb57aRZr3KsykS_wNsD5Ptw"
+          }
+        },
+        "statistics": {
+          "viewCount": "29352705",
+          "subscriberCount": "77400",
+          "hiddenSubscriberCount": false,
+          "videoCount": "106"
+        }
+      }
+    ]
+  },
+  "comments": {
+    "kind": "youtube#commentThreadListResponse",
+    "etag": "l0d8oxyL131HR3cN1uI5VkrFS-k",
+    "nextPageToken": "QURTSl9pMXcxMHZua2ViZ1U2ZXZCRnpkTGFKZ2x6ZVphMEp1ZlNkZXUzaEhIN245NEpJTjBQcWhfWGc3bEtsNEo5VUk1ZUNaOHF3VDlwdw==",
+    "pageInfo": {
+      "totalResults": 20,
+      "resultsPerPage": 20
+    },
+    "items": [
+      {
+        "kind": "youtube#commentThread",
+        "etag": "4NUc6SNDX0Kfq4d1gN-ig8Q1ZcM",
+        "id": "Ugydx2yM1ibfs7Hyx8N4AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "ZOHVS6JyQlRxa5CmD3L9tSpj_JY",
+            "id": "Ugydx2yM1ibfs7Hyx8N4AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "does anyone know what the Song starting at \u003ca href=\"https://www.youtube.com/watch?v=G1hKzCkywM8&amp;t=22m00s\"\u003e22:00\u003c/a\u003e is?",
+              "textOriginal": "does anyone know what the Song starting at 22:00 is?",
+              "authorDisplayName": "Leo Schlattmann",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu-VhLl8DuOuhoCwoqc99mMiJSpIWXd7c2W6VYuICB8zmwo2CC9Jeuovuvv2Xu9E=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCqqY8TTXXgLSXffINaLBCbA",
+              "authorChannelId": {
+                "value": "UCqqY8TTXXgLSXffINaLBCbA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2023-01-15T15:13:41Z",
+              "updatedAt": "2023-01-15T15:13:41Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "4qZzzGU4THH-WjApy-ohDCqwJ2o",
+        "id": "UgyhFuUB5xY0f5FScKB4AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "Ep9g2sIyWH3vEogHDASW6yLBarM",
+            "id": "UgyhFuUB5xY0f5FScKB4AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "Something beautiful and wonderful 🫡🏞🏔",
+              "textOriginal": "Something beautiful and wonderful 🫡🏞🏔",
+              "authorDisplayName": "Abdulaziz",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/IaDtY1595xjB6_qATDxoeKOx136cXR5G3v1Oghtdvy-wiLLE7RTz5SBVwS6zFkjDmvVCWM86cg=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCVBD4IwajWkCm2MYjBobQWA",
+              "authorChannelId": {
+                "value": "UCVBD4IwajWkCm2MYjBobQWA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2023-01-14T17:34:30Z",
+              "updatedAt": "2023-01-14T17:34:30Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "BujeJmfSJtNMA3S1tJmppeyZc5k",
+        "id": "UgxjnOKeIef8xsiudkF4AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "KqhL_kEtQwBBUhU6JWtJHyKCoIs",
+            "id": "UgxjnOKeIef8xsiudkF4AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "nature is just unbelievable and indescribable! \u003cbr\u003eI ate some shrooms so its hard to type but i love you",
+              "textOriginal": "nature is just unbelievable and indescribable! \nI ate some shrooms so its hard to type but i love you",
+              "authorDisplayName": "mat se",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/63dCm64zLbIvaT8SGJ80rJsTrceU5vBoL2ALVghx4FWHWO59CqC05Bq-AbflYykqkTnlwrJx-kM=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCeOBExdX_DVMn1Ulx_fopaA",
+              "authorChannelId": {
+                "value": "UCeOBExdX_DVMn1Ulx_fopaA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2023-01-13T19:22:32Z",
+              "updatedAt": "2023-01-13T19:22:32Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "NzCN1kYOoNySRDtSgRBv7VAcYNA",
+        "id": "UgyVOfTb3xOsW8Alug14AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "CAzyw2leAaMq5FBKk45I8kDoVB8",
+            "id": "UgyVOfTb3xOsW8Alug14AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "The scenery is beautiful!\u003cbr\u003eDo you have any that cycle scenes a lot slower?",
+              "textOriginal": "The scenery is beautiful!\nDo you have any that cycle scenes a lot slower?",
+              "authorDisplayName": "Lethargic907",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu_uSPeEM8hs08frbNKmwEtVxt5H7sXW-zooew=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCymev_-heO5zKxp4SBl2lfA",
+              "authorChannelId": {
+                "value": "UCymev_-heO5zKxp4SBl2lfA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2023-01-06T19:17:08Z",
+              "updatedAt": "2023-01-06T19:17:08Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "rs-baKOVJXBe-jjn0TBGb_wH-y0",
+        "id": "UgxVU-G7VBuoAnH2cXp4AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "Kw1iRDeu-zifyH3mv0a1GwlBETo",
+            "id": "UgxVU-G7VBuoAnH2cXp4AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "This is the world if warfare didn’t exist",
+              "textOriginal": "This is the world if warfare didn’t exist",
+              "authorDisplayName": "The best pinapple",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/HY-LYQunWwf_SkfqkQ6agWDPMajd3VQHv3sCUymmBBx6dMF4jmIm28gyO96MQawwtnT5RWPaQQ=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCAYCrebfE4GxMLlpRYU-7hg",
+              "authorChannelId": {
+                "value": "UCAYCrebfE4GxMLlpRYU-7hg"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2023-01-06T08:20:52Z",
+              "updatedAt": "2023-01-06T08:20:52Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "k9OMgsq4DiQ8zjsw3TfZkvdgXhs",
+        "id": "UgyUk8rF8GKXYg9wwaZ4AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "545dFgo7t7YRLAtdbSR0QE5c_tY",
+            "id": "UgyUk8rF8GKXYg9wwaZ4AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "Brings me to tears.  God The Almighty, the Author of beauty created all the earth.  Jallelujah!!",
+              "textOriginal": "Brings me to tears.  God The Almighty, the Author of beauty created all the earth.  Jallelujah!!",
+              "authorDisplayName": "venessa monique",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu9EaG6_4SHbs6K74OeiWPmhRg1yGCO8qx1OY0_n-w=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCPR5zmPJIDpvWcAOz9wqUZQ",
+              "authorChannelId": {
+                "value": "UCPR5zmPJIDpvWcAOz9wqUZQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2023-01-04T04:55:12Z",
+              "updatedAt": "2023-01-04T04:55:12Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "_QctFli3vZH4r605ejQWaBo55M8",
+        "id": "UgybMsl2tCNm5UiUcxN4AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "Sh7bwKZb0RNCipLxMv7Fvh2as54",
+            "id": "UgybMsl2tCNm5UiUcxN4AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "Is this done with a drone?",
+              "textOriginal": "Is this done with a drone?",
+              "authorDisplayName": "John Kenny",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu-i5kKobewknJ9yjai-QA3yyOB5648zoxb5=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC1EYCE9Rme5lAb0KdDk2xrQ",
+              "authorChannelId": {
+                "value": "UC1EYCE9Rme5lAb0KdDk2xrQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2023-01-01T10:22:30Z",
+              "updatedAt": "2023-01-01T10:22:30Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "NRK9QcrJwnNlc-mvDJ6yMucDKLs",
+        "id": "UgzcY2wj7PvVp_ajE7N4AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "snZQOyCh56cEqSXpmCVDHwGPhNE",
+            "id": "UgzcY2wj7PvVp_ajE7N4AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡............................................................................................................... BEAUTYFULL",
+              "textOriginal": "🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡🧡............................................................................................................... BEAUTYFULL",
+              "authorDisplayName": "THE NATURE WORLD",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/e4ITABTQz4S9lwCepGShzfjuBDvBBM2pDdEsUCAV2E_XzPQuhFZ4lmfVGTXdFuzA53sTMntPHA=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCGoCjExGPKUgIN1z0YzzOtg",
+              "authorChannelId": {
+                "value": "UCGoCjExGPKUgIN1z0YzzOtg"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2022-12-26T16:24:10Z",
+              "updatedAt": "2022-12-26T16:24:10Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "p0vlofNePSaugsTVuLZYTUyIsv8",
+        "id": "Ugy43FeLjt2YVW9uLIB4AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "KdsNqg3zJbygCeaj8o2rW8Gn-Dg",
+            "id": "Ugy43FeLjt2YVW9uLIB4AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "@PRIMAL EARTH Can i use this for a future video if you dont mind",
+              "textOriginal": "@PRIMAL EARTH Can i use this for a future video if you dont mind",
+              "authorDisplayName": "Fir3 less",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu-s78P-KiHiXW2fchehvLMkevl75hxUJHw-g0VJJg=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCz0CFVt-DgYGjBvcRWIslnA",
+              "authorChannelId": {
+                "value": "UCz0CFVt-DgYGjBvcRWIslnA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2022-12-19T15:38:06Z",
+              "updatedAt": "2022-12-19T15:38:35Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "YSucTu71ttR3kipn7QWlNuUirS0",
+        "id": "UgwV5FYrPOSFFGwaKYN4AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "VHFiqRiqOEHuSmdZXmdzaSwP688",
+            "id": "UgwV5FYrPOSFFGwaKYN4AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "Thanks Emre, for sharing this video with me. I hope u success and healthiness 🤍",
+              "textOriginal": "Thanks Emre, for sharing this video with me. I hope u success and healthiness 🤍",
+              "authorDisplayName": "kavackci",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/Ln9yx3pxqwXKwfGW_xzWw7B4dorKuX9j33tInVR9DyzNYveF4a2Wcj073fInTbr8tAGRXn7Hqg=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC66SVMq-KBZbUhmsrpHO7lg",
+              "authorChannelId": {
+                "value": "UC66SVMq-KBZbUhmsrpHO7lg"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2022-12-16T15:58:52Z",
+              "updatedAt": "2022-12-16T15:58:52Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "h7xm4OUecoDkByX-xUt_JO24wlc",
+        "id": "UgwMavnr_hPIgpYUnSx4AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "24WabmkM1DmH7NUASLEmTOIbnFg",
+            "id": "UgwMavnr_hPIgpYUnSx4AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "\u003ca href=\"https://www.youtube.com/watch?v=G1hKzCkywM8&amp;t=2h02m49s\"\u003e2:02:49\u003c/a\u003e what&#39;s the song?💕",
+              "textOriginal": "2:02:49 what's the song?💕",
+              "authorDisplayName": "Ethel Sotelo",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu8K7sGNKR8V8ozD8gKT7BT_CcycdZ_CZWs5VRPttLE=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC-TJVr_4G7V7Kp7MuWn_CAg",
+              "authorChannelId": {
+                "value": "UC-TJVr_4G7V7Kp7MuWn_CAg"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2022-12-15T17:27:38Z",
+              "updatedAt": "2022-12-15T17:29:06Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "9B2ZRetMxDSs4E58Qt9Yr5mYohw",
+        "id": "UgxeeRFUKTzk7QIoFPt4AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "1nm8SvvVhlnM3KHJa_ld9N6gytI",
+            "id": "UgxeeRFUKTzk7QIoFPt4AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "I can’t believe it’s places on earth this beautiful 💔🥹🔥🔥",
+              "textOriginal": "I can’t believe it’s places on earth this beautiful 💔🥹🔥🔥",
+              "authorDisplayName": "Wonders of the skies🌅",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/fbTHK9BvAYZTzkkHUsBhBkFxbHKarDLEnUN92ZJAJIggbKQHdZzSHVRh-g2jOlxSABQ21fD0Qds=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCHhzaWVhsTAXxuVCMTZEkiQ",
+              "authorChannelId": {
+                "value": "UCHhzaWVhsTAXxuVCMTZEkiQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2022-12-14T23:51:26Z",
+              "updatedAt": "2022-12-14T23:51:26Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "Yk4cV6DaiqLS1i_3I_BGkgh80GU",
+        "id": "UgwAM1xmmyfu15Gl3054AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "UbE-jENtSKUf1vdEQ-ftmlLKOyM",
+            "id": "UgwAM1xmmyfu15Gl3054AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "nice",
+              "textOriginal": "nice",
+              "authorDisplayName": "Nature view through-camera",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/RUzV5DzsPset155Z43xH29gZ--FnCQeVocRw_yS9A2E56t5SPD-xb3STcq4TI_VDpFUJy7omCw=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCOjNapoFvNxK21IKB0fDIkA",
+              "authorChannelId": {
+                "value": "UCOjNapoFvNxK21IKB0fDIkA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2022-12-13T07:34:54Z",
+              "updatedAt": "2022-12-13T07:34:54Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "SGT1R38bmbOVTMsg0erkg4YdzuM",
+        "id": "Ugwt0dxqnnTF9jez7Bh4AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "HhpfY9HrOUWQ9SRgwfJOv9kd6uI",
+            "id": "Ugwt0dxqnnTF9jez7Bh4AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "Amazing footage",
+              "textOriginal": "Amazing footage",
+              "authorDisplayName": "The Source",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu9P9f6UuUfZ8-K4DhjbQRhvUmcYgVMHc0XdoqGIEw=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCEaR5gKrioOF-IoX4BHKbmw",
+              "authorChannelId": {
+                "value": "UCEaR5gKrioOF-IoX4BHKbmw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2022-12-11T14:07:21Z",
+              "updatedAt": "2022-12-11T14:07:21Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "MXCHEt6csu2Y2Wh2Bx-IlCUimWA",
+        "id": "Ugw4RzVxPVLW-GRGEcB4AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "dDEdMgLyzOUiXq_tXj7vf7tNnXE",
+            "id": "Ugw4RzVxPVLW-GRGEcB4AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "Amazing trips with beautiful nature",
+              "textOriginal": "Amazing trips with beautiful nature",
+              "authorDisplayName": "Deep Focus Music",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/XzoQJ5XHRgeFecmRUN9ugQxOKSOHC8HfJDUCmjL8zxjXm3LYwLknPNwFDrrtk4-84miygVCpyw=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCPYDSCY4_jNQQpPNvp_EGLA",
+              "authorChannelId": {
+                "value": "UCPYDSCY4_jNQQpPNvp_EGLA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2022-12-05T02:41:30Z",
+              "updatedAt": "2022-12-05T02:41:30Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "P0DemfvRJZwoWMadJ8gMJoBC8JM",
+        "id": "Ugyd0yZdRm2Sjsihw-14AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "B0n3wZi9qR8LQsUSer41L8Ux3so",
+            "id": "Ugyd0yZdRm2Sjsihw-14AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "Очень красиво, но на мой вкус слишком часто меняются пейзажи.",
+              "textOriginal": "Очень красиво, но на мой вкус слишком часто меняются пейзажи.",
+              "authorDisplayName": "Дороги в стране",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu-9E7L9hs2oC_6O3wKxoktlrD_5g-WsWV7PSrbID2h7x5jQJQdKAYiilyHBpG6OAQ=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCTpZxxXxuOdiXOgd1CP9elQ",
+              "authorChannelId": {
+                "value": "UCTpZxxXxuOdiXOgd1CP9elQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2022-12-03T03:43:44Z",
+              "updatedAt": "2022-12-03T03:43:44Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "wVx-8MJhd8BTUzwSxUJuq3YVUYw",
+        "id": "Ugw3kADsTggTDfAG2Eh4AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "LU2HbYDp3PI3nVZIQREBby5OJ7c",
+            "id": "Ugw3kADsTggTDfAG2Eh4AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "I love how realistic it is ❤️❤️❤️❤️💙❤️💝🖤🍦 and nice sounding",
+              "textOriginal": "I love how realistic it is ❤️❤️❤️❤️💙❤️💝🖤🍦 and nice sounding",
+              "authorDisplayName": "Tay-Tayva Lalap",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu_692aIcQ54Poh2dDKin-lTm_yFK1uPCsF8q9VZ=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCQyYdn4QuSAtbhs4rTCneCA",
+              "authorChannelId": {
+                "value": "UCQyYdn4QuSAtbhs4rTCneCA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2022-12-01T02:18:55Z",
+              "updatedAt": "2022-12-01T02:18:55Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "gs4wOTB2f7-6JxfXm2gqWH-yHXQ",
+        "id": "UgynnHo7JbUmaTxLQtx4AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "C3DW6Zh-kSfRmq5tQSxGsu9nwho",
+            "id": "UgynnHo7JbUmaTxLQtx4AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "This is not truly 4k footage, you just upscale FHD video, that&#39;s sad...",
+              "textOriginal": "This is not truly 4k footage, you just upscale FHD video, that's sad...",
+              "authorDisplayName": "C.V.",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu_yrVwwUIGKs6c_ySd6Yu7XSf1PVqcU__k0ENko=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCmNi20VvjRBfTKeoNS_AGcg",
+              "authorChannelId": {
+                "value": "UCmNi20VvjRBfTKeoNS_AGcg"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2022-11-21T18:16:26Z",
+              "updatedAt": "2022-11-21T18:16:26Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "Gs9gClGLK9YqKpSfEU3jysjHdEs",
+        "id": "UgzQ4nLsK2KCWxX4kyd4AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "Mmz69d5PlrUpN7JTB4pqWqRdhe4",
+            "id": "UgzQ4nLsK2KCWxX4kyd4AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "Very nice  to watch\u003cbr\u003eWhich  place  is this?",
+              "textOriginal": "Very nice  to watch\nWhich  place  is this?",
+              "authorDisplayName": "Raji CB",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AMLnZu-vXMVUAg8UDr0pJ0cKH4Z0MI8020hwhsxamQ=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC3SI6cBejawgGYPP3xqopMw",
+              "authorChannelId": {
+                "value": "UC3SI6cBejawgGYPP3xqopMw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2022-11-18T03:33:00Z",
+              "updatedAt": "2022-11-18T03:33:00Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      },
+      {
+        "kind": "youtube#commentThread",
+        "etag": "Y6dlbS8nqJ2BRlf7jXZ6kwM5d5k",
+        "id": "UgwCDPhI-n2FFIY92bN4AaABAg",
+        "snippet": {
+          "videoId": "G1hKzCkywM8",
+          "topLevelComment": {
+            "kind": "youtube#comment",
+            "etag": "pBQGjFPh4quu4Y-UcyyicOexnig",
+            "id": "UgwCDPhI-n2FFIY92bN4AaABAg",
+            "snippet": {
+              "videoId": "G1hKzCkywM8",
+              "textDisplay": "Incredible!",
+              "textOriginal": "Incredible!",
+              "authorDisplayName": "Harry Kang’s Photography and Vlogs",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/Q_o1UFmqBD-3ABCKjii7fF5gZ3WpPD1Qvg79yLJl9BY4PLoSiS2iD1KTvQfy67zi9sxHYnD4Iw=s48-c-k-c0x00ffffff-no-rj",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCjrnbv3fkPGI1tX_QTGrufw",
+              "authorChannelId": {
+                "value": "UCjrnbv3fkPGI1tX_QTGrufw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2022-11-16T06:39:06Z",
+              "updatedAt": "2022-11-16T06:39:06Z"
+            }
+          },
+          "canReply": true,
+          "totalReplyCount": 0,
+          "isPublic": true
+        }
+      }
+    ]
+  },
+  "relatedVideo": {
+    "kind": "youtube#searchListResponse",
+    "etag": "3u37-IP1K48ZWezLAbQcCjAfOtU",
+    "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "5XAnlK9_KLGIZS-oOusw9CqSm-8",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "QSNa8U1yGrM"
+        },
+        "snippet": {
+          "publishedAt": "2021-05-03T00:20:58Z",
+          "channelId": "UC8D_NXFBh8A9KSwo7x-wFdQ",
+          "title": "EARTH in 8K ULTRA HD - Tour Through the Planet Earth - Best Places and Animals Relaxing Music 8K TV",
+          "description": "Despite its name, Earth may be the only planet in our solar system that has oceans. It is the fifth-largest planet in the solar system and perhaps the only one that harbors life.\n\nThe Earth's seas and oceans, which cover 70% of its surface, are home to a large amount of life. With an average depth of 4 km, they account for 97% of the water on the planet. In addition, they feature some impressive landforms: the most extensive mountain range, the Mid-Oceanic Ridge, is deep under the sea. Four times as long as the Andes, the Rocky Mountains, and the Himalayas arranged in a row, it stretches 65,000 km across the Arctic and the Atlantic.\n\nA study carried out jointly by the Universities of Münster, Cambridge, and the Zurich Technique showed that the age of the planet is between 4,400 million and 4,510 million years. So far, five mass extinctions have been recorded on the planet. The first occurred 440 million years ago and the last 65 million years ago. Michael Rampino, an Earth science expert at New York University, argues that it takes about 30 million years for the Solar System to cross the plane of the Milky Way. The presence of the system could be one of the reasons why comets' orbits are destabilized, launching them towards the planet. To this, he adds a possibility that is little studied today: dark matter.\n\n8.7 million species, a single planet. The ecosystems that we depend on, as humans, to survive are made up of around 8.7 million plant and animal species. At least this is confirmed by a study by the University of Hawaii (United States) carried out in 2011, which is said to be the most accurate to date. Of these, we only know 1.3 million. Unfortunately, WWF warns with its Living Planet report that, since the 70s of the last century, only the world population of vertebrates has been reduced by 60% due to global warming, the destruction of ecosystems, and the crisis of biodiversity caused by human action. It is in our power to care for and protect (and even discover) all those species that make our planet an (almost) inexhaustible source of life.\n\nFollow me:\n►YouTube: https://www.youtube.com/channel/UC8D_NXFBh8A9KSwo7x-wFdQ/\n\n►Facebook: https://www.facebook.com/bruno.saraviavega\n►Instagram: https://www.instagram.com/brunosaravia\n\nCanon - Sony - Nikon - Adobe Premiere Pro CC - Photoshop - Lightroom CC\nYoutube Business - Youtube Profit - Bank Credit - Loans - Educational - Education - Insurance\n\nEARTH in 8K ULTRA HD - Tour Through the Planet Earth - Best Places and Animals Relaxing Music 8K TV (FUHD) Demo 8K ULTRA HD\n\n#8K #PLANET #EARTH",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/QSNa8U1yGrM/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/QSNa8U1yGrM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/QSNa8U1yGrM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/QSNa8U1yGrM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/QSNa8U1yGrM/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "8K VIDEOS ULTRA HD",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-05-03T00:20:58Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "0lzi4doh091CHcZkfX4Hegej0XA",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "hlWiI4xVXKY"
+        },
+        "snippet": {
+          "publishedAt": "2018-10-07T06:28:56Z",
+          "channelId": "UCjzHeG1KWoonmf9d5KBvSiw",
+          "title": "Beautiful Relaxing Music • Peaceful Piano Music & Guitar Music | Sunny Mornings by @PederBHellandMusic",
+          "description": "Beautiful relaxing music by Peder B. Helland. Enjoy peaceful piano music and guitar music (\"Sunny Mornings\" ) with birds singing in the background. Stream or download music from Soothing Relaxation: https://soothingrelaxation.lnk.to/listenYL\n\n💿 Track information:\nTitle: Sunny Mornings \nComposer: @PederBHellandMusic \nIndex: ★151\nAlbum: Sunny Mornings\nBuy or stream this album: https://soothingrelaxation.lnk.to/sunny-mornings\nBuy this track: https://soothingrelaxation.com/products/sunny-mornings-beautiful-relaxing-music-151\nBuy this video as an MP3 file: https://soothingrelaxation.com/products/hlWiI4xVXKY\nLicense this track: https://soothingrelaxation.com/products/sunny-mornings-license\nSheet music: https://soothingrelaxation.com/products/sunny-mornings\n\nFollow Soothing Relaxation on...\nOur website: https://soothingrelaxation.lnk.to/websiteYL\nFacebook: https://soothingrelaxation.lnk.to/FacebookYL\nInstagram: https://soothingrelaxation.lnk.to/InstagramYL\nSpotify: https://soothingrelaxation.lnk.to/listenYL/spotify\nApple Music: https://soothingrelaxation.lnk.to/listenYL/applemusic\nYouTube Music: https://soothingrelaxation.lnk.to/listenYL/youtubemusic\nAmazon Music: https://soothingrelaxation.lnk.to/listenYL/amazonmusic\nDeezer: https://soothingrelaxation.lnk.to/listenYL/deezer\n\nFollow Peder B. Helland on...\nWebsite: https://pederbhelland.lnk.to/websiteYL\nFacebook: https://pederbhelland.lnk.to/facebookYL\nInstagram: https://pederbhelland.lnk.to/instagramYL\n\nListen to more relaxing music: https://www.youtube.com/playlist?list=PLQ_PIlf6OzqL3BE0rB6clb9IzLLkkSKUF\n\nGet a free music download and stay updated with our newsletter: https://soothingrelaxation.lnk.to/newsletterYL\n\n📜 Message from the composer and creator of Soothing Relaxation:\n\"I am a composer from Norway and I started this channel with a simple vision: to create a place that you can visit whenever you want to sit down and relax. I compose music that can be labeled as for example: sleep music, calm music, yoga music, study music, peaceful music, beautiful music and relaxing music. I love to compose music and I put a lot of work into it. \n\nThank you very much for listening and for leaving feedback. Every single day I am completely astonished by all your warm support and it really inspires me to work even harder on my music. If you enjoy my work, I would be very happy if you decided to subscribe and join our community. Have a wonderful day or evening!\"\n\n- Peder B. Helland, composer for Soothing Relaxation\n\n© Copyright:\nMusic composed by Peder B. Helland. \nFootage/photos licensed from:\n• Pond5: azgek1, pavlas24, aflomotion \n\n☀️ Relevant hashtags:\n#relaxingmusic, #relax, #soothingrelaxation, #music, #sleep",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/hlWiI4xVXKY/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/hlWiI4xVXKY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/hlWiI4xVXKY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/hlWiI4xVXKY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/hlWiI4xVXKY/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Soothing Relaxation",
+          "liveBroadcastContent": "none",
+          "publishTime": "2018-10-07T06:28:56Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "IrvMgf146KXD8T5QIy7uL17ayfA",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "hpfVMPCR3xA"
+        },
+        "snippet": {
+          "publishedAt": "2021-08-07T11:58:20Z",
+          "channelId": "UCS4jPUCax8d3f-uke--YXXQ",
+          "title": "FLYING OVER CANADA (4K UHD) - Relaxing Music With Stunning Beautiful Nature (4K Video Ultra HD)",
+          "description": "Welcome to Earth Relaxation !\nCanada is a country in North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres (3.85 million square miles), making it the world's second-largest country by total area. Its southern and western border with the United States, stretching 8,891 kilometres (5,525 mi), is the world's longest bi-national land border. Canada's capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver. A highly developed country, Canada has the seventeenth-highest nominal per-capita income globally and the sixteenth-highest ranking in the Human Development Index. Its advanced economy is the tenth-largest in the world, relying chiefly upon its abundant natural resources and well-developed international trade networks.\nMusic has so many benefits, and one of them is that it calms your nerves down. It's always a good idea to listen to some background music while you're doing something. So here are some relaxing piano pieces with 4k nature videos that will help you relax, feel relaxed, and get ready for bed.\nIn this video, I'm going to show you my favorite nature video that will help you relax and improve your mood. It's a 4k video with relaxing music and calming nature sounds. There are no talking in this video so you can enjoy the natural sound of the forest, the sound of a river, and some birds chirping.\nWatch the 4k ultra high definition video in this video in somewhere at nail salon, public transport or restaurant. Relaxing music is playing in the background. Try out this 4k ultra high definition video let me know what you think in the comments below!.\n▽ Follow Earth Relaxation\n➤ Youtube → https://www.youtube.com/channel/UCS4jPUCax8d3f-uke--YXXQ\n#earthrelaxation​ #relaxingmusic​ #4kcanada\n----------------------------------------------------------------------\nMusic provided by EMVN\nSubmit your music: http://emvn.co/submitDemo\n📌 Contacts: copyright.thstudio@gmail.com, network@emvn.co\nTrack list:\n0:0:0   | 1 . Relax\n0:4:54  | 2 . Calm\n0:9:46  | 3 . Beach\n0:14:30 | 4 . Water\n\nFollow Artists:\nhttps://emvn.fanlink.to/melosy\n----------------------------------------------------------------------\n►All rights belong to their respective owners.\n✔ This video was given a special license directly from the artists and the right holders.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/hpfVMPCR3xA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/hpfVMPCR3xA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/hpfVMPCR3xA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/hpfVMPCR3xA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/hpfVMPCR3xA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Earth Relaxation",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-08-07T11:58:20Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "tE-onscHNqnNdqU_CGuFgD58Jrg",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "Tjsdoxovb2U"
+        },
+        "snippet": {
+          "publishedAt": "2023-01-13T17:17:12Z",
+          "channelId": "UCuaYvu45lq5fwmnv_zF8sng",
+          "title": "Norway - Scenic Relaxation Film 4k",
+          "description": "#nature #4kfilm #4knature #norway \nWatch this 4k video tour of Norway and experience the beautiful landscape and stunning culture first-hand. From the capital Oslo to the rugged mountain ranges of the Fjeldhjellet, this video will take you on a journey through one of the world's most beautiful countries.\n\nStep into the Norwegian wilderness and experience the natural beauty of this stunning country for yourself with this 4k video tour! With stunning landscapes and a culture steeped in history, Norway is a must-see destination for anyone visiting Europe. Experience this beautiful country in 4k quality with this video!\n\nOur other Films:\nIndonesia 4K - https://www.youtube.com/watch?v=nAfrCO28fVc\nThailand 4K - https://www.youtube.com/watch?v=sA2c9naaLTg\nSri Lanka 4K - https://www.youtube.com/watch?v=vdA8lrAoL9A\nUtah 4k - https://www.youtube.com/watch?v=s6Ak0Q41FcY\nItaly 4k - https://www.youtube.com/watch?v=ko5EIZM0gb8\n\nTimeline:\n00:00 Intro\n00:47 Lovatnet lake\n01:28 Trolltunga\n01:57 Langfoss waterfall\n02:25 Haukland Beach \n03:27 Alesund \n03:50 Hardanger Bridge \n05:00 Sognefjord\n06:07 Atlantic Ocean Road \n07:43 Lofoten island \n09:45  Henningsvaer\n10:53 Kragero \n12:48 Vøringsfossen waterfall \n13:43 Briksdalsbreen Glacier\n15:00 Hamningberg\n16:22 Trollstigen\n18:03 Seven Sisters Waterfall \n18:33 Pulpit rock\n20:10 Lovatnet lake\n20:57 Saltstraumen bridge \n21:44 Zakariasdamm\n22:15 Lindesnes Lighthouse\n23:39 Tromso\n25:29 North Cape\n01:00:43 Thanks for waching, save nature, save the planet\n\nMore inspiration: \nYouTube  https://www.youtube.com/@Earth_to_inspire\nInstagram https://www.instagram.com/earth_to_inspire/\nTikTok https://www.tiktok.com/@earth_to_inspire?lang=en.\n\n#norway4k #dronevideo #droneview #relaxing #calmmusic #savetheworld #savethenature #savetheplanet",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Tjsdoxovb2U/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Tjsdoxovb2U/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Tjsdoxovb2U/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Tjsdoxovb2U/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Tjsdoxovb2U/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Earth to inspire",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-01-13T17:17:12Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "vs3WO9PnY7wBrBeGxVuBojKt0eA",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "YFhwEJosUsU"
+        },
+        "snippet": {
+          "publishedAt": "2022-08-20T02:42:35Z",
+          "channelId": "UC8D_NXFBh8A9KSwo7x-wFdQ",
+          "title": "TOP 50 • Most Beautiful Places in the World 8K ULTRA HD",
+          "description": "TOP 50 - In this video you will find a TOP 50 of the Most Beautiful Places in the World 8K. You will take a tour around the world to see the best places on the planet earth 8K.\nIn this video you will see the amazing Halong Bay in Vietnam that for many, the seascape of Ha Long Bay is one of the most beautiful beaches in the world. Cruises sail emerald green waters among thousands of rugged islands and islets with islands and most amazing landscapes.\nPamukkale Is The Most Visited Individual Site in All of Turkey! Not Istanbul's Hagia Sophia. Not the ancient ruins of Ephesus.\nKrabi is famous for its scenic view and breathtaking beaches and Islands. Its coral reef vistas are also one of the world’s most beautiful, which makes the City a great spot for coral and fish video.\nFiordland is one of the most dramatic and beautiful parts of New Zealand. Absorb the breathtaking treasures of this region by water, air or hiking.\nMu Cang Chai is home to some of Asia’s most magnificent cultivated lands. Rice terraces coil in parts around the hills to spectacular effect, luring photographers, hikers, and amazing motorbikers.\nThis citadel in the clouds was abandoned only 100 years later but Spanish invaders never found Machu Picchu. It was left to nature before explorer Hiram Bingham caught wind of it on an expedition in 1911 and decided to investigate. A hidden city protected by the mountains, and still wonderfully inaccessible other than by foot or train, Machu Picchu is now a New Seven Wonders of the World.\nThe Great Wall of China is one of the greatest sights in the world, the longest wall in the world, an awe-inspiring feat of ancient defensive architecture.\nLocated on the northern side of Greece, Meteora is included in the World Heritage List. Dotted with towering rocks, it boasts a breathtaking landscape, creating otherworldly beautiful scenery.\nBe sure to visit Keukenhof, where you will experience the gorgeous views of blooming Dutch tulips and other flowers for which Holland is famous. Keukenhof is the most famous and largest flower park in the world and lies not far from Amsterdam.\nThe island is actually a group of islands consisting of Thira, Thirassia, Aspronissi, Palea and Nea Kameni in the southernmost part of the Cyclades.\nOne highlight of the trails inside the Torres del Paine National Park The viewpoint over the Grey lake and glaciar in chile.\nNorway's Lofoten Islands are referred to as the Lofoten Wall because they are vertical rows of granite shooting out of the Arctic Sea.\nThe Amalfi Coast is a 34-mile-long region in Campania, Italy. \nCappadocia is a beautiful region in central Turkey famous for its fairytale scenery.\nAntarctica is the coldest, windiest and driest continent. It contains 90 percent of all of the ice on Earth 8K.\n\nList of the Most Beautiful Places in the Planet Earth 8K:\n00:00 Intro 8K ULTRA HD\n00:10 Halong Bay, Vietnam\n00:46 Pamukkale, Turkey\n01:25 Plitvice Lakes National Park, Croatia\n02:12 Krabi, Thailand\n03:12 Fiordland, New Zeland\n03:58 Mu Cang Chai, Vietnam\n04:57 Machu Picchu, Peru\n05:29 The Great Wall of China\n06:19 Meteora, Thessaly, Greece\n07:18 Keukenhof Gardens, Netherlands\n08:16 Santorini Island, Greece\n09:09 Torres del Paine, Chile\n09:56 Lofoten Islands, Norway\n11:38 Amalfi Coast, Italy\n12:48 Cappadocia, Turkey\n14:02 Fiji\n15:38 Fjords, Norway\n17:09 Antarctica\n19:10 Bagan, Myanmar\n20:29 Dubai, United Arab Emirates\n21:54 Maldives\n23:47 Monument Valley, USA\n25:18 Iguazu Falls, Brasil - Argentina\n26:26 Swiss Alps, Switzerland\n27:49 Angkor Wat, Cambodia\n29:03 Fernando de Noronha, Brazil\n30:22 Lisbon, Portugal\n31:58 Paris, France\n33:25 Cape Town, South Africa\n34:22 Himalayas, Nepal\n35:22 Venice, Italy\n36:55 Zhangye Danxia, China\n37:52 Sossusvlei, Namibia\n38:57 Forbiden City, China\n38:50 Petra, Jordan\n40:36 Zlatni Rat, Croatia\n42:00 Barcelona, Spain\n43:12 Giza, Egypt\n44:23 Atacama Desert, Chile\n45:30 Okavango Delta, Botswana\n46:45 Whitsunday, Australia\n47:28 Cinque Terre, Italy\n48:54 Neuschwanstein Castle, Germany\n50:01 Tuscany, Italy\n51:45 Sahara Desert, Africa\n53:25 Bamboo Forest, Japan\n54:32 Lake Bled, Slovenia\n55:54 Li River, China\n57:43 Zakynthos, Greece\n\nFollow me:\n►YouTube: https://www.youtube.com/channel/UC8D_NXFBh8A9KSwo7x-wFdQ/\n►Facebook: https://www.facebook.com/bruno.saraviavega\n►Instagram: https://www.instagram.com/brunosaraviaphotography\n\nCanon - Sony - Nikon - Adobe Premiere Pro CC - Photoshop - Lightroom CC\n\nTOP 50 Most Beautiful Places in the World 8K ULTRA HD 8K HDR 60FPS (FUHD) Demo TV 8K ULTRA HD\n\n#8K #MOST #BEAUTIFUL #PLACES #PLANET #EARTH #WORLD #TOP50",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/YFhwEJosUsU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/YFhwEJosUsU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/YFhwEJosUsU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/YFhwEJosUsU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/YFhwEJosUsU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "8K VIDEOS ULTRA HD",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-08-20T02:42:35Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "HMaqXfV2hlnRHLuUTFXHwn60xbI",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "nq4tT68UoCg"
+        },
+        "snippet": {
+          "publishedAt": "2022-01-05T16:59:13Z",
+          "channelId": "UCkFeoNSqYTa7trn75WM9tsg",
+          "title": "✨  Space Ambient Music • Deep Relaxation Space Journey [ 4K UHD ]",
+          "description": "Space Ambient Music [  Space Exploration  ]. It is an excellent ambient Cosmic soundscape Background for Space exploring, stargazing, learning astronomy, Dreaming, Soul Healing, Stress Relief and complete relaxation. Also you can try to use it while creating arts, writing, studying etc. Use it for Universe Exploring, Astronomy, Astral Projection, for creating continues cosmic mood for dreaming and reading fantastic, exploring outer space, gaming and coding\n\n🎵  Music:   Space Exploration \n       Album:  Starfield\n      https://spoti.fi/39EL8F0\n      https://apple.co/3mXohYu \n💎  Animation: by Blue Wave Studio\nⓒ Copyrights: Blue Wave Studio\n\n#spacemusic\n#spaceambient\n#ambient",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/nq4tT68UoCg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/nq4tT68UoCg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/nq4tT68UoCg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/nq4tT68UoCg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/nq4tT68UoCg/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Relaxation Ambient Music",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-01-05T16:59:13Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "9oGs0OPqYP-U8YLf3qUwjY4XLyI",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "RgCENw09Dpk"
+        },
+        "snippet": {
+          "publishedAt": "2022-09-17T02:50:31Z",
+          "channelId": "UC8D_NXFBh8A9KSwo7x-wFdQ",
+          "title": "TOP 50 • Most Beautiful CITIES in the World 8K ULTRA HD",
+          "description": "TOP 50 of the Most Beautiful CITIES in the World 8K for your best 8k device. Travel around the planet earth 8K to see the best cities in the world.\nAre you making some plans to visit beautiful places in the planet earth? The world is full of beautiful and amazing places to visit like cities skylines where you can enjoy mother nature and amazing cities skylines around the world. We have compiled this list to help you plan your trip to see the most beautiful places on the planet.\nBeautiful cities are popular for their beauty, architecture of the buildings, people that live there, and most importantly the most popular food in the world. People who love traveling are always searching for a new city to go to.\nFor this reason, you need to know the particular information about these cities to safely visit and explore all the possible places around the planet earth 8K with the best cities.\n50 Most Beautiful Cities in the World:\n\n00:00 Intro 8K ULTRA HD\n00:10 50 Most Beautiful Cities in the World\n00:15 Paris, France\n00:48 New York, United States\n01:29 London, United Kingdom\n02:01 Venice, Italy\n02:48 Barcelona, Spain\n03:48 Amsterdam, Netherlands\n04:33 Rome, Italy\n05:14 Singapore\n05:47 Lisbon, Portugal\n06:43 Prague, Czech Republic\n08:12 Istanbul, Turkey\n09:02 Tokyo, Japan\n09:51 Vienna, Austria\n11:21 Buenos Aires, Argentina\n12:36 San Diego, United States\n14:00 Hong Kong\n15:16 Chicago, United States\n16:54 Bruges, Belgium\n18:09 Madrid, Spain\n19:25 Dubai, United Arab Emirates\n20:42 Edinburgh, United Kingdom\n22:08 Zurich, Switzerland\n23:26 Cuzco, Peru\n24:43 St. Petersburg, Russiaç\n25:59 Berlin, Germany\n27:15 Hanoi, Vietnam\n28:25 Queenstown, New Zeland\n28:37 Dubrovnik, Croatia\n30:58 Bangkok, Thailand\n32:24 Dublin, Ireland\n33:34 Bergen, Norway\n34:59 Beijing, China\n35:46 Athens, Greece\n37:08 Phuket, Thailand\n38:30 Edinburgh, Scotland\n40:08 Mexico City, Mexico\n41:18 Moscow, Russia\n42:29 Munich, Germany\n43:55 Cairo, Egypt\n44:48 Chicago, United States\n46:38 Zurich, Switzerland\n47:45 Copenhagen, Denmark\n48:56 Reykjavik, Iceland\n50:12 Kyoto, Japan\n51:18 Florence, Italy\n52:44 Porto, Portugal\n54:10 Jakarta, Indonesia\n55:09 Best Cities to live in the Planet\n55:14 Outro 8K ULTRA HD\n\nFollow me:\n►YouTube: https://www.youtube.com/channel/UC8D_NXFBh8A9KSwo7x-wFdQ/\n►Facebook: https://www.facebook.com/bruno.saraviavega\n►Instagram: https://www.instagram.com/brunosaraviaphotography\n\nCanon - Sony - Nikon - Adobe Premiere Pro CC - Photoshop - Lightroom CC\nYoutube Business - Youtube Profit - Bank Credit - Loans - Educational - Education - Insurance\n\nAmazing & Beautiful Cities Around the Planet Earth 8K HDR 60FPS (FUHD) Demo TV 8K ULTRA HD\n\n#8K #CITIES  #SKYLINE #BEAUTIFUL #RELAXING #WORLD #CITIESSKYLINES #TRAVEL #TOUR",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/RgCENw09Dpk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/RgCENw09Dpk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/RgCENw09Dpk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/RgCENw09Dpk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/RgCENw09Dpk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "8K VIDEOS ULTRA HD",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-09-17T02:50:31Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "Ega2ZKTVBIIkrF0xOo9LEfx7Owg",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "2OEL4P1Rz04"
+        },
+        "snippet": {
+          "publishedAt": "2019-09-04T06:50:42Z",
+          "channelId": "UCjzHeG1KWoonmf9d5KBvSiw",
+          "title": "Beautiful Relaxing Music for Stress Relief • Meditation Music, Sleep Music, Ambient Study Music",
+          "description": "Beautiful relaxing music for stress relief, composed by Peder B. Helland. This instrumental music (\"The Hidden Valley\") works well as sleep music, ambient study music, meditation music or relaxation music.  Stream or download music from Soothing Relaxation: https://soothingrelaxation.lnk.to/listenYL\n\n💿 Track information:\nTitle: The Hidden Valley \nComposer: Peder B. Helland\nIndex: ★183\nAlbum: Flying\nBuy or stream this album: https://soothingrelaxation.com/products/flying-album\nBuy this track: https://soothingrelaxation.com/products/the-hidden-valley\nLicense this track: https://soothingrelaxation.com/products/the-hidden-valley-license\n\nFollow Soothing Relaxation on...\nSoothing Relaxation: https://soothingrelaxation.lnk.to/websiteYL\nFacebook: https://soothingrelaxation.lnk.to/FacebookYL\nInstagram: https://soothingrelaxation.lnk.to/InstagramYL\nSpotify: https://soothingrelaxation.lnk.to/listenYL/spotify\nApple Music: https://soothingrelaxation.lnk.to/listenYL/applemusic\nYouTube Music: https://soothingrelaxation.lnk.to/listenYL/youtubemusic\nAmazon Music: https://soothingrelaxation.lnk.to/listenYL/amazonmusic\nDeezer: https://soothingrelaxation.lnk.to/listenYL/deezer\n\nFollow Peder B. Helland on...\nWebsite: https://pederbhelland.lnk.to/websiteYL\nFacebook: https://pederbhelland.lnk.to/facebookYL\nInstagram: https://pederbhelland.lnk.to/instagramYL\n\nListen to our playlists on other music services: https://www.soothingplaylists.com/\nListen to more relaxing music: https://www.youtube.com/playlist?list=PLQ_PIlf6OzqL3BE0rB6clb9IzLLkkSKUF\nGet a free music download and stay updated with our newsletter: https://soothingrelaxation.lnk.to/newsletterYL\n\n📜 Message from the composer and creator of Soothing Relaxation:\n\"I am a composer from Norway and I started this channel with a simple vision: to create a place that you can visit whenever you want to sit down and relax. I compose music that often can be described as sleep music, calm music, yoga music, study music, peaceful music, beautiful music and relaxing music. I love to compose music and I put a lot of work into it. \n\nThank you very much for listening and for leaving feedback. Every single day I am completely astonished by all your warm support and it really inspires me to work even harder on my music. If you enjoy my work, I would be very happy if you decided to subscribe and join our community. Have a wonderful day or evening!\"\n\n- Peder B. Helland, composer for Soothing Relaxation\n\n© Copyright:\nMusic composed/arranged by Peder B. Helland. \nFootage/photos licensed from:\n• iStockPhoto: Treedeo, Yiming Li, Filmovar, MediaProduction, luza studios, ZoneCreative, SimonSkafar, captamotion, lavoview, f9photos, bo1982, sergeysxp, SimonSkafar, nattanan726, rmnunes, Forrestbro, crbellette, Mumemories, phaitoons, Yiming Li, komisar, ibigfish, gorodenkoff, FatCamera, SimonSkafar, JohnFScott, phaitoons, captamotion, Schroptschop, luza studios, Onfokus, DeoTree, Mumemories, superoke, NanoStockk\n• Pond5: azgek1, pavlas24, aflomotion \n• Videoblocks: jakerbreaker, cookelma, VladyslavStarozhylov, taden, guillaumelynn, Vadim_Key\n\n☀️ Relevant hashtags:\n#relaxingmusic, #relax, #soothingrelaxation, #music, #sleep",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/2OEL4P1Rz04/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/2OEL4P1Rz04/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/2OEL4P1Rz04/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/2OEL4P1Rz04/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/2OEL4P1Rz04/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Soothing Relaxation",
+          "liveBroadcastContent": "none",
+          "publishTime": "2019-09-04T06:50:42Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "IfqlEXrSTf6Z4SOm0mN3zjavftY",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "vQoR7gJTirk"
+        },
+        "snippet": {
+          "publishedAt": "2021-06-19T00:43:51Z",
+          "channelId": "UC8D_NXFBh8A9KSwo7x-wFdQ",
+          "title": "The Colors of the Ocean 8K ULTRA HD - The Best 8K Sea Animals for Relaxation & Calming Music",
+          "description": "THE COLORS OF THE OCEAN is a beautiful and RELAXING 8K Film about Sea Life and Marine Animals. In this video, we can watch marine animals from all over the world, with beautiful colors and shapes for relaxing sleep, or relaxation time.\nIt is estimated that 70 and 80 percent of all life on earth is below the ocean's surface and the oceans contain 99 percent of the planet's living space. Less than 11% of that space has been explored by humans. About 85 percent of the area and 90 percent of the volume constitute the dark and cold environment that we call the deep sea. The average depth of the ocean is 3,761 meters. The average height of the terrain is 850 meters.\nSo there are at least 236,878 marine species, but most likely there are at least 750,000 marine species, and possibly up to 25 million marine species. That's amazing!\nThe lowest known point on our Earth, called Challenger Deep, is 11,034 meters deep, in the Mariana Trench in the western Pacific. To get an idea of ​​how deep that is, if I could take Mount Everest and place it at the bottom of that place, there would still be more than a mile of the ocean above. The Dead Sea is the lowest land point on Earth with an elevation of 396 meters below sea level.\n\nSome Facts about the ocean and Sea Life:\n\n- Ocean water looks blue and not transparent. Sunlight is made up of all colors. When it reaches the sea, this white light passes through the water, absorbing the red and orange tones and allowing the green and bluish tones to pass through.\n- The Pacific Ocean is the largest ocean in the world. It occupies a third of its surface and extends approximately 15,000 km from the Bering Sea bordering the Arctic in the north to the south with Antarctica.\n- The oceanic clam, a marine mollusk from the North Atlantic, is the oldest animal in history with an estimated age of 507 years. It is about 8 cm long.\n- The largest mountainous area in the world is under the sea and is known as the mid-ocean ridges that run through the middle of the Atlantic Ocean to the Indian and Pacific.\n\nfollow me:\n►YouTube: https://www.youtube.com/channel/UC8D_NXFBh8A9KSwo7x-wFdQ/\n►Facebook: https://www.facebook.com/bruno.saraviavega\n►Instagram: https://www.instagram.com/brunosaraviaphotography\n\nCanon - Sony - Nikon - Adobe Premiere Pro CC - Photoshop - Lightroom CC\nYoutube Business - Youtube Profit - Bank Credit - Loans - Educational - Education - Insurance\n\nThe Colors of the Ocean 8K ULTRA HD - The Best 8K Sea Animals for Relaxation & Calming Music (FUHD) Demo 8K ULTRA HD\n\n#8K #ANIMALS #AQUARIUM",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/vQoR7gJTirk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/vQoR7gJTirk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/vQoR7gJTirk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/vQoR7gJTirk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/vQoR7gJTirk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "8K VIDEOS ULTRA HD",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-06-19T00:43:51Z"
+        }
+      }
+    ]
+  },
+  "videos": {
+    "kind": "youtube#searchListResponse",
+    "etag": "2RCFFcHXtMOgP_VRocs90LTeEG8",
+    "nextPageToken": "CAUQAA",
+    "regionCode": "KR",
+    "pageInfo": {
+      "totalResults": 1000000,
+      "resultsPerPage": 5
+    },
+    "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "bb8H2NegrbaoMPgWcehE8C3AjS4",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "G1hKzCkywM8"
+        },
+        "snippet": {
+          "publishedAt": "2021-05-22T06:00:05Z",
+          "channelId": "UCb57aRZr3KsykS_wNsD5Ptw",
+          "title": "6 Hour 4K Beautiful places Aerial Views",
+          "description": "Please enjoy 6Hour aerial journey of beautiful places on the Earth. This tour will take you around the world's great nature.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/G1hKzCkywM8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/G1hKzCkywM8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/G1hKzCkywM8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "PRIMAL EARTH ",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-05-22T06:00:05Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "mvOKLCMftV_V1bCiKSRec3OPjHc",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "gig9-jO7YL4"
+        },
+        "snippet": {
+          "publishedAt": "2021-07-17T10:00:21Z",
+          "channelId": "UCb57aRZr3KsykS_wNsD5Ptw",
+          "title": "Most Amazing 100 Places on The Earth 4K",
+          "description": "Please let us know by comments, which places are your favorite places in the video! There are many beautiful places on Earth.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/gig9-jO7YL4/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/gig9-jO7YL4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/gig9-jO7YL4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "PRIMAL EARTH ",
+          "liveBroadcastContent": "none",
+          "publishTime": "2021-07-17T10:00:21Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "JMa-GjMYEYBq0nz2xQvua_4wCLA",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "YFhwEJosUsU"
+        },
+        "snippet": {
+          "publishedAt": "2022-09-02T13:00:15Z",
+          "channelId": "UC8D_NXFBh8A9KSwo7x-wFdQ",
+          "title": "TOP 50 • Most Beautiful Places in the World 8K ULTRA HD",
+          "description": "TOP 50 - In this video you will find a TOP 50 of the Most Beautiful Places in the World 8K. You will take a tour around the world to ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/YFhwEJosUsU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/YFhwEJosUsU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/YFhwEJosUsU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "8K VIDEOS ULTRA HD",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-09-02T13:00:15Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "C6bCvcy8MUigvJ3g4PnVuwjE1_M",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "0q7c3Jac56A"
+        },
+        "snippet": {
+          "publishedAt": "2022-04-21T11:00:00Z",
+          "channelId": "UCRpNVpZoW56rOsV-6wFK3lg",
+          "title": "20 Most Beautiful Places On Planet Earth",
+          "description": "In this video, we'll be showing you 20 of the Most Beautiful Places on Planet Earth. Is it the world's highest sky corridor waterfall ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/0q7c3Jac56A/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/0q7c3Jac56A/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/0q7c3Jac56A/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "4 Ever Green",
+          "liveBroadcastContent": "none",
+          "publishTime": "2022-04-21T11:00:00Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "-mUYdD_boPvktcJaed5G8B8VOLU",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "OHAWwaYu2H0"
+        },
+        "snippet": {
+          "publishedAt": "2017-06-15T14:30:00Z",
+          "channelId": "UCaWd5_7JhbQBe4dknZhsHJg",
+          "title": "Top 10 Most Beautiful Places In The World",
+          "description": "Top 10 Most Beautiful Places In The World. Subscribe http://goo.gl/Q2kKrD More incredible around-the-world content & awesome ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/OHAWwaYu2H0/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/OHAWwaYu2H0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/OHAWwaYu2H0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "WatchMojo.com",
+          "liveBroadcastContent": "none",
+          "publishTime": "2017-06-15T14:30:00Z"
+        }
+      }
+    ]
+  }
+}
