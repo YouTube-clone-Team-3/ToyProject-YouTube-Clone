@@ -1,4 +1,4 @@
-export const calcDate = (date) => {
+const calcDate = (date) => {
   let answer = "";
   const targetDate = new Date(date).getTime();
   const nowDate = new Date().getTime();
@@ -23,3 +23,5 @@ export const calcDate = (date) => {
   }
   return answer;
 };
+
+export default calcDate;

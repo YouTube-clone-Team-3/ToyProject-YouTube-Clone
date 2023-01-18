@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Comments.module.scss";
-import { calcDate } from "../../utils/CalDate";
+import calcDate from "../../utils/CalDate";
 
 const Comments = ({ item }) => {
   const comment = item.snippet.topLevelComment.snippet;

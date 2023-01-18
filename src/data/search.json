@@ -1,0 +1,80 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "g0kDhDTlnitvTPbxD9UNcJDNipM",
+  "nextPageToken": "CAIQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 2
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PsdGz8PSB5l5MaM6HaSHTRy8jJ0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YQHsXMglC9A"
+      },
+      "snippet": {
+        "publishedAt": "2015-10-23T06:54:18Z",
+        "channelId": "UComP_epzeKzvBX156r6pm1Q",
+        "title": "Adele - Hello",
+        "description": "Listen to \"Easy On Me\" here: http://Adele.lnk.to/EOM Pre-order Adele's new album \"30\" before its release on November 19: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YQHsXMglC9A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YQHsXMglC9A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YQHsXMglC9A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "AdeleVEVO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-10-23T06:54:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bMOENM1CkFlsYvdpeLogMsrNX4E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aPd9exmH17o"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-04T09:17:22Z",
+        "channelId": "UCx9hXYOCvUYwrprEqe4ZQHA",
+        "title": "TREASURE - ‘HELLO’ M/V",
+        "description": "HELLO I've been all alone 사람들 속에서도 나 혼자 섬인가 봐 아무리 채워봐도 텅 빈 것만 같아 Everywhere I go 난 미친 것처럼 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aPd9exmH17o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aPd9exmH17o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aPd9exmH17o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "TREASURE (트레저)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-04T09:17:22Z"
+      }
+    }
+  ]
+}
