@@ -52,7 +52,7 @@ const EachRelatedVideo = ({ item, index }) => {
   return (
     <div className={styles.videoCard}>
       {relatedVideoSearch.length !== 0 && (
-        <Link to="/">
+        <Link to={`/detail/${item.id.videoId}`}>
           <div className={styles.thumbnails}>
             <img src={video.thumbnails.medium.url} alt={video.title} />
             <div className={styles.durationBox}>
