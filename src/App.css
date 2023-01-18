@@ -13,6 +13,7 @@
 
 .App aside {
   grid-area: aside;
+  position: relative;
 }
 
 .App .big {

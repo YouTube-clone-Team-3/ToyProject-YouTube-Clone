@@ -22,7 +22,7 @@ function App() {
       }
       </aside>
       <main>
-      <Outlet />
+        <Outlet />
       </main>
     </div>
   );

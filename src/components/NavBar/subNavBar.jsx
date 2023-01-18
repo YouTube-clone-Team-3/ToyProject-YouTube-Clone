@@ -1,13 +1,13 @@
 import React from "react";
-import { GrHomeRounded } from 'react-icons/gr'
 import styles from './SubNavBar.module.scss'
-import TabItem from './Tab/TabItem'
 
 export default function SubNavBar() {
   return (
     <div className={styles.subNav}>
       <div className={styles.iconContent}>
-        <GrHomeRounded className={styles.iconImg} />
+        <svg className={styles.svgIcon}>
+          <path d={["M4,10V21h6V15h4v6h6V10L12,3Z"]}></path>
+        </svg>
         <p className={styles.iconText}>홈</p>
       </div>
 
