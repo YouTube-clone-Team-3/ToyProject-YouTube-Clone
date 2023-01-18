@@ -1,0 +1,42 @@
+.detailBox {
+  width: 1240px;
+  background-color: bisque;
+  position: relative;
+  .channelInfo {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 55px;
+    .channelProfile {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      padding-right: 15px;
+    }
+    .channelDes {
+      display: flex;
+      flex-direction: column;
+      span {
+        &:first-child {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  .subBtn {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px;
+  }
+  .videoDes {
+    padding: 20px;
+  }
+}
