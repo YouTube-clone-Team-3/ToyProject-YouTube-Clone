@@ -4,8 +4,20 @@
   margin-top: 16px;
   .imgContent {
     margin-right: 16px;
+    position: relative;
+    height: 100%;
     .thumbnail {
       border-radius: 12px;
+    }
+    .duration {
+      background-color: #000;
+      color: #fff;
+      position: absolute;
+      border-radius: 4px;
+      padding: 3px 4px;
+      right: 0;
+      bottom: 4px;
+      margin: 4px;
     }
   }
   .textContent {
