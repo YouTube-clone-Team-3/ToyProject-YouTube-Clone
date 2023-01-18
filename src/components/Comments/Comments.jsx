@@ -4,7 +4,7 @@ import { CalDate } from "../../utils/CalDate";
 
 const Comments = ({ item }) => {
   const comment = item.snippet.topLevelComment.snippet;
-  console.log(comment);
+  // console.log(comment);
 
   const date = CalDate(comment.publishedAt);
 

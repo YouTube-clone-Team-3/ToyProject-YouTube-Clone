@@ -1,6 +1,5 @@
 .detailBox {
-  width: 1240px;
-  background-color: bisque;
+  min-width: 480px;
   position: relative;
   .channelInfo {
     padding: 20px;
@@ -38,5 +37,6 @@
   }
   .videoDes {
     padding: 20px;
+    line-height: 1.4;
   }
 }
