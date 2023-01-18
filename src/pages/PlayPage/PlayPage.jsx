@@ -13,12 +13,12 @@ export default function PlayPage() {
   let { id } = useParams();
   return (
     <section className={styles.playPage}>
-      <Playing />
       <div className={styles.videoInfo}>
+        <Playing />
         <VideoInfo />
         <VideoInfoDetail />
+        <Comment id={id} />
       </div>
-      <Comment id={id} />
       <RelatedVideos id={id} />
     </section>
   );

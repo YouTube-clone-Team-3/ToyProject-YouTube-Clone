@@ -2,8 +2,12 @@
   grid-area: video;
   margin: 20px;
   position: relative;
-  min-width: 480px;
-  min-height: 360px;
+  // width: 65vw;
+  // height: 35vw;
+  width: 80%;
+  // height: auto;
+  // min-width: 480px;
+  // min-height: 360px;
   .video {
     position: absolute;
     top: 0;
