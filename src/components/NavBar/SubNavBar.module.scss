@@ -10,26 +10,13 @@
   &::-webkit-scrollbar {
     display: none;
   }
-  &:hover {
-    overflow-y: scroll;
-    &::-webkit-scrollbar {
-      width: 8px;
-      display: initial;
-    }
-    &::-webkit-scrollbar-thumb {
-      background-color: #8c8c8c;
-      border-radius: 10px;
-      height: 30%;
-    }
-  }
 
   .iconContent {
     text-align: center;
     margin-bottom: 10px;
-    :hover {
-      background-color: #8c8c8c;
+    &:hover {
+      background-color: #f2f2f2;
       border-radius: 10px;
-      height: 30%;
     }
     .iconImg {
       padding: 0 10px;
