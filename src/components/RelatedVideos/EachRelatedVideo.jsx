@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import styles from "./EachRelatedVideos.module.scss";
 import { Link } from "react-router-dom";
-import { calcDate } from "../../utils/CalDate";
-import { calcDuration } from "../../utils/CalDuration";
+import calcDate from "../../utils/CalDate";
+import calcDuration from "../../utils/CalDuration";
 import calcNum from "../../utils/CalNum";
 import axios from "axios";
 import datas from "../../data/relatedVideoSearch.json";

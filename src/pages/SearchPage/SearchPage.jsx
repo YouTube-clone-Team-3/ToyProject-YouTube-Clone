@@ -3,6 +3,7 @@ import axios from 'axios';
 import SearchList from '../../components/SearchList/SearchList';
 import styles from './SearchPage.module.scss';
 import { useLocation } from 'react-router-dom';
+import data from '../../data/search.json'
 
 export default function SearchPage () {
   const [search, setSearch] = useState([]);
@@ -18,8 +19,8 @@ export default function SearchPage () {
 
   useEffect(() => {
     async function getData() {
-      const data = await axios.get('https://www.googleapis.com/youtube/v3/search', { params })
-      setSearch(data.data.items);
+      // const data = await axios.get('https://www.googleapis.com/youtube/v3/search', { params });
+      setSearch(data.items);
     }
     getData();
   }, []);
