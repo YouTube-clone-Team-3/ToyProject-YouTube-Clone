@@ -1,11 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./EachRelatedVideos.module.scss";
 import { Link } from "react-router-dom";
 import { calcDate } from "../../utils/CalDate";
 import { calcDuration } from "../../utils/CalDuration";
 import calcNum from "../../utils/CalNum";
 import axios from "axios";
-import datas from "../../data/relatedVideoSearch.json";
 
 const EachRelatedVideo = ({ item, index }) => {
   // 배포때는 아래의 로직 사용하면 됨. key만 교체?
@@ -31,29 +30,43 @@ const EachRelatedVideo = ({ item, index }) => {
   //   getData();
   // }, []);
 
-  const video = item.snippet;
+  const [relatedVideoSearch, setRelatedVideoSearch] = useState([]);
 
-  const videoDuration = datas[index].data.items[0].contentDetails.duration;
-  const videoViews = datas[index].data.items[0].statistics.viewCount;
+  useEffect(() => {
+    async function getInfo() {
+      const data = await axios.get("http://localhost:3000/relatedVideoSearch");
+      setRelatedVideoSearch(data.data);
+    }
+    getInfo();
+  }, []);
+
+  const video = item.snippet;
+  console.log(relatedVideoSearch);
+  const videoDuration =
+    relatedVideoSearch[index]?.data?.items[0].contentDetails.duration;
+  const videoViews =
+    relatedVideoSearch[index]?.data?.items[0].statistics.viewCount;
   const date = calcDate(video.publishedAt);
   const duration = calcDuration(videoDuration);
   const views = calcNum(videoViews);
 
   return (
     <div className={styles.videoCard}>
-      <Link to="/">
-        <div className={styles.thumbnails}>
-          <img src={video.thumbnails.medium.url} alt={video.title} />
-          <div className={styles.durationBox}>
-            <span>{duration}</span>
+      {relatedVideoSearch.length !== 0 && (
+        <Link to="/">
+          <div className={styles.thumbnails}>
+            <img src={video.thumbnails.medium.url} alt={video.title} />
+            <div className={styles.durationBox}>
+              <span>{duration}</span>
+            </div>
           </div>
-        </div>
-        <div className={styles.description}>
-          <h3>{video.title}</h3>
-          <p>{video.channelTitle}</p>
-          <span>{`조회수 ${views}회 • ${date} 전`}</span>
-        </div>
-      </Link>
+          <div className={styles.description}>
+            <h3>{video.title}</h3>
+            <p>{video.channelTitle}</p>
+            <span>{`조회수 ${views}회 • ${date} 전`}</span>
+          </div>
+        </Link>
+      )}
     </div>
   );
 };
