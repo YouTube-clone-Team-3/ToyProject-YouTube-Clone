@@ -1,13 +1,19 @@
 .playPage {
-  display: grid;
-  grid-template-rows: auto auto;
-  grid-template-columns: auto auto auto;
-  grid-template-areas:
-      "video relatedVideo"
-      "videoInfo relatedVideo"
-      "comment relatedVideo";
-  position: relative;
+  // display: grid;
+  // grid-template-rows: auto auto;
+  // grid-template-columns: auto auto auto;
+  // grid-template-areas:
+  //     "video relatedVideo"
+  //     "videoInfo relatedVideo"
+  //     "comment relatedVideo";
+  // position: relative;
+  // .videoInfo {
+  //   grid-area: videoInfo;
+  // }
+  width: 80%;
+  display: flex;
   .videoInfo {
-    grid-area: videoInfo;
+    display: flex;
+    flex-direction: column;
   }
 }
