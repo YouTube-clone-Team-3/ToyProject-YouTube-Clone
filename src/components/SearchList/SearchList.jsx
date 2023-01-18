@@ -49,7 +49,6 @@ export default function SearchList({data}) {
         <h3 onClick={() =>{
           navigate(`/detail/${video[0]?.id}`);
         }}>{data.snippet.title}</h3>
-        {/* 조회수랑 기간은 예시로 적어 놓았습니다~~ */}
         <span>조회수 {viewCount}회 <span className={styles.dot_separator}> • </span> {publishedAt} 전</span>
         <div className={styles.channelInfo}>
           <img src={channelThumbnail} alt='channel thumbnail' className={styles.channelThumbnail}></img>
