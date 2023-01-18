@@ -14,7 +14,7 @@ export default function PlayPage() {
   return (
     <section className={styles.playPage}>
       <div className={styles.videoInfo}>
-        <Playing />
+        <Playing id={id} />
         <VideoInfo />
         <VideoInfoDetail />
         <Comment id={id} />
