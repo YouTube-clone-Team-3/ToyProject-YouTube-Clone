@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 import RelatedVideos from "./RelatedVideo";
 import Comment from "./Comment";
 import styles from "./PlayPage.module.scss";
@@ -7,6 +8,7 @@ import VideoInfo from "./PlayVideo/VideoInfo"
 import VideoInfoDetail from "./PlayVideo/VideoInfoDetail"
 
 export default function PlayPage() {
+
   return (
     <section className={styles.playPage}>
       <Playing />
