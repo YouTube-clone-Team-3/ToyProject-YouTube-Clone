@@ -5,40 +5,37 @@ import axios from 'axios'
 
 const VideoInfoDetail = ({ video, channelId }) => {
   const [channel, setChannel] = useState([])
-  // const channelId = video[0]?.snippet?.channelId
-  // useEffect(() => {
-  //   getChannel()
-  // }, [])
-
-  // // dummy data 사용
-
-  // async function getChannel() {
-  //   const data = await axios.get("http://localhost:3000/channel")
-  //   setChannel(data.data.items)
-  // }
-
-  // 실제 api 사용
   useEffect(() => {
     getChannel()
   }, [])
 
-  const params = {
-    part: ["snippet", "statistics", "contentDetails"],
-    key: import.meta.env.VITE_API_KEY,
-    id: channelId
-  }
+  // dummy data 사용
 
   async function getChannel() {
-    const data = await axios.get("https://www.googleapis.com/youtube/v3/channels", {
-      params,
-      paramsSerializer: {
-        indexes: null
-      }
-    })
+    const data = await axios.get("http://localhost:3000/channel")
     setChannel(data.data.items)
   }
 
-  console.log(channel)
+  // 실제 api 사용
+  // useEffect(() => {
+  //   getChannel()
+  // }, [channelId])
+
+  // const params = {
+  //   part: ["snippet", "statistics", "contentDetails"],
+  //   key: import.meta.env.VITE_API_KEY,
+  //   id: channelId
+  // }
+
+  // async function getChannel() {
+  //   const data = await axios.get("https://www.googleapis.com/youtube/v3/channels", {
+  //     params,
+  //     paramsSerializer: {
+  //       indexes: null
+  //     }
+  //   })
+  //   setChannel(data.data.items)
+  // }
 
   const channelTitle = channel[0]?.snippet?.title
   const channelThumb = channel[0]?.snippet?.thumbnails.default.url
