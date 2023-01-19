@@ -20,6 +20,9 @@
     margin-right: 20px;
     flex-direction: column;
     flex-grow: 1;
+    max-width: 1000px;
+    min-width: 500px;
+    box-sizing: border-box;
   }
 }
 
