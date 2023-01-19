@@ -15,11 +15,13 @@ export default function PlayPage() {
     <section className={styles.playPage}>
       <div className={styles.videoInfo}>
         <Playing id={id} />
-        <VideoInfo />
-        <VideoInfoDetail />
+        <VideoInfo id={id} />
+        <VideoInfoDetail id={id} />
         <Comment id={id} />
       </div>
-      <RelatedVideos id={id} />
+      <div className={styles.related}>
+        <RelatedVideos id={id} />
+      </div>
     </section>
   );
 }
