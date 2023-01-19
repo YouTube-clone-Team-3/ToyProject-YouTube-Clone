@@ -25,5 +25,8 @@
 @media screen and (max-width: 1024px) {
   section.playPage {
     display: block;
+    .videoInfo {
+      margin-right: 50px;
+    }
   }
 }
