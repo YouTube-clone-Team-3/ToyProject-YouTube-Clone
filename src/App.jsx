@@ -4,10 +4,10 @@ import NavBar from "./components/NavBar";
 import { Outlet } from "react-router-dom";
 import { useEffect, useState } from "react";
 import SubNavBar from "./components/NavBar/subNavBar";
-import './App.css';
+import "./App.css";
 
 function App() {
-  const [display, setDisplay] = useState();
+  const [display, setDisplay] = useState(true);
 
   function navDisplay(display) {
     setDisplay(display);
@@ -15,14 +15,12 @@ function App() {
 
   return (
     <div className="App">
-      <Header navDisplay={navDisplay}/>
-      <aside className={display ? 'big' : 'small'}>
-      {
-        display ? (<NavBar />) : (<SubNavBar />)
-      }
+      <Header navDisplay={navDisplay} display={display} />
+      <aside className={display ? "big" : "small"}>
+        {display ? <NavBar /> : <SubNavBar />}
       </aside>
       <main>
-        <Outlet />
+        <Outlet context={{ navDisplay }} />
       </main>
     </div>
   );
