@@ -17,23 +17,24 @@ function App() {
   const isPc = useMediaQuery({
     query: "(min-width:1024px)"
   });
+
   const isTablet = useMediaQuery({
     query: "(max-width:1023px)"
   });
 
   function displayClass() {
-    if (isPc) {
-      return display ? "big" : "small";
+    if (isPc && display) {
+      return "big"
     } else {
-      return display ? "small" : "big";
+      return "small"
     }
   }
 
   function displayNav() {
-    if (isPc) {
-      return display ? <NavBar /> : <SubNavBar />
+    if (isPc && display) {
+      return <NavBar />
     } else {
-      return display ? <SubNavBar /> : <NavBar />;
+      return <SubNavBar />
     }
   }
 
