@@ -26,18 +26,18 @@ function App() {
   });
 
   function displayClass() {
-    if (isPc && display) {
-      return "big"
+    if (isPc) {
+      return display ? "big" : "small"
     } else {
-      return "small"
+      return display ? "small" : "big"
     }
   }
 
   function displayNav() {
-    if (isPc && display) {
-      return <NavBar />
+    if (isPc) {
+      return display ? <NavBar /> : <SubNavBar />
     } else {
-      return <SubNavBar />
+      return display ? <SubNavBar /> : <NavBar />
     }
   }
 
