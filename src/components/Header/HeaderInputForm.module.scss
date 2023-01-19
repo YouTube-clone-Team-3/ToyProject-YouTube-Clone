@@ -2,9 +2,10 @@
   display: flex;
   position: relative;
   height: 40px;
+  width: 40vw;
   .container {
+    width: 100%;
     position: relative;
-    width: 520px;
     height: 100%;
     margin-left: 32px;
     box-sizing: border-box;
@@ -27,7 +28,7 @@
   }
   button {
     position: relative;
-    width: 64px;
+    width: 70px;
     height: 40px;
     padding: 0;
     border: none;
@@ -45,9 +46,9 @@
       box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
     }
     svg {
+      position: absolute;
       width: 20px;
       height: 20px;
-      position: absolute;
       top: 8px;
       left: 16px;
     }
@@ -57,15 +58,119 @@
     height: 25px;
     svg {
       position: absolute;
-      right: -20px;
-      top: 8px;
       width: 25px;
       height: 25px;
+      right: -20px;
+      top: 8px;
       &:hover {
         border-radius: 50%;
         background-color: rgba(0, 0, 0, 0.1);
         border-color: transparent;
       }
     }
+  }
+}
+
+.subForm {
+  display: none;
+  height: 56px;
+  .container {
+    svg {
+      cursor: pointer;
+      width: 25px;
+      height: 25px;
+      &:first-child {
+        margin-right: 5px;
+      }
+      &:last-child {
+        margin-left: 5px;
+      }
+    }
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    z-index: 300;
+    width: 100vw;
+    background-color: #fff;
+    input {
+      width: 60%;
+      height: 40px;
+      padding: 0px 4px 0px 16px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      border-radius: 40px 0 0 40px;
+      outline: none;
+    }
+  }
+  button {
+    position: relative;
+    width: 70px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    border: 1px solid #d3d3d3;
+    background: inherit;
+    border-radius: 0;
+    overflow: visible;
+    border-radius: 0 40px 40px 0;
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
+    cursor: pointer;
+    &:hover {
+      border-color: #c6c6c6;
+      background-color: #f0f0f0;
+      box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
+    }
+    svg {
+      cursor: pointer;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: 8px;
+      left: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 656px) {
+  form.mainForm {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    div.container {
+      display: none;
+    }
+    button {
+      position: relative;
+      right: 25px;
+      width: 40px;
+      height: 40px;
+      border: none;
+      border-radius: 0 0 0 0;
+      background-color: transparent;
+      box-shadow: none;
+      &:hover {
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-color: transparent;
+      }
+      svg {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+      }
+    }
+    div.mic {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 656px) {
+  form.subForm {
+    display: none;
   }
 }

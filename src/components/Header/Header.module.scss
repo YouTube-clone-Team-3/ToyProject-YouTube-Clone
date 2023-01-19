@@ -37,6 +37,13 @@ header {
         }
       }
     }
+    .center {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      min-width: 0px;
+    }
     .end {
       margin-left: 60px;
       width: 140px;
