@@ -15,10 +15,10 @@ function App() {
   }
 
   const isPc = useMediaQuery({
-    query: "(min-width:1024px)",
+    query: "(min-width:1024px)"
   });
   const isTablet = useMediaQuery({
-    query: "(max-width:1023px)",
+    query: "(max-width:1023px)"
   });
 
   function displayClass() {
@@ -31,7 +31,7 @@ function App() {
 
   function displayNav() {
     if (isPc) {
-      return display ? <NavBar /> : <SubNavBar />;
+      return display ? <NavBar /> : <SubNavBar />
     } else {
       return display ? <SubNavBar /> : <NavBar />;
     }
