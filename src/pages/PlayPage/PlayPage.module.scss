@@ -15,13 +15,19 @@
   margin: 0;
   .videoInfo {
     display: flex;
+    margin-left: 15px;
+    padding-top: 15px;
+    margin-right: 20px;
     flex-direction: column;
     flex-grow: 1;
   }
 }
 
-@media screen and (max-width: 1118px) {
+@media screen and (max-width: 1024px) {
   section.playPage {
     display: block;
+    .videoInfo {
+      margin-right: 50px;
+    }
   }
 }
