@@ -6,7 +6,7 @@ import { useMediaQuery } from "react-responsive";
 
 const HeaderInputForm = () => {
   const [keyword, setKeyword] = useState("");
-  const [mobileInput, setMobileInput] = useState("none");
+  const [mobileInput, setMobileInput] = useState(false);
   const navigate = useNavigate();
 
   // 검색어는 keyword state에 넣어놨습니다.
@@ -37,7 +37,7 @@ const HeaderInputForm = () => {
             if (keyword.length !== 0 && !isMobile)
               navigate(`/search/${keyword}`);
             if (isMobile) {
-              setMobileInput("block");
+              setMobileInput(true);
             }
           }}
         >
