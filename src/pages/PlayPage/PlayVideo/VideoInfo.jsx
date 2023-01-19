@@ -3,37 +3,7 @@ import axios from 'axios'
 import styles from './VideoInfo.module.scss'
 import calcNum from '../../../utils/CalNum'
 
-const VideoInfo = ({ id }) => {
-  const [video, setVideo] = useState([])
-  useEffect(() => {
-    getVideo()
-  }, [])
-
-  // dummy data 사용
-  async function getVideo() {
-    const data = await axios.get('http://localhost:3000/video')
-    setVideo(data.data.items)
-  }
-
-  // 실제 api 사용
-  // const params = {
-  //   part: ['snippet', 'contentDetails', 'player', 'statistics'],
-  //   id: id,
-  //   key: import.meta.env.VITE_API_KEY
-  // }
-  // useEffect(() => {
-  //   async function getVideo() {
-  //     const data = await axios.get("https://www.googleapis.com/youtube/v3/videos", {
-  //       params,
-  //       paramsSerializer: {
-  //         indexes: null
-  //       }
-  //     })
-  //     setVideo(data.items)
-  //   }
-  //   getVideo()
-  // }, [])
-
+const VideoInfo = ({ video }) => {
   // 날짜 계산
   const calcDate = (date) => {
     return date?.slice(0, 10)
@@ -44,7 +14,6 @@ const VideoInfo = ({ id }) => {
   const viewCounts = calcNum(Number(video[0]?.statistics?.viewCount))
   const videoPulished = calcDate(video[0]?.snippet?.publishedAt)
   const likeCounts = calcNum(video[0]?.statistics?.likeCount)
-
 
   return (
     <div className={styles.videoInfoBox}>

@@ -31,7 +31,9 @@ export default function MainList({ data }) {
   return (
     <div className={styles.videoContent}>
       <div className={styles.imgContent}>
-        <img src={videoThumbnail} alt='video thumbnail' className={styles.thumbnail}></img>
+        <img src={videoThumbnail} alt='video thumbnail' className={styles.thumbnail} onClick={() => {
+          navigate(`/detail/${videoDetail[0]?.id}`)
+        }} ></img>
         <p className={styles.duration}>{duration}</p>
       </div>
       <div className={styles.textContent}>
@@ -40,13 +42,11 @@ export default function MainList({ data }) {
         </div>
         <div className={styles.rightContent}>
           <div className={styles.titleContent}>
-            <h3 onClick={() =>{ navigate(`/detail/${videoDetail[0]?.id}`) }}>{data.snippet.title}</h3>
+            <h3 className={styles.videoTitle} onClick={() =>{ navigate(`/detail/${videoDetail[0]?.id}`) }}>{data.snippet.title}</h3>
             <FiMoreVertical size='24' className={styles.moreIcon} />
           </div>
-        <span>조회수 {viewCount}회 <span className={styles.dot_separator}> • </span> {publishedAt} 전</span>
-        <div className={styles.channelInfo}>
-          <span className={styles.channelTitle}>{data.snippet.channelTitle}</span>
-        </div>
+        <p className={styles.channelTitle}>{data.snippet.channelTitle}</p>
+        <span className={styles.videoView}>조회수 {viewCount}회 <span className={styles.dot_separator}> • </span> {publishedAt} 전</span>
         </div>
       </div>
     </div>
