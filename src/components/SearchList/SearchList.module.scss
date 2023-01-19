@@ -2,10 +2,52 @@
   position: relative;
   display: flex;
   margin-top: 16px;
+  .moreIcon {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 7px;
+  }
+  &:hover {
+    .moreIcon {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 7px;
+    }
+    .imgContent {
+      .clockIcon {
+        display: block;
+        color: #fff;
+        background-color: rgba(0, 0, 0, .7);
+        padding: 1.5px;
+        border-radius: 4px;
+        position: absolute;
+        right: 2%;
+        top: 3%;
+      }
+      .playlistIcon {
+        display: block;
+        color: #fff;
+        background-color: rgba(0, 0, 0, .7);
+        padding: 2px;
+        border-radius: 4px;
+        position: absolute;
+        right: 2%;
+        top: 20%;
+      }
+    }
+  }
   .imgContent {
     margin-right: 16px;
     position: relative;
     height: 100%;
+    .clockIcon {
+      display: none;
+    }
+    .playlistIcon {
+      display: none;
+    }
     .thumbnail {
       border-radius: 12px;
     }
@@ -18,6 +60,7 @@
       right: 0;
       bottom: 4px;
       margin: 4px;
+      font-size: 14px;
     }
   }
   .textContent {

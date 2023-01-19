@@ -7,6 +7,9 @@ import calcDuration from "../../utils/CalDuration"
 import channelData from '../../data/channel.json'
 import videoData from '../../data/video.json'
 import { useNavigate } from "react-router-dom"
+import { FiMoreVertical } from 'react-icons/fi'
+import { HiOutlineClock } from 'react-icons/hi'
+import { RiPlayList2Fill } from 'react-icons/ri'
 
 export default function SearchList({data}) {
   const [channel, setChannel] = useState([]);
@@ -41,7 +44,10 @@ export default function SearchList({data}) {
 
   return (
     <div className={styles.videoContent}>
+      <FiMoreVertical size='24' className={styles.moreIcon} />
       <div className={styles.imgContent}>
+        <HiOutlineClock size='22' className={styles.clockIcon} />
+        <RiPlayList2Fill size='21' className={styles.playlistIcon} />
         <img src={videoThumbnail} alt='video thumbnail' className={styles.thumbnail}></img>
         <p className={styles.duration}>{duration}</p>
       </div>
