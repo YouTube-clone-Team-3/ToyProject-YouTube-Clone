@@ -1,55 +1,71 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import videoI from '../../../data/video.json'
 import styles from './VideoInfo.module.scss'
 import calcNum from '../../../utils/CalNum'
 
-const VideoInfo = () => {
-  const videoInfo = videoI.items[0]
-  const [videoSnippet, setVideoSnippet] = useState([])
+const VideoInfo = ({ id }) => {
   const [video, setVideo] = useState([])
-  // const params = {
-  //   part: ['snippet', 'contentDetails', 'player', 'statics'],
-  //   id: 'pathName',
-  //   key: import.meta.env.VITE_API_KEY
-  // }
   useEffect(() => {
-    async function getVideo() {
-      const data = await axios.get('http://localhost:3000/video')
-      // const data = await axios.get("https://www.googleapis.com/youtube/v3/videos", {
-      //   params,
-      //   paramsSerializer: {
-      //     indexes: null
-      //   }
-      // })
-      setVideo(data.data.items[0])
-      setVideoSnippet(data.data.items[0].snippet)
-    }
     getVideo()
   }, [])
-  console.log(videoSnippet)
+
+  // dummy data 사용
+  async function getVideo() {
+    const data = await axios.get('http://localhost:3000/video')
+    setVideo(data.data.items)
+  }
+
+  // 실제 api 사용
+  // const params = {
+  //   part: ['snippet', 'contentDetails', 'player', 'statistics'],
+  //   id: id,
+  //   key: import.meta.env.VITE_API_KEY
+  // }
+  // useEffect(() => {
+  //   async function getVideo() {
+  //     const data = await axios.get("https://www.googleapis.com/youtube/v3/videos", {
+  //       params,
+  //       paramsSerializer: {
+  //         indexes: null
+  //       }
+  //     })
+  //     setVideo(data.items)
+  //   }
+  //   getVideo()
+  // }, [])
+
   // 날짜 계산
   const calcDate = (date) => {
-    return date.slice(0, 10)
+    return date?.slice(0, 10)
   }
+
+  const videoTags = video[0]?.snippet.tags
+  const videoTitle = video[0]?.snippet.title
+  const viewCounts = calcNum(Number(video[0]?.statistics?.viewCount))
+  const videoPulished = calcDate(video[0]?.snippet?.publishedAt)
+  const likeCounts = calcNum(video[0]?.statistics?.likeCount)
+
 
   return (
     <div className={styles.videoInfoBox}>
       <div className={styles.tag}>
-        {videoInfo.snippet.tags.map((tag, index) => {
-          return (
-            <span key={index}>#{tag}</span>
-          )
-        })}
+        {video ? (
+          videoTags?.map((tag, index) => {
+            return (
+              <span key={index}>#{tag}</span>
+            )
+          })
+        ) : null
+        }
       </div>
-      <h1 className={styles.videoTitle}>{videoInfo.snippet.title}</h1>
-      <span>조회수 {Number(videoInfo.statistics.viewCount).toLocaleString()}회 · {calcDate(videoInfo.snippet.publishedAt)}</span>
+      <h1 className={styles.videoTitle}>{videoTitle}</h1>
+      <span>조회수 {viewCounts}회 · {videoPulished}</span>
       <div className={styles.menuButtons}>
         <div className={styles.flexButton}>
           <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="25" width="25" xmlns="http://www.w3.org/2000/svg">
             <path d="M20 8h-5.612l1.123-3.367c.202-.608.1-1.282-.275-1.802S14.253 2 13.612 2H12c-.297 0-.578.132-.769.36L6.531 8H4c-1.103 0-2 .897-2 2v9c0 1.103.897 2 2 2h13.307a2.01 2.01 0 0 0 1.873-1.298l2.757-7.351A1 1 0 0 0 22 12v-2c0-1.103-.897-2-2-2zM4 10h2v9H4v-9zm16 1.819L17.307 19H8V9.362L12.468 4h1.146l-1.562 4.683A.998.998 0 0 0 13 10h7v1.819z"></path>
           </svg>
-          <span>{calcNum(videoInfo.statistics.likeCount)}</span>
+          <span>{likeCounts}</span>
         </div>
         <div className={styles.flexButton}>
           <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="25" width="25" xmlns="http://www.w3.org/2000/svg">
