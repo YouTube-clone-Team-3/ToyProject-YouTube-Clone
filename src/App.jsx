@@ -27,9 +27,9 @@ function App() {
 
   function displayClass() {
     if (isPc) {
-      return display ? 'big' : 'small'
+      return display ? "big" : "small"
     } else {
-      return display ? 'small' : 'big'
+      return display ? "small" : "big"
     }
   }
 
