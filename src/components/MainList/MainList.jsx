@@ -30,19 +30,23 @@ export default function MainList({ data }) {
 
   return (
     <div className={styles.videoContent}>
-      <FiMoreVertical size='24' className={styles.moreIcon} />
       <div className={styles.imgContent}>
         <img src={videoThumbnail} alt='video thumbnail' className={styles.thumbnail}></img>
         <p className={styles.duration}>{duration}</p>
       </div>
       <div className={styles.textContent}>
-        <h3 onClick={() =>{
-          navigate(`/detail/${video[0]?.id}`);
-        }}>{data.snippet.title}</h3>
+        <div className={styles.leftContent}>
+        <img src={channelThumbnail} alt='channel thumbnail' className={styles.channelThumbnail}></img>
+        </div>
+        <div className={styles.rightContent}>
+          <div className={styles.titleContent}>
+            <h3 onClick={() =>{ navigate(`/detail/${videoDetail[0]?.id}`) }}>{data.snippet.title}</h3>
+            <FiMoreVertical size='24' className={styles.moreIcon} />
+          </div>
         <span>조회수 {viewCount}회 <span className={styles.dot_separator}> • </span> {publishedAt} 전</span>
         <div className={styles.channelInfo}>
-          <img src={channelThumbnail} alt='channel thumbnail' className={styles.channelThumbnail}></img>
           <span className={styles.channelTitle}>{data.snippet.channelTitle}</span>
+        </div>
         </div>
       </div>
     </div>

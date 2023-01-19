@@ -1,0 +1,66 @@
+.videoContent {
+  position: relative;
+  margin-top: 16px;
+
+  &:hover {
+    .moreIcon {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 7px;
+    }
+}
+  .imgContent {
+    width: 95%;
+    margin: auto;
+    position: relative;
+    .thumbnail {
+      border-radius: 12px;
+      width: 100%;
+    }
+    .duration {
+      background-color: #000;
+      color: #fff;
+      position: absolute;
+      border-radius: 4px;
+      padding: 3px 4px;
+      right: 0;
+      bottom: 4px;
+      margin: 4px;
+      font-size: 14px;
+    }
+  }
+  .textContent {
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    margin: auto;
+    width: 90%;
+    .leftContent {
+      .channelThumbnail {
+        width: 36px;
+        border-radius: 50%;
+        margin-top: 12px;
+        margin-right: 12px;
+      }
+    }
+    .rightContent {
+      .titleContent {
+        display: flex;
+        .moreIcon {
+          display: none;
+        }
+        h3 {
+          font-size: 17px;
+          font-weight: bold;
+          display: block;
+          cursor: pointer;
+        }
+      }
+      .channelInfo {
+        padding: 12px 0;
+        align-items: center;
+      }
+    }
+  }
+}
