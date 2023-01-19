@@ -18,25 +18,32 @@ function App() {
     query : "(min-width:1024px)"
   });
   const isTablet = useMediaQuery({
-    query : "(min-width:768px) and (max-width:1023px)"
+    query : "(max-width:1023px)"
   });
-  const isMobile = useMediaQuery({
-    query : "(max-width:767px)"
-  });
+
+  function displayClass() {
+    if(isPc) {
+      return display ? 'big' : 'small'
+    } else {
+      return display ? 'small' : 'big'
+    }
+  }
+
+  function displayNav() {
+    if(isPc) {
+      return display ? <NavBar /> : <SubNavBar />
+    } else {
+      return display ? <SubNavBar /> : <NavBar />
+    }
+  }
 
   return (
     <div className="App">
       <Header navDisplay={navDisplay}/>
-      <aside className={display ? 'big' : 'small'}>
+      <aside className={displayClass()}>
         {
-          isPc && display ? (<NavBar />) : (<SubNavBar />)
+          displayNav()
         }
-        {
-          isTablet && display ? (<SubNavBar />) : (<NavBar />)
-        }
-      {/* {
-        display ? (<NavBar />) : (<SubNavBar />)
-      } */}
       </aside>
       <main>
         <Outlet />
