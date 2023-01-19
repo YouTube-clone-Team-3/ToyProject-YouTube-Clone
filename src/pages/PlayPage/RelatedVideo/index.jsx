@@ -17,7 +17,7 @@ const RelatedVideos = ({ id }) => {
   }, []);
 
   return (
-    <div>
+    <div className={styles.relatedVideos}>
       {relatedVideos?.items?.map((video, i) => (
         <EachRelatedVideo key={video.id.videoId} item={video} index={i} />
       ))}

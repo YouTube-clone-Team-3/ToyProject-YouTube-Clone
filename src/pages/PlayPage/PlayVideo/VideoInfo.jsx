@@ -1,11 +1,33 @@
-import React from 'react'
-import video from '../../../data/video.json'
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
+import videoI from '../../../data/video.json'
 import styles from './VideoInfo.module.scss'
 import calcNum from '../../../utils/CalNum'
 
 const VideoInfo = () => {
-  const videoInfo = video.items[0]
-
+  const videoInfo = videoI.items[0]
+  const [videoSnippet, setVideoSnippet] = useState([])
+  const [video, setVideo] = useState([])
+  // const params = {
+  //   part: ['snippet', 'contentDetails', 'player', 'statics'],
+  //   id: 'pathName',
+  //   key: import.meta.env.VITE_API_KEY
+  // }
+  useEffect(() => {
+    async function getVideo() {
+      const data = await axios.get('http://localhost:3000/video')
+      // const data = await axios.get("https://www.googleapis.com/youtube/v3/videos", {
+      //   params,
+      //   paramsSerializer: {
+      //     indexes: null
+      //   }
+      // })
+      setVideo(data.data.items[0])
+      setVideoSnippet(data.data.items[0].snippet)
+    }
+    getVideo()
+  }, [])
+  console.log(videoSnippet)
   // 날짜 계산
   const calcDate = (date) => {
     return date.slice(0, 10)
