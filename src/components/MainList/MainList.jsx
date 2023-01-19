@@ -31,7 +31,9 @@ export default function MainList({ data }) {
   return (
     <div className={styles.videoContent}>
       <div className={styles.imgContent}>
-        <img src={videoThumbnail} alt='video thumbnail' className={styles.thumbnail}></img>
+        <img src={videoThumbnail} alt='video thumbnail' className={styles.thumbnail} onClick={() => {
+          navigate(`/detail/${videoDetail[0]?.id}`)
+        }} ></img>
         <p className={styles.duration}>{duration}</p>
       </div>
       <div className={styles.textContent}>
