@@ -1,0 +1,7 @@
+.MainVideos {
+  width: 100%;
+  padding: 0 .5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(274px,1fr));
+  text-align: center;
+}
