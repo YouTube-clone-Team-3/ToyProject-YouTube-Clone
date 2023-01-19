@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import { Outlet } from "react-router-dom";
 import { useEffect, useState } from "react";
 import SubNavBar from "./components/NavBar/subNavBar";
+import { useMediaQuery } from "react-responsive";
 import "./App.css";
 
 function App() {
@@ -13,12 +14,33 @@ function App() {
     setDisplay(display);
   }
 
+  const isPc = useMediaQuery({
+    query: "(min-width:1024px)",
+  });
+  const isTablet = useMediaQuery({
+    query: "(max-width:1023px)",
+  });
+
+  function displayClass() {
+    if (isPc) {
+      return display ? "big" : "small";
+    } else {
+      return display ? "small" : "big";
+    }
+  }
+
+  function displayNav() {
+    if (isPc) {
+      return display ? <NavBar /> : <SubNavBar />;
+    } else {
+      return display ? <SubNavBar /> : <NavBar />;
+    }
+  }
+
   return (
     <div className="App">
       <Header navDisplay={navDisplay} display={display} />
-      <aside className={display ? "big" : "small"}>
-        {display ? <NavBar /> : <SubNavBar />}
-      </aside>
+      <aside className={displayClass()}>{displayNav()}</aside>
       <main>
         <Outlet context={{ navDisplay }} />
       </main>
