@@ -1,15 +1,15 @@
 .videoContent {
   position: relative;
   margin-top: 16px;
-
+  margin-bottom: 40px;
+  .moreIcon {
+    display: none;
+  }
   &:hover {
     .moreIcon {
       display: block;
-      position: absolute;
-      right: 0;
-      top: 7px;
     }
-}
+  }
   .imgContent {
     width: 95%;
     margin: auto;
@@ -35,32 +35,40 @@
     cursor: pointer;
     text-decoration: none;
     margin: auto;
-    width: 90%;
+    width: 94%;
+    margin-top: 10px;
     .leftContent {
       .channelThumbnail {
         width: 36px;
         border-radius: 50%;
-        margin-top: 12px;
         margin-right: 12px;
       }
     }
     .rightContent {
       .titleContent {
         display: flex;
-        .moreIcon {
-          display: none;
-        }
-        h3 {
-          font-size: 17px;
+        .videoTitle {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          width: 95%;
+          font-size: 16px;
           font-weight: bold;
-          display: block;
           cursor: pointer;
         }
       }
-      .channelInfo {
-        padding: 12px 0;
-        align-items: center;
-      }
+    }
+    .channelTitle {
+      margin-top: 10px;
+      margin-bottom: 3px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .videoView {
+      font-size: 14px;
+      font-weight: 500;
     }
   }
 }
