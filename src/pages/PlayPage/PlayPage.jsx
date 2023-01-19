@@ -6,11 +6,23 @@ import styles from "./PlayPage.module.scss";
 import Playing from "./PlayVideo/Playing";
 import VideoInfo from "./PlayVideo/VideoInfo";
 import VideoInfoDetail from "./PlayVideo/VideoInfoDetail";
-import { useParams } from "react-router";
+import { useOutletContext, useParams } from "react-router";
 
 export default function PlayPage() {
   // props 내려쓰시면됩니다
   let { id } = useParams();
+
+  // Playpage진입시 좌측 Nav small로
+  const { navDisplay } = useOutletContext();
+
+  useEffect(() => {
+    navDisplay(false);
+
+    return () => {
+      navDisplay(true);
+    };
+  }, []);
+
   return (
     <section className={styles.playPage}>
       <div className={styles.videoInfo}>
