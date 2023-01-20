@@ -3,7 +3,7 @@ import axios from "axios";
 import SearchList from "../../components/SearchList/SearchList";
 import styles from "./SearchPage.module.scss";
 import { useParams } from "react-router-dom";
-import data from "../../data/search.json";
+// import data from "../../data/search.json";
 
 export default function SearchPage() {
   const [search, setSearch] = useState([]);
@@ -12,25 +12,29 @@ export default function SearchPage() {
   const params = {
     part: "snippet",
     q: value,
-    maxResults: 2,
-    key: import.meta.env.VITE_API_KEY,
+    maxResults: 10,
+    key: import.meta.env.VITE_API_KEY1,
   };
 
   useEffect(() => {
+    document.title = `${value} - YouTube`;
     async function getData() {
-      document.title = `${value} - YouTube`;
-      // const data = await axios.get('https://www.googleapis.com/youtube/v3/search', { params });
-      setSearch(data.items);
+      try {
+        const data = await axios.get('https://www.googleapis.com/youtube/v3/search', { params });
+        setSearch(data.data.items);
+      } catch (error) {
+        console.log("통신오류: ", error.response);
+      }
     }
     getData();
-  }, []);
+  }, [value]);
 
   return (
     <div className={styles.searchVideos}>
       {search ? (
         search.map((item, i) => {
           if (item.id.kind === "youtube#video") {
-            return <SearchList data={item} key={item.id.videoId} i={i} />;
+            return <SearchList data={item} key={item.id.videoId} />;
           }
         })
       ) : (
