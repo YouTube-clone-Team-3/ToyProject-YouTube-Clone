@@ -12,50 +12,60 @@ export default function PlayPage() {
   // props 내려쓰시면됩니다
   let { id } = useParams();
   const [video, setVideo] = useState([])
-
-  useEffect(() => {
-    getVideo()
-  }, [])
+  // Playpage진입시 좌측 Nav small로
+  const { navDisplay } = useOutletContext();
 
   // dummy data 사용
-
-  async function getVideo() {
-    const data = await axios.get("http://localhost:3000/video")
-    setVideo(data.data.items)
-  }
+  useEffect(() => {
+    async function getVideo() {
+      try {
+        const data = await axios.get("http://localhost:3000/video")
+        if (data.status !== 200) {
+          throw new Error()
+        }
+        setVideo(data.data.items)
+      } catch (error) {
+        console.log(`통신 오류: ${error.response}`)
+      }
+    }
+    getVideo()
+    navDisplay(false)
+    return () => {
+      navDisplay(true)
+    }
+  }, [id])
 
   // 실제 api 사용 props 내려서 쓰시면 됩니다!
-  // useEffect(() => {
-  //   getVideo()
-  // }, [])
-
   // const params = {
   //   part: ['snippet', 'contentDetails', 'player', 'statistics'],
   //   id: id,
   //   key: import.meta.env.VITE_API_KEY
   // }
-
-  // async function getVideo() {
-  //   const data = await axios.get("https://www.googleapis.com/youtube/v3/videos", {
-  //     params,
-  //     paramsSerializer: {
-  //       indexes: null
+  // useEffect(() => {
+  //   async function getVideo() {
+  //     try {
+  //       const data = await axios.get("https://www.googleapis.com/youtube/v3/videos", {
+  //         params,
+  //         paramsSerializer: {
+  //           indexes: null
+  //         }
+  //       })
+  //       if (data.status !== 200) {
+  //         throw new Error()
+  //       }
+  //       setVideo(data.data.items)
+  //     } catch (error) {
+  //       console.log(`통신 오류: ${error.response}`)
   //     }
-  //   })
-  //   setVideo(data.data.items)
-  // }
+  //   }
+  //   getVideo()
+  //   navDisplay(false)
+  //   return () => {
+  //     navDisplay(true)
+  //   }
+  // }, [id])
+
   const channelId = video[0]?.snippet?.channelId
-
-  // Playpage진입시 좌측 Nav small로
-  const { navDisplay } = useOutletContext();
-
-  useEffect(() => {
-    navDisplay(false);
-
-    return () => {
-      navDisplay(true);
-    };
-  }, []);
 
   return (
     <section className={styles.playPage}>

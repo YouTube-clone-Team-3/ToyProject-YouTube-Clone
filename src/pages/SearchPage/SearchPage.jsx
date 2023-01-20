@@ -1,21 +1,20 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios';
-import SearchList from '../../components/SearchList/SearchList';
-import styles from './SearchPage.module.scss';
-import { useLocation } from 'react-router-dom';
-import data from '../../data/search.json'
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+import SearchList from "../../components/SearchList/SearchList";
+import styles from "./SearchPage.module.scss";
+import { useParams } from "react-router-dom";
+import data from "../../data/search.json";
 
-export default function SearchPage () {
+export default function SearchPage() {
   const [search, setSearch] = useState([]);
-  const location = useLocation();
 
-  let word = location.pathname.substring(8);
+  let { value } = useParams();
   const params = {
-    part: 'snippet',
-    q: word,
+    part: "snippet",
+    q: value,
     maxResults: 2,
     key: import.meta.env.VITE_API_KEY,
-  }
+  };
 
   useEffect(() => {
     async function getData() {
@@ -37,5 +36,5 @@ export default function SearchPage () {
         ) : <p>검색결과가 존재하지 않습니다.</p>
       }
     </div>
-  )
+  );
 }
