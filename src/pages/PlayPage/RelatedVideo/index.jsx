@@ -15,7 +15,7 @@ const RelatedVideos = ({ id }) => {
     maxResults: 10,
     relatedToVideoId: id,
     type: "video",
-    key: import.meta.env.VITE_API_KEY1,
+    key: import.meta.env.VITE_API_KEY2,
   };
 
   useEffect(() => {

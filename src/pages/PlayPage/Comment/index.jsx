@@ -11,7 +11,7 @@ const Comment = ({ id }) => {
   const params = {
     part: "snippet",
     videoId: id,
-    key: import.meta.env.VITE_API_KEY1,
+    key: import.meta.env.VITE_API_KEY3,
   };
 
   useEffect(() => {

@@ -18,7 +18,7 @@ const VideoInfoDetail = ({ video, channelId }) => {
   // 실제 api 사용
   const params = {
     part: ["snippet", "statistics", "contentDetails"],
-    key: import.meta.env.VITE_API_KEY1,
+    key: import.meta.env.VITE_API_KEY3,
     id: channelId
   }
 

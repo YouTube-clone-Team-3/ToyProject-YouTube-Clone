@@ -13,7 +13,7 @@ const EachRelatedVideo = ({ item, index }) => {
   const params = {
     part: ["snippet", "contentDetails", "player", "statistics"],
     id: item.id.videoId,
-    key: import.meta.env.VITE_API_KEY1,
+    key: import.meta.env.VITE_API_KEY2,
   };
 
   useEffect(() => {

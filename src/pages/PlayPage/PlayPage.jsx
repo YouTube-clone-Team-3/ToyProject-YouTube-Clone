@@ -29,7 +29,7 @@ export default function PlayPage() {
   const params = {
     part: ['snippet', 'contentDetails', 'player', 'statistics'],
     id: id,
-    key: import.meta.env.VITE_API_KEY1
+    key: import.meta.env.VITE_API_KEY3
   }
   useEffect(() => {
     async function getVideo() {
