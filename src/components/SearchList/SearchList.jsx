@@ -34,7 +34,6 @@ export default function SearchList({data}) {
     getData();
   }, []);
 
-
   const videoThumbnail = data?.snippet.thumbnails.medium.url;
   const channelThumbnail = channel[0]?.snippet.thumbnails.default.url;
 
@@ -49,7 +48,7 @@ export default function SearchList({data}) {
         <HiOutlineClock size='22' className={styles.clockIcon} />
         <RiPlayList2Fill size='21' className={styles.playlistIcon} />
         <img src={videoThumbnail} alt='video thumbnail' className={styles.thumbnail} onClick={() => {
-          navigate(`/detail/${video[0]?.id}`);
+          navigate(`/detail/${data?.id.videoId}`);
         }} ></img>
         <p className={styles.duration}>{duration}</p>
       </div>
