@@ -66,7 +66,8 @@ export default function PlayPage() {
   // }, [id])
 
   useEffect(() => {
-    document.title = `${video[0]?.snippet.title} - YouTube`;
+    if (video.length !== 0)
+      document.title = `${video[0]?.snippet.title} - YouTube`;
   }, [video]);
 
   const channelId = video[0]?.snippet?.channelId;
