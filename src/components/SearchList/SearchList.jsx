@@ -44,16 +44,11 @@ export default function SearchList({ data }) {
     <div className={styles.videoContent}>
       <FiMoreVertical size="24" className={styles.moreIcon} />
       <div className={styles.imgContent}>
-        <HiOutlineClock size="22" className={styles.clockIcon} />
-        <RiPlayList2Fill size="21" className={styles.playlistIcon} />
-        <img
-          src={videoThumbnail}
-          alt="video thumbnail"
-          className={styles.thumbnail}
-          onClick={() => {
-            navigate(`/detail/${video[0]?.id}`);
-          }}
-        ></img>
+        <HiOutlineClock size='22' className={styles.clockIcon} />
+        <RiPlayList2Fill size='21' className={styles.playlistIcon} />
+        <img src={videoThumbnail} alt='video thumbnail' className={styles.thumbnail} onClick={() => {
+          navigate(`/detail/${data?.id.videoId}`);
+        }} ></img>
         <p className={styles.duration}>{duration}</p>
       </div>
       <div className={styles.textContent}>
