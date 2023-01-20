@@ -11,7 +11,7 @@ import { useOutletContext, useParams } from "react-router";
 export default function PlayPage() {
   // props 내려쓰시면됩니다
   let { id } = useParams();
-  const [video, setVideo] = useState([])
+  const [video, setVideo] = useState([]);
   // Playpage진입시 좌측 Nav small로
   const { navDisplay } = useOutletContext();
 
@@ -19,21 +19,21 @@ export default function PlayPage() {
   useEffect(() => {
     async function getVideo() {
       try {
-        const data = await axios.get("http://localhost:3000/video")
+        const data = await axios.get("http://localhost:3000/video");
         if (data.status !== 200) {
-          throw new Error()
+          throw new Error();
         }
-        setVideo(data.data.items)
+        setVideo(data.data.items);
       } catch (error) {
-        console.log(`통신 오류: ${error.response}`)
+        console.log(`통신 오류: ${error.response}`);
       }
     }
-    getVideo()
-    navDisplay(false)
+    getVideo();
+    navDisplay(false);
     return () => {
-      navDisplay(true)
-    }
-  }, [id])
+      navDisplay(true);
+    };
+  }, []);
 
   // 실제 api 사용 props 내려서 쓰시면 됩니다!
   // const params = {
@@ -65,7 +65,11 @@ export default function PlayPage() {
   //   }
   // }, [id])
 
-  const channelId = video[0]?.snippet?.channelId
+  useEffect(() => {
+    document.title = `${video[0]?.snippet.title} - YouTube`;
+  }, [video]);
+
+  const channelId = video[0]?.snippet?.channelId;
 
   return (
     <section className={styles.playPage}>
