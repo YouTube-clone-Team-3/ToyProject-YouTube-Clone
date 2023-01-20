@@ -4,6 +4,7 @@ import SearchList from '../../components/SearchList/SearchList';
 import styles from './SearchPage.module.scss';
 import { useLocation } from 'react-router-dom';
 import data from '../../data/search.json'
+import HoverVideo from './HoverVideo/HoverVideo';
 
 export default function SearchPage () {
   const [search, setSearch] = useState([]);
@@ -27,6 +28,7 @@ export default function SearchPage () {
 
   return (
     <div className={styles.searchVideos}>
+      <HoverVideo />
       {
         search ? (
           search.map((item) => {
