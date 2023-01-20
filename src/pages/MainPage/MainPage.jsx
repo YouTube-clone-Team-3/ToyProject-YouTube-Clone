@@ -17,8 +17,8 @@ export default function MainPage() {
     <div className={styles.MainVideos}>
       {
         video ? (
-          video.map((item) => {
-            return <MainList data={item} key={item.id.videoId} />
+          video.map((item, i) => {
+            return <MainList data={item} key={item.id.videoId} i={i} />
           })
         ) : <p>영상이 존재하지 않습니다.</p>
       }

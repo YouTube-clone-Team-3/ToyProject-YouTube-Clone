@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import videoData from "../../data/video.json";
+import videoData from "../../data/videosDetail.json";
 import channelData from "../../data/channel.json";
 import styles from "./MainList.module.scss";
 import calcNum from "../../utils/CalNum";
@@ -8,7 +8,7 @@ import calcDate from "../../utils/CalDate";
 import calcDuration from "../../utils/CalDuration";
 import { FiMoreVertical } from "react-icons/fi";
 
-export default function MainList({ data }) {
+export default function MainList({ data, i }) {
   const [channel, setChannel] = useState([]);
   const [videoDetail, setVideoDetail] = useState([]);
   const navigate = useNavigate();
@@ -16,7 +16,7 @@ export default function MainList({ data }) {
   useEffect(() => {
     async function getData() {
       setChannel(channelData.items);
-      setVideoDetail(videoData.items);
+      setVideoDetail(videoData.items[i]);
     }
     getData();
   }, []);
@@ -24,9 +24,9 @@ export default function MainList({ data }) {
   const videoThumbnail = data?.snippet.thumbnails.high.url;
   const channelThumbnail = channel[0]?.snippet.thumbnails.default.url;
 
-  const viewCount = calcNum(videoDetail[0]?.statistics.viewCount);
-  const publishedAt = calcDate(videoDetail[0]?.snippet.publishedAt);
-  const duration = calcDuration(videoDetail[0]?.contentDetails.duration);
+  const viewCount = calcNum(videoDetail?.statistics?.viewCount);
+  const publishedAt = calcDate(videoDetail?.snippet?.publishedAt);
+  const duration = calcDuration(videoDetail?.contentDetails?.duration);
 
   return (
     <div className={styles.videoContent}>
