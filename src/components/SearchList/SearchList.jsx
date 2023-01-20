@@ -75,7 +75,7 @@ export default function SearchList({ data }) {
             navigate(`/detail/${data?.id.videoId}`);
           }}
         >
-          {data.snippet.title}
+          {data?.snippet.title}
         </h3>
         <span>
           조회수 {viewCount}회 <span className={styles.dot_separator}> • </span>{" "}
@@ -88,10 +88,10 @@ export default function SearchList({ data }) {
             className={styles.channelThumbnail}
           ></img>
           <span className={styles.channelTitle}>
-            {data.snippet.channelTitle}
+            {data?.snippet.channelTitle}
           </span>
         </div>
-        <p>{data.snippet.description}</p>
+        <p>{data?.snippet.description}</p>
       </div>
     </div>
   );
