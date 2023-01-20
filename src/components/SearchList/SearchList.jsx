@@ -5,13 +5,13 @@ import calcNum from "../../utils/CalNum";
 import calcDate from "../../utils/CalDate";
 import calcDuration from "../../utils/CalDuration";
 import channelData from "../../data/channel.json";
-import videoData from "../../data/video.json";
+import videoData from "../../data/videosDetail.json";
 import { useNavigate } from "react-router-dom";
 import { FiMoreVertical } from "react-icons/fi";
 import { HiOutlineClock } from "react-icons/hi";
 import { RiPlayList2Fill } from "react-icons/ri";
 
-export default function SearchList({ data }) {
+export default function SearchList({ data, i }) {
   const [channel, setChannel] = useState([]);
   const [video, setVideo] = useState([]);
   const navigate = useNavigate();
@@ -28,7 +28,7 @@ export default function SearchList({ data }) {
     async function getData() {
       // const data = await axios.get('https://www.googleapis.com/youtube/v3/channels', { params });
       setChannel(channelData.items);
-      setVideo(videoData.items);
+      setVideo(videoData.items[i]);
     }
     getData();
   }, []);
@@ -36,9 +36,9 @@ export default function SearchList({ data }) {
   const videoThumbnail = data?.snippet.thumbnails.high.url;
   const channelThumbnail = channel[0]?.snippet.thumbnails.default.url;
 
-  const viewCount = calcNum(video[0]?.statistics.viewCount);
-  const publishedAt = calcDate(video[0]?.snippet.publishedAt);
-  const duration = calcDuration(video[0]?.contentDetails.duration);
+  const viewCount = calcNum(video?.statistics.viewCount);
+  const publishedAt = calcDate(video?.snippet.publishedAt);
+  const duration = calcDuration(video?.contentDetails.duration);
 
   return (
     <div className={styles.videoContent}>
@@ -54,7 +54,7 @@ export default function SearchList({ data }) {
       <div className={styles.textContent}>
         <h3
           onClick={() => {
-            navigate(`/detail/${video[0]?.id}`);
+            navigate(`/detail/${data?.id.videoId}`);
           }}
         >
           {data.snippet.title}

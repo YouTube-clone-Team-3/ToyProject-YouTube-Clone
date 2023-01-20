@@ -29,9 +29,9 @@ export default function SearchPage () {
     <div className={styles.searchVideos}>
       {
         search ? (
-          search.map((item) => {
+          search.map((item, i) => {
             if(item.id.kind === 'youtube#video') {
-              return <SearchList data={item} key={item.id.videoId} />
+              return <SearchList data={item} key={item.id.videoId} i={i} />
             }
           })
         ) : <p>검색결과가 존재하지 않습니다.</p>

@@ -36,7 +36,7 @@ export default function MainList({ data }) {
           alt="video thumbnail"
           className={styles.thumbnail}
           onClick={() => {
-            navigate(`/detail/${videoDetail[0]?.id}`);
+            navigate(`/detail/${data?.id.videoId}`);
           }}
         ></img>
         <p className={styles.duration}>{duration}</p>
@@ -54,7 +54,7 @@ export default function MainList({ data }) {
             <h3
               className={styles.videoTitle}
               onClick={() => {
-                navigate(`/detail/${videoDetail[0]?.id}`);
+                navigate(`/detail/${data?.id.videoId}`);
               }}
             >
               {data.snippet.title}
