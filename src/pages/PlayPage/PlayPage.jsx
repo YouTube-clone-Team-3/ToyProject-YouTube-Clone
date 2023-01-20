@@ -12,6 +12,8 @@ export default function PlayPage() {
   // props 내려쓰시면됩니다
   let { id } = useParams();
   const [video, setVideo] = useState([])
+  // Playpage진입시 좌측 Nav small로
+  const { navDisplay } = useOutletContext();
 
   // dummy data 사용
   useEffect(() => {
@@ -27,7 +29,11 @@ export default function PlayPage() {
       }
     }
     getVideo()
-  }, [])
+    navDisplay(false)
+    return () => {
+      navDisplay(true)
+    }
+  }, [id])
 
   // 실제 api 사용 props 내려서 쓰시면 됩니다!
   // const params = {
@@ -36,37 +42,30 @@ export default function PlayPage() {
   //   key: import.meta.env.VITE_API_KEY
   // }
   // useEffect(() => {
-  // async function getVideo() {
-  //   try {
-  //     const data = await axios.get("https://www.googleapis.com/youtube/v3/videos", {
-  //       params,
-  //       paramsSerializer: {
-  //         indexes: null
+  //   async function getVideo() {
+  //     try {
+  //       const data = await axios.get("https://www.googleapis.com/youtube/v3/videos", {
+  //         params,
+  //         paramsSerializer: {
+  //           indexes: null
+  //         }
+  //       })
+  //       if (data.status !== 200) {
+  //         throw new Error()
   //       }
-  //     })
-  //     if (data.response !== 200) {
-  //       throw new Error()
+  //       setVideo(data.data.items)
+  //     } catch (error) {
+  //       console.log(`통신 오류: ${error.response}`)
   //     }
-  //     setVideo(data.data.items)
-  //   } catch (error) {
-  //     console.log(`통신 오류: ${error.response}`)
   //   }
-  // }
   //   getVideo()
-  // }, [])
+  //   navDisplay(false)
+  //   return () => {
+  //     navDisplay(true)
+  //   }
+  // }, [id])
 
   const channelId = video[0]?.snippet?.channelId
-
-  // Playpage진입시 좌측 Nav small로
-  const { navDisplay } = useOutletContext();
-
-  useEffect(() => {
-    navDisplay(false);
-
-    return () => {
-      navDisplay(true);
-    };
-  }, []);
 
   return (
     <section className={styles.playPage}>

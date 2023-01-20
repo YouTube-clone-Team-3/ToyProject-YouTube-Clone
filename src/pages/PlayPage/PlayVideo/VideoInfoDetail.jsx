@@ -8,32 +8,46 @@ const VideoInfoDetail = ({ video, channelId }) => {
 
   // dummy data 사용
   useEffect(() => {
-    async function getChannel() {
-      const data = await axios.get("http://localhost:3000/channel")
-      setChannel(data.data.items)
+    try {
+      async function getChannel() {
+        const data = await axios.get("http://localhost:3000/channel")
+        if (data.status !== 200) {
+          throw new Error()
+        }
+        setChannel(data.data.items)
+      }
+      getChannel()
+    } catch (error) {
+      console.log(`통신 오류: ${error.response}`)
     }
-    getChannel()
   }, [])
 
   // 실제 api 사용
-  // useEffect(() => {
-  // async function getChannel() {
-  //   const data = await axios.get("https://www.googleapis.com/youtube/v3/channels", {
-  //     params,
-  //     paramsSerializer: {
-  //       indexes: null
-  //     }
-  //   })
-  //   setChannel(data.data.items)
-  // }
-  //   getChannel()
-  // }, [channelId])
-
   // const params = {
   //   part: ["snippet", "statistics", "contentDetails"],
   //   key: import.meta.env.VITE_API_KEY,
   //   id: channelId
   // }
+
+  // useEffect(() => {
+  //   try {
+  //     async function getChannel() {
+  //       const data = await axios.get("https://www.googleapis.com/youtube/v3/channels", {
+  //         params,
+  //         paramsSerializer: {
+  //           indexes: null
+  //         }
+  //       })
+  //       if (data.status !== 200) {
+  //         throw new Error()
+  //       }
+  //       setChannel(data.data.items)
+  //     }
+  //     getChannel()
+  //   } catch (error) {
+  //     console.log(`통신 오류: ${error.response}`)
+  //   }
+  // }, [channelId])
 
   const channelTitle = channel[0]?.snippet?.title
   const channelThumb = channel[0]?.snippet?.thumbnails.default.url
