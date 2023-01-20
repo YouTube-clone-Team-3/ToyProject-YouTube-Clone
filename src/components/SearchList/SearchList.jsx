@@ -36,9 +36,9 @@ export default function SearchList({ data, i }) {
   const videoThumbnail = data?.snippet.thumbnails.high.url;
   const channelThumbnail = channel[0]?.snippet.thumbnails.default.url;
 
-  const viewCount = calcNum(video?.statistics.viewCount);
-  const publishedAt = calcDate(video?.snippet.publishedAt);
-  const duration = calcDuration(video?.contentDetails.duration);
+  const viewCount = calcNum(video?.statistics?.viewCount);
+  const publishedAt = calcDate(video?.snippet?.publishedAt);
+  const duration = calcDuration(video?.contentDetails?.duration);
 
   return (
     <div className={styles.videoContent}>
