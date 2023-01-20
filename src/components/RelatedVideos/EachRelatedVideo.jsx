@@ -7,40 +7,61 @@ import calcNum from "../../utils/CalNum";
 import axios from "axios";
 
 const EachRelatedVideo = ({ item, index }) => {
-  // 배포때는 아래의 로직 사용하면 됨. key만 교체?
+  const [relatedVideoSearch, setRelatedVideoSearch] = useState([]);
+
+  // 실제 api
   // const params = {
   //   part: ["snippet", "contentDetails", "player", "statistics"],
   //   id: item.id.videoId,
-  //   key: "AIzaSyD08Wd5NaXlc9Gs6pP_83Hdxiuj5RM_lKA",
+  //   key: import.meta.env.VITE_API_KEY,
   // };
 
   // useEffect(() => {
-  //   async function getData() {
-  //     const data = await   axios.get(
-  //       "https://www.googleapis.com/youtube/v3/videos",
-  //       {
-  //         params,
-  //         paramsSerializer: {
-  //           indexes: null, // by default: false
-  //         },
+  //   async function getInfo() {
+  //     try {
+  //       const data = await axios.get(
+  //         "https://www.googleapis.com/youtube/v3/videos",
+  //         {
+  //           params,
+  //           paramsSerializer: {
+  //             indexes: null,
+  //           },
+  //         }
+  //       );
+  //       if (data.status !== 200) {
+  //         throw new Error();
   //       }
-  //     );
-  //     console.log(data);
+  //       setRelatedVideoSearch(data.data);
+  //     } catch (error) {
+  //       console.log("통신오류: ", error.response);
+  //     }
   //   }
-  //   getData();
+  //   getInfo();
   // }, []);
-
-  const [relatedVideoSearch, setRelatedVideoSearch] = useState([]);
 
   useEffect(() => {
     async function getInfo() {
-      const data = await axios.get("http://localhost:3000/relatedVideoSearch");
-      setRelatedVideoSearch(data.data);
+      try {
+        const data = await axios.get(
+          "http://localhost:3000/relatedVideoSearch"
+        );
+        if (data.status !== 200) {
+          throw new Error();
+        }
+        setRelatedVideoSearch(data.data);
+      } catch (error) {
+        console.log("통신오류: ", error.response);
+      }
     }
     getInfo();
   }, []);
 
   const video = item.snippet;
+  // 실제용
+  // const videoDuration = relatedVideoSearch?.items?.[0].contentDetails.duration;
+  // const videoViews = relatedVideoSearch?.items?.[0].statistics.viewCount;
+
+  // 테스트용
   const videoDuration =
     relatedVideoSearch[index]?.data?.items[0].contentDetails.duration;
   const videoViews =
