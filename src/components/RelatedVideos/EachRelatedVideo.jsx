@@ -10,40 +10,23 @@ const EachRelatedVideo = ({ item, index }) => {
   const [relatedVideoSearch, setRelatedVideoSearch] = useState([]);
 
   // 실제 api
-  // const params = {
-  //   part: ["snippet", "contentDetails", "player", "statistics"],
-  //   id: item.id.videoId,
-  //   key: import.meta.env.VITE_API_KEY,
-  // };
-
-  // useEffect(() => {
-  //   async function getInfo() {
-  //     try {
-  //       const data = await axios.get(
-  //         "https://www.googleapis.com/youtube/v3/videos",
-  //         {
-  //           params,
-  //           paramsSerializer: {
-  //             indexes: null,
-  //           },
-  //         }
-  //       );
-  //       if (data.status !== 200) {
-  //         throw new Error();
-  //       }
-  //       setRelatedVideoSearch(data.data);
-  //     } catch (error) {
-  //       console.log("통신오류: ", error.response);
-  //     }
-  //   }
-  //   getInfo();
-  // }, []);
+  const params = {
+    part: ["snippet", "contentDetails", "player", "statistics"],
+    id: item.id.videoId,
+    key: import.meta.env.VITE_API_KEY2,
+  };
 
   useEffect(() => {
     async function getInfo() {
       try {
         const data = await axios.get(
-          "http://localhost:3000/relatedVideoSearch"
+          "https://www.googleapis.com/youtube/v3/videos",
+          {
+            params,
+            paramsSerializer: {
+              indexes: null,
+            },
+          }
         );
         if (data.status !== 200) {
           throw new Error();
@@ -56,16 +39,33 @@ const EachRelatedVideo = ({ item, index }) => {
     getInfo();
   }, []);
 
+  // useEffect(() => {
+  //   async function getInfo() {
+  //     try {
+  //       const data = await axios.get(
+  //         "http://localhost:3000/relatedVideoSearch"
+  //       );
+  //       if (data.status !== 200) {
+  //         throw new Error();
+  //       }
+  //       setRelatedVideoSearch(data.data);
+  //     } catch (error) {
+  //       console.log("통신오류: ", error.response);
+  //     }
+  //   }
+  //   getInfo();
+  // }, []);
+
   const video = item.snippet;
   // 실제용
-  // const videoDuration = relatedVideoSearch?.items?.[0].contentDetails.duration;
-  // const videoViews = relatedVideoSearch?.items?.[0].statistics.viewCount;
+  const videoDuration = relatedVideoSearch?.items?.[0].contentDetails.duration;
+  const videoViews = relatedVideoSearch?.items?.[0].statistics.viewCount;
 
   // 테스트용
-  const videoDuration =
-    relatedVideoSearch[index]?.data?.items[0].contentDetails.duration;
-  const videoViews =
-    relatedVideoSearch[index]?.data?.items[0].statistics.viewCount;
+  // const videoDuration =
+  //   relatedVideoSearch[index]?.data?.items[0].contentDetails.duration;
+  // const videoViews =
+  //   relatedVideoSearch[index]?.data?.items[0].statistics.viewCount;
   const date = calcDate(video.publishedAt);
   const duration = calcDuration(videoDuration);
   const views = calcNum(videoViews);

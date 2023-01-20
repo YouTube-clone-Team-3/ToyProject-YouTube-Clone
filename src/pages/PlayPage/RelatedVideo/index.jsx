@@ -10,38 +10,21 @@ const RelatedVideos = ({ id }) => {
 
   // 실제 api
 
-  // const params = {
-  //   part: "snippet",
-  //   maxResults: 10,
-  //   relatedToVideoId: id,
-  //   type: "video",
-  //   key: import.meta.env.VITE_API_KEY,
-  // };
-
-  // useEffect(() => {
-  //   async function getVideo() {
-  //     try {
-  //       const data = await axios.get(
-  //         "https://www.googleapis.com/youtube/v3/search",
-  //         { params }
-  //       );
-  //       if (data.status !== 200) {
-  //         throw new Error();
-  //       }
-  //       setRelatedVideos(data.data);
-  //     } catch (error) {
-  //       console.log("통신오류: ", error.response);
-  //     }
-  //   }
-  //   getVideo();
-  // }, []);
-
-  //테스트용
+  const params = {
+    part: "snippet",
+    maxResults: 10,
+    relatedToVideoId: id,
+    type: "video",
+    key: import.meta.env.VITE_API_KEY2,
+  };
 
   useEffect(() => {
     async function getVideo() {
       try {
-        const data = await axios.get("http://localhost:3000/relatedVideo");
+        const data = await axios.get(
+          "https://www.googleapis.com/youtube/v3/search",
+          { params }
+        );
         if (data.status !== 200) {
           throw new Error();
         }
@@ -52,6 +35,23 @@ const RelatedVideos = ({ id }) => {
     }
     getVideo();
   }, []);
+
+  //테스트용
+
+  // useEffect(() => {
+  //   async function getVideo() {
+  //     try {
+  //       const data = await axios.get("http://localhost:3000/relatedVideo");
+  //       if (data.status !== 200) {
+  //         throw new Error();
+  //       }
+  //       setRelatedVideos(data.data);
+  //     } catch (error) {
+  //       console.log("통신오류: ", error.response);
+  //     }
+  //   }
+  //   getVideo();
+  // }, []);
 
   return (
     <div className={styles.relatedVideos}>
