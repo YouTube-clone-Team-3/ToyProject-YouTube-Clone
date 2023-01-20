@@ -75,7 +75,7 @@ export default function SearchList({ data }) {
             navigate(`/detail/${data?.id.videoId}`);
           }}
         >
-          {data?.snippet.title}
+          {video[0]?.snippet.title}
         </h3>
         <span>
           조회수 {viewCount}회 <span className={styles.dot_separator}> • </span>{" "}
