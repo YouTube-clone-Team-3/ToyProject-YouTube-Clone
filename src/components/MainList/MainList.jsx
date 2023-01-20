@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react"
-import { useNavigate } from "react-router-dom"
-import videoData from '../../data/video.json'
-import channelData from '../../data/channel.json'
-import styles from './MainList.module.scss'
-import calcNum from "../../utils/CalNum"
-import calcDate from "../../utils/CalDate"
-import calcDuration from "../../utils/CalDuration"
-import { FiMoreVertical } from 'react-icons/fi'
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import videoData from "../../data/video.json";
+import channelData from "../../data/channel.json";
+import styles from "./MainList.module.scss";
+import calcNum from "../../utils/CalNum";
+import calcDate from "../../utils/CalDate";
+import calcDuration from "../../utils/CalDuration";
+import { FiMoreVertical } from "react-icons/fi";
 
 export default function MainList({ data }) {
   const [channel, setChannel] = useState([]);
@@ -18,10 +18,10 @@ export default function MainList({ data }) {
       setChannel(channelData.items);
       setVideoDetail(videoData.items);
     }
-    getData()
+    getData();
   }, []);
 
-  const videoThumbnail = data?.snippet.thumbnails.medium.url;
+  const videoThumbnail = data?.snippet.thumbnails.high.url;
   const channelThumbnail = channel[0]?.snippet.thumbnails.default.url;
 
   const viewCount = calcNum(videoDetail[0]?.statistics.viewCount);
@@ -31,24 +31,43 @@ export default function MainList({ data }) {
   return (
     <div className={styles.videoContent}>
       <div className={styles.imgContent}>
-        <img src={videoThumbnail} alt='video thumbnail' className={styles.thumbnail} onClick={() => {
-          navigate(`/detail/${videoDetail[0]?.id}`)
-        }} ></img>
+        <img
+          src={videoThumbnail}
+          alt="video thumbnail"
+          className={styles.thumbnail}
+          onClick={() => {
+            navigate(`/detail/${videoDetail[0]?.id}`);
+          }}
+        ></img>
         <p className={styles.duration}>{duration}</p>
       </div>
       <div className={styles.textContent}>
         <div className={styles.leftContent}>
-        <img src={channelThumbnail} alt='channel thumbnail' className={styles.channelThumbnail}></img>
+          <img
+            src={channelThumbnail}
+            alt="channel thumbnail"
+            className={styles.channelThumbnail}
+          ></img>
         </div>
         <div className={styles.rightContent}>
           <div className={styles.titleContent}>
-            <h3 className={styles.videoTitle} onClick={() =>{ navigate(`/detail/${videoDetail[0]?.id}`) }}>{data.snippet.title}</h3>
-            <FiMoreVertical size='24' className={styles.moreIcon} />
+            <h3
+              className={styles.videoTitle}
+              onClick={() => {
+                navigate(`/detail/${videoDetail[0]?.id}`);
+              }}
+            >
+              {data.snippet.title}
+            </h3>
+            <FiMoreVertical size="24" className={styles.moreIcon} />
           </div>
-        <p className={styles.channelTitle}>{data.snippet.channelTitle}</p>
-        <span className={styles.videoView}>조회수 {viewCount}회 <span className={styles.dot_separator}> • </span> {publishedAt} 전</span>
+          <p className={styles.channelTitle}>{data.snippet.channelTitle}</p>
+          <span className={styles.videoView}>
+            조회수 {viewCount}회{" "}
+            <span className={styles.dot_separator}> • </span> {publishedAt} 전
+          </span>
         </div>
       </div>
     </div>
-  )
+  );
 }

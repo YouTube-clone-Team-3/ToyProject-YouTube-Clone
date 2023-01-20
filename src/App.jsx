@@ -5,6 +5,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import { useState } from "react";
 import SubNavBar from "./components/NavBar/subNavBar";
 import { useMediaQuery } from "react-responsive";
+import { ScrollRestoration } from "react-router-dom";
 import "./App.css";
 
 function App() {
@@ -18,43 +19,40 @@ function App() {
   }
 
   const isPc = useMediaQuery({
-    query: "(min-width:1024px)"
+    query: "(min-width:1024px)",
   });
 
   const isTablet = useMediaQuery({
-    query: "(max-width:1023px)"
+    query: "(max-width:1023px)",
   });
 
   function displayClass() {
     if (isPc) {
-      return display ? "big" : "small"
+      return display ? "big" : "small";
     } else {
-      return display ? "small" : "big"
+      return display ? "small" : "big";
     }
   }
 
   function displayNav() {
     if (isPc) {
-      return display ? <NavBar /> : <SubNavBar />
+      return display ? <NavBar /> : <SubNavBar />;
     } else {
-      return display ? <SubNavBar /> : <NavBar />
+      return display ? <SubNavBar /> : <NavBar />;
     }
   }
 
   return (
     <div className="App">
+      <ScrollRestoration />
       <Header navDisplay={navDisplay} display={display} />
-      {
-        pathName === 'detail' ? (
-          <aside className={display ? 'big' : 'small'}>
-            {
-              display ? <NavBar /> : <SubNavBar />
-            }
-          </aside>
-        ) : (
-          <aside className={displayClass()}>{displayNav()}</aside>
-        )
-      }
+      {pathName === "detail" ? (
+        <aside className={display ? "big" : "small"}>
+          {display ? <NavBar /> : <SubNavBar />}
+        </aside>
+      ) : (
+        <aside className={displayClass()}>{displayNav()}</aside>
+      )}
       <main>
         <Outlet context={{ navDisplay }} />
       </main>
