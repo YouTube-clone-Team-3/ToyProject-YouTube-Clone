@@ -1,0 +1,43 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "GznfY1W8p4VnL0mCfnACzWFS5cA",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "GjGvESoSL_KQHMSzEad5mvO9tRg",
+      "id": "UCFnuC4E0kzpJF6vv1OJ7B3Q",
+      "snippet": {
+        "title": "카카오프렌즈 KAKAO FRIENDS",
+        "description": "Welcome to the official channel of KAKAO FRIENDS.\n\nKAKAO FRIENDS 공식 유튜브 채널입니다.\n\n저마다의 개성과 인간적인 매력을 지닌 아홉 친구들,\n카카오프렌즈의 즐겁고 신나는 이야기를 만나보세요🧡",
+        "customUrl": "@kakaofriends_official",
+        "publishedAt": "2017-09-20T06:17:20Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/lsYxdYiXNHl9g-rjAtAuBmdOgNX-VURn4gTwbCYoiNnyhEM9C6SI-e2RK8OTNNzx6ORb3dJJDw=s88-c-k-c0x00ffffff-no-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/lsYxdYiXNHl9g-rjAtAuBmdOgNX-VURn4gTwbCYoiNnyhEM9C6SI-e2RK8OTNNzx6ORb3dJJDw=s240-c-k-c0x00ffffff-no-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/lsYxdYiXNHl9g-rjAtAuBmdOgNX-VURn4gTwbCYoiNnyhEM9C6SI-e2RK8OTNNzx6ORb3dJJDw=s800-c-k-c0x00ffffff-no-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "카카오프렌즈 KAKAO FRIENDS",
+          "description": "Welcome to the official channel of KAKAO FRIENDS.\n\nKAKAO FRIENDS 공식 유튜브 채널입니다.\n\n저마다의 개성과 인간적인 매력을 지닌 아홉 친구들,\n카카오프렌즈의 즐겁고 신나는 이야기를 만나보세요🧡"
+        },
+        "country": "KR"
+      }
+    }
+  ]
+}

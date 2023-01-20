@@ -1,0 +1,102 @@
+.videoCard {
+  &:hover {
+    .hoverBox {
+      display: block !important;
+    }
+  }
+  a {
+    display: flex;
+    height: 94px;
+    color: #333;
+    text-decoration: none;
+    margin-top: 8px;
+    .thumbnails {
+      position: relative;
+      width: 168px;
+      height: 94px;
+      margin-right: 8px;
+      img {
+        width: 168px;
+        height: 94px;
+        border-radius: 10px;
+      }
+      .durationBox {
+        display: flex;
+        position: absolute;
+        width: auto;
+        height: 12px;
+        padding: 3px 4px;
+        margin: 4px;
+        border-radius: 4px;
+        align-items: center;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        span {
+          color: #ffffff;
+          font-size: 12px;
+          font-weight: 600;
+        }
+      }
+      .hoverBox {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        display: none;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.8);
+        &:nth-child(3) {
+          top: 5px;
+          right: 3px;
+        }
+        &:nth-child(4) {
+          top: 37px;
+          right: 3px;
+        }
+        svg {
+          display: block;
+          position: absolute;
+          width: 24px;
+          height: 24px;
+          top: 2px;
+          left: 2px;
+        }
+      }
+    }
+
+    .description {
+      max-width: 200px;
+      h3 {
+        display: -webkit-box;
+        width: 200px;
+        margin: 2px 0 6px 0;
+        max-height: 50%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        -webkit-line-clamp: 2; /* 라인수 */
+        -webkit-box-orient: vertical;
+        word-wrap: break-word;
+        line-height: 130%;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      p,
+      span {
+        color: #606060;
+        font-size: 12px;
+      }
+      p {
+        margin-bottom: 2px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .videoCard a div.description {
+    max-width: 600px;
+    h3 {
+      width: 100%;
+    }
+  }
+}

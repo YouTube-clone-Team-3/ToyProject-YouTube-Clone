@@ -1,0 +1,12 @@
+.comments {
+  grid-area: comment;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  // max-width: 800px;
+  p {
+    font-size: 16px;
+    margin-bottom: 32px;
+    color: #0f0f0f;
+  }
+}

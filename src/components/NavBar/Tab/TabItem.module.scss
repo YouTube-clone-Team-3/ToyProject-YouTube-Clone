@@ -1,0 +1,20 @@
+.tab {
+  height: 40px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  width: 195px;
+  cursor: pointer;
+  &:hover {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+  .tabTitle {
+    padding-left: 20px;
+    white-space: nowrap;
+  }
+}

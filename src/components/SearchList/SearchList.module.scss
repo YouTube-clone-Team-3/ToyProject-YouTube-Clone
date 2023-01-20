@@ -1,0 +1,94 @@
+.videoContent {
+  position: relative;
+  display: flex;
+  margin-top: 16px;
+  .moreIcon {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 7px;
+  }
+  &:hover {
+    .moreIcon {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 7px;
+    }
+    .imgContent {
+      .clockIcon {
+        display: block;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 1.5px;
+        border-radius: 4px;
+        position: absolute;
+        right: 2%;
+        top: 3%;
+      }
+      .playlistIcon {
+        display: block;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 2px;
+        border-radius: 4px;
+        position: absolute;
+        right: 2%;
+        top: 20%;
+      }
+    }
+  }
+  .imgContent {
+    margin-right: 16px;
+    position: relative;
+    height: 100%;
+    .clockIcon {
+      display: none;
+    }
+    .playlistIcon {
+      display: none;
+    }
+    .thumbnail {
+      max-width: 360px;
+      aspect-ratio: 16/8.9;
+      object-fit: cover;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+    .duration {
+      background-color: #000;
+      color: #fff;
+      position: absolute;
+      border-radius: 4px;
+      padding: 3px 4px;
+      right: 0;
+      bottom: 4px;
+      margin: 4px;
+      font-size: 14px;
+    }
+  }
+  .textContent {
+    cursor: pointer;
+    text-decoration: none;
+    h3 {
+      line-height: 2.6rem;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    span,
+    p {
+      font-size: 12px;
+      color: #606060;
+    }
+    .channelInfo {
+      padding: 12px 0;
+      display: flex;
+      align-items: center;
+      .channelThumbnail {
+        width: 24px;
+        border-radius: 50%;
+        margin-right: 8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.subNav {
+  height: 100vh;
+  position: fixed;
+  box-sizing: border-box;
+  // border-right: 1px solid #333;
+  width: 80px;
+  padding: 12px;
+  overflow-y: auto;
+  left: 0;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .iconContent {
+    text-align: center;
+    margin-bottom: 25px;
+    &:first-child {
+      margin-top: 15px;
+    }
+    &:hover {
+      background-color: #f2f2f2;
+      border-radius: 10px;
+    }
+    .iconImg {
+      padding: 0 10px;
+      align-items: center;
+      cursor: pointer;
+    }
+    .svgIcon {
+      width: 24px;
+      height: 24px;
+    }
+    .iconText {
+      text-align: center;
+    }
+  }
+}
