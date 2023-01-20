@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react'
-import styles from './VideoInfoDetail.module.scss'
-import calcNum from '../../../utils/CalNum'
-import axios from 'axios'
+import React, { useState, useEffect } from 'react';
+import styles from './VideoInfoDetail.module.scss';
+import calcNum from '../../../utils/CalNum';
+import axios from 'axios';
 
 const VideoInfoDetail = ({ video, channelId }) => {
   const [channel, setChannel] = useState([])

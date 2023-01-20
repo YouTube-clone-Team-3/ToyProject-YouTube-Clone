@@ -26,7 +26,7 @@ export default function SearchList({ data, i }) {
 
   useEffect(() => {
     async function getData() {
-      // const data = await axios.get('https://www.googleapis.com/youtube/v3/channels', { params });
+      // const channelData = await axios.get('https://www.googleapis.com/youtube/v3/channels', { params });
       setChannel(channelData.items);
       setVideo(videoData.items[i]);
     }

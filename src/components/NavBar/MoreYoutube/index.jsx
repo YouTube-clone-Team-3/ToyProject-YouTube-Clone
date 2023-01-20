@@ -1,6 +1,6 @@
-import React from 'react'
-import TabItem from '../Tab/TabItem'
-import { createStudio, youtubeMusic, youtubeKids, youtubeTV } from './svgList'
+import React from 'react';
+import TabItem from '../Tab/TabItem';
+import { createStudio, youtubeMusic, youtubeKids, youtubeTV } from './svgList';
 
 const MoreYoutube = () => {
   return (

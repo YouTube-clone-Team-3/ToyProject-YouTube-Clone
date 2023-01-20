@@ -1,5 +1,5 @@
-import React from 'react'
-import TabItem from '../Tab/TabItem'
+import React from 'react';
+import TabItem from '../Tab/TabItem';
 
 const Explore = () => {
   return (
