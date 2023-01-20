@@ -1,16 +1,36 @@
 import React, { useState, useEffect } from 'react';
 import styles from './VideoInfoDetail.module.scss';
-import calcNum from '../../../utils/CalNum';
+import calcNum from '../../utils/CalNum';
+import channelInfo from '../../data/channel.json'
 import axios from 'axios';
 
 const VideoInfoDetail = ({ video, channelId }) => {
   const [channel, setChannel] = useState([])
 
   // dummy data 사용
+  // useEffect(() => {
+  //   async function getChannel() {
+  //     setChannel(channelInfo.items)
+  //   }
+  //   getChannel()
+  // }, [])
+
+  // 실제 api 사용
+  const params = {
+    part: ["snippet", "statistics", "contentDetails"],
+    key: import.meta.env.VITE_API_KEY1,
+    id: channelId
+  }
+
   useEffect(() => {
     try {
       async function getChannel() {
-        const data = await axios.get("http://localhost:3000/channel")
+        const data = await axios.get("https://www.googleapis.com/youtube/v3/channels", {
+          params,
+          paramsSerializer: {
+            indexes: null
+          }
+        })
         if (data.status !== 200) {
           throw new Error()
         }
@@ -20,34 +40,7 @@ const VideoInfoDetail = ({ video, channelId }) => {
     } catch (error) {
       console.log(`통신 오류: ${error.response}`)
     }
-  }, [])
-
-  // 실제 api 사용
-  // const params = {
-  //   part: ["snippet", "statistics", "contentDetails"],
-  //   key: import.meta.env.VITE_API_KEY,
-  //   id: channelId
-  // }
-
-  // useEffect(() => {
-  //   try {
-  //     async function getChannel() {
-  //       const data = await axios.get("https://www.googleapis.com/youtube/v3/channels", {
-  //         params,
-  //         paramsSerializer: {
-  //           indexes: null
-  //         }
-  //       })
-  //       if (data.status !== 200) {
-  //         throw new Error()
-  //       }
-  //       setChannel(data.data.items)
-  //     }
-  //     getChannel()
-  //   } catch (error) {
-  //     console.log(`통신 오류: ${error.response}`)
-  //   }
-  // }, [channelId])
+  }, [channelId])
 
   const channelTitle = channel[0]?.snippet?.title
   const channelThumb = channel[0]?.snippet?.thumbnails.default.url
