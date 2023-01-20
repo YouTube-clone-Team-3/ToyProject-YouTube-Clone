@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import styles from './Playing.module.scss'
+import React from 'react';
+import styles from './Playing.module.scss';
 
 const Playing = ({ id }) => {
   return (

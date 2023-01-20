@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './SubNavBar.module.scss'
+import styles from './SubNavBar.module.scss';
 
 export default function SubNavBar() {
   return (

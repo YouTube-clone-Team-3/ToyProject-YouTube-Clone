@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react"
-import styles from './MainPage.module.scss'
-import data from '../../data/videos.json'
+import React, { useEffect, useState } from "react";
+import styles from './MainPage.module.scss';
+import data from '../../data/videos.json';
 import MainList from "../../components/MainList/MainList";
 
 export default function MainPage() {

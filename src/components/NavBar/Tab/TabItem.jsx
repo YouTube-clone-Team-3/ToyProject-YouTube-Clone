@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from './TabItem.module.scss'
+import React from 'react';
+import styles from './TabItem.module.scss';
 
 const TabItem = ({ svgPath, title, svgYoutube }) => {
   return (

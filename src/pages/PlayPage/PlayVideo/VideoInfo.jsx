@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
-import styles from './VideoInfo.module.scss'
-import calcNum from '../../../utils/CalNum'
+import React from 'react';
+import axios from 'axios';
+import styles from './VideoInfo.module.scss';
+import calcNum from '../../../utils/CalNum';
 
 const VideoInfo = ({ video }) => {
   // 날짜 계산

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import styles from "./Header.module.scss";
 import { Link } from "react-router-dom";
 import HeaderInputForm from "./HeaderInputForm";

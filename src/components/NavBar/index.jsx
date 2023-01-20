@@ -1,9 +1,9 @@
-import React from 'react'
-import Video from './Video'
-import Explore from './Explore'
-import MoreYoutube from './MoreYoutube'
-import ServiceCenter from './ServiceCenter'
-import styles from './NavBar.module.scss'
+import React from 'react';
+import Video from './Video';
+import Explore from './Explore';
+import MoreYoutube from './MoreYoutube';
+import ServiceCenter from './ServiceCenter';
+import styles from './NavBar.module.scss';
 
 const Nav = () => {
   return (
