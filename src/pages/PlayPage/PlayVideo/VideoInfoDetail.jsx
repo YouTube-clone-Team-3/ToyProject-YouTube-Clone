@@ -5,28 +5,18 @@ import axios from 'axios'
 
 const VideoInfoDetail = ({ video, channelId }) => {
   const [channel, setChannel] = useState([])
+
+  // dummy data 사용
   useEffect(() => {
+    async function getChannel() {
+      const data = await axios.get("http://localhost:3000/channel")
+      setChannel(data.data.items)
+    }
     getChannel()
   }, [])
 
-  // dummy data 사용
-
-  async function getChannel() {
-    const data = await axios.get("http://localhost:3000/channel")
-    setChannel(data.data.items)
-  }
-
   // 실제 api 사용
   // useEffect(() => {
-  //   getChannel()
-  // }, [channelId])
-
-  // const params = {
-  //   part: ["snippet", "statistics", "contentDetails"],
-  //   key: import.meta.env.VITE_API_KEY,
-  //   id: channelId
-  // }
-
   // async function getChannel() {
   //   const data = await axios.get("https://www.googleapis.com/youtube/v3/channels", {
   //     params,
@@ -35,6 +25,14 @@ const VideoInfoDetail = ({ video, channelId }) => {
   //     }
   //   })
   //   setChannel(data.data.items)
+  // }
+  //   getChannel()
+  // }, [channelId])
+
+  // const params = {
+  //   part: ["snippet", "statistics", "contentDetails"],
+  //   key: import.meta.env.VITE_API_KEY,
+  //   id: channelId
   // }
 
   const channelTitle = channel[0]?.snippet?.title

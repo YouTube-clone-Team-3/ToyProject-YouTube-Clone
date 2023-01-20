@@ -13,37 +13,48 @@ export default function PlayPage() {
   let { id } = useParams();
   const [video, setVideo] = useState([])
 
+  // dummy data 사용
   useEffect(() => {
+    async function getVideo() {
+      try {
+        const data = await axios.get("http://localhost:3000/video")
+        if (data.status !== 200) {
+          throw new Error()
+        }
+        setVideo(data.data.items)
+      } catch (error) {
+        console.log(`통신 오류: ${error.response}`)
+      }
+    }
     getVideo()
   }, [])
 
-  // dummy data 사용
-
-  async function getVideo() {
-    const data = await axios.get("http://localhost:3000/video")
-    setVideo(data.data.items)
-  }
-
   // 실제 api 사용 props 내려서 쓰시면 됩니다!
-  // useEffect(() => {
-  //   getVideo()
-  // }, [])
-
   // const params = {
   //   part: ['snippet', 'contentDetails', 'player', 'statistics'],
   //   id: id,
   //   key: import.meta.env.VITE_API_KEY
   // }
-
+  // useEffect(() => {
   // async function getVideo() {
-  //   const data = await axios.get("https://www.googleapis.com/youtube/v3/videos", {
-  //     params,
-  //     paramsSerializer: {
-  //       indexes: null
+  //   try {
+  //     const data = await axios.get("https://www.googleapis.com/youtube/v3/videos", {
+  //       params,
+  //       paramsSerializer: {
+  //         indexes: null
+  //       }
+  //     })
+  //     if (data.response !== 200) {
+  //       throw new Error()
   //     }
-  //   })
-  //   setVideo(data.data.items)
+  //     setVideo(data.data.items)
+  //   } catch (error) {
+  //     console.log(`통신 오류: ${error.response}`)
+  //   }
   // }
+  //   getVideo()
+  // }, [])
+
   const channelId = video[0]?.snippet?.channelId
 
   // Playpage진입시 좌측 Nav small로
