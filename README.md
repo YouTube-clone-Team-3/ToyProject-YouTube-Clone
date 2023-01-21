@@ -10,3 +10,4 @@
 |**[노준영](https://github.com/ghgt1)**|**[박정민](https://github.com/plou102)**|**[조민정](https://github.com/quokka-eating-carrots)**|
 |:---:|:---:|:---:|
 |<img src='https://avatars.githubusercontent.com/u/35508595?v=4' width='150'>|<img src='https://avatars.githubusercontent.com/u/107393773?v=4' width='150'>|<img src='https://avatars.githubusercontent.com/u/113992260?v=4' width='150'>|
+|재생 페이지 <br /> 헤더|메인 페이지 <br />검색 페이지|재생 페이지 <br /> 사이드 바|
