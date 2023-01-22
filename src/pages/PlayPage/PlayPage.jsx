@@ -58,6 +58,11 @@ export default function PlayPage() {
     };
   }, [id]);
 
+  useEffect(() => {
+    if (video.length !== 0)
+      document.title = `${video[0]?.snippet.title} - YouTube`;
+  }, [video]);
+
   const channelId = video[0]?.snippet?.channelId;
 
   return (
