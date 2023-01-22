@@ -3,9 +3,9 @@ import axios from "axios";
 import RelatedVideos from "./RelatedVideo";
 import Comment from "./Comment";
 import styles from "./PlayPage.module.scss";
-import PlayVideo from "./PlayVideo"
+import PlayVideo from "./PlayVideo";
 import { useOutletContext, useParams } from "react-router";
-import videoInfo from "../../data/video.json"
+import videoInfo from "../../data/video.json";
 
 export default function PlayPage() {
   // props 내려쓰시면됩니다
@@ -27,35 +27,38 @@ export default function PlayPage() {
 
   // 실제 api 사용 props 내려서 쓰시면 됩니다!
   const params = {
-    part: ['snippet', 'contentDetails', 'player', 'statistics'],
+    part: ["snippet", "contentDetails", "player", "statistics"],
     id: id,
-    key: import.meta.env.VITE_API_KEY3
-  }
+    key: import.meta.env.VITE_API_KEY3,
+  };
   useEffect(() => {
     async function getVideo() {
       try {
-        const data = await axios.get("https://www.googleapis.com/youtube/v3/videos", {
-          params,
-          paramsSerializer: {
-            indexes: null
+        const data = await axios.get(
+          "https://www.googleapis.com/youtube/v3/videos",
+          {
+            params,
+            paramsSerializer: {
+              indexes: null,
+            },
           }
-        })
+        );
         if (data.status !== 200) {
-          throw new Error()
+          throw new Error();
         }
-        setVideo(data.data.items)
+        setVideo(data.data.items);
       } catch (error) {
-        console.log(`통신 오류: ${error.response}`)
+        console.log(`통신 오류: ${error.response}`);
       }
     }
-    getVideo()
-    navDisplay(false)
+    getVideo();
+    navDisplay(false);
     return () => {
-      navDisplay(true)
-    }
-  }, [])
+      navDisplay(true);
+    };
+  }, [id]);
 
-  const channelId = video[0]?.snippet?.channelId
+  const channelId = video[0]?.snippet?.channelId;
 
   return (
     <section className={styles.playPage}>
