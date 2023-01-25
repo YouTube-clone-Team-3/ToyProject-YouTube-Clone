@@ -30,7 +30,7 @@ const Comment = ({ id }) => {
       }
     }
     getComments();
-  }, []);
+  }, [id]);
 
   //테스트용
 
